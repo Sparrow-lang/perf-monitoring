@@ -6,7 +6,7 @@
 title: Sparrow dev performance
 email: lucteo@lucteo.ro
 description: Track the performance of the Sparrow language commits.
-url: "" # the base hostname & protocol for your site
+url: "/perf-monitoring/" # the base hostname & protocol for your site
 keywords: ["Sparrow", "performance"]
 
 #
