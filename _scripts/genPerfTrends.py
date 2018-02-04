@@ -4,13 +4,27 @@ from __future__ import print_function
 
 import sys, os, argparse, glob
 import yaml
-import math,numpy
+import math
+
+def stddev(values):
+    mean = float(sum(values)) / len(values)
+    return math.sqrt(float(reduce(lambda x, y: x + y, map(lambda x: (x - mean) ** 2, values))) / len(values))
+
+def median(values):
+    values = sorted(values)
+    n = len(values)
+    if n < 1:
+        return None
+    if n % 2 == 1:
+        return values[n//2]
+    else:
+        return sum(values[n//2-1:n//2+1])/2.0
 
 def getPerfDataForBuild(rawBuildData):
     res = {}
     meas = rawBuildData['measurements']
     for key, values in meas.iteritems():
-        res[key] = (numpy.median(values), numpy.std(values))
+        res[key] = (median(values), stddev(values))
     return res
 
 def main():
