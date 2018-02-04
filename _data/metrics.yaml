@@ -1,0 +1,126 @@
+names:
+  # Names for measurements
+  Comp.Ranges.TotalTime: "Ranges: total compilation time"
+  Comp.Ranges.ImplicitLibTime: "Ranges: implicitLib compilation time"
+  Comp.Ranges.LlcTime: "Ranges: llc call time"
+  Comp.Ranges.OptTime: "Ranges: opt call time"
+  Comp.Ranges.FinalLinkTime: "Ranges: final linking time"
+  Comp.Ranges.NumCtEvals: "Ranges: number of CT evaluations"
+  Comp.Ranges.CtEvalsTime: "Ranges: total time of CT evaluations"
+
+  Comp.LoopTesterApp.TotalTime: "LoopTesterApp: total compilation time"
+  Comp.LoopTesterApp.ImplicitLibTime: "LoopTesterApp: implicitLib compilation time"
+  Comp.LoopTesterApp.LlcTime: "LoopTesterApp: llc call time"
+  Comp.LoopTesterApp.OptTime: "LoopTesterApp: opt call time"
+  Comp.LoopTesterApp.FinalLinkTime: "LoopTesterApp: final linking time"
+  Comp.LoopTesterApp.NumCtEvals: "LoopTesterApp: number of CT evaluations"
+  Comp.LoopTesterApp.CtEvalsTime: "LoopTesterApp: total time of CT evaluations"
+
+  Exec.BenchmarkGame.nbody: "BenchmarkGame/nbody: execution time"
+  Exec.BenchmarkGame.fasta: "BenchmarkGame/fasta: execution time"
+  Exec.BenchmarkGame.fastaredux: "BenchmarkGame/fastaredux: execution time"
+  Exec.BenchmarkGame.meteor: "BenchmarkGame/meteor: execution time"
+  Exec.BenchmarkGame.fannkuchredux: "BenchmarkGame/fannkuchredux: execution time"
+
+  Exec.Examples.LoopTesterApp: "Examples/LoopTesterApp: execution time"
+  Exec.Examples.FibRange: "Examples/FibRange: execution time"
+  Exec.Examples.Collatz: "Examples/Collatz: execution time"
+
+  # Names for groups
+  Comp: "Compilation time"
+  Comp.Ranges: "Compilation time / Ranges test"
+  Comp.LoopTesterApp: "Compilation time / LoopTesterApp test"
+  Exec: "Execution time"
+  Exec.BenchmarkGame: "Execution time / BenchmarkGame"
+  Exec.Examples: "Execution time / Examples"
+
+units:
+  Comp.Ranges.TotalTime: "Time (ms)"
+  Comp.Ranges.ImplicitLibTime: "Time (ms)"
+  Comp.Ranges.LlcTime: "Time (ms)"
+  Comp.Ranges.OptTime: "Time (ms)"
+  Comp.Ranges.FinalLinkTime: "Time (ms)"
+  Comp.Ranges.NumCtEvals: "Time (ms)"
+  Comp.Ranges.CtEvalsTime: "Time (ms)"
+
+  Comp.LoopTesterApp.TotalTime: "Time (ms)"
+  Comp.LoopTesterApp.ImplicitLibTime: "Time (ms)"
+  Comp.LoopTesterApp.LlcTime: "Time (ms)"
+  Comp.LoopTesterApp.OptTime: "Time (ms)"
+  Comp.LoopTesterApp.FinalLinkTime: "Time (ms)"
+  Comp.LoopTesterApp.NumCtEvals: "Time (ms)"
+  Comp.LoopTesterApp.CtEvalsTime: "Time (ms)"
+
+  Exec.BenchmarkGame.nbody: "Time (ms)"
+  Exec.BenchmarkGame.fasta: "Time (ms)"
+  Exec.BenchmarkGame.fastaredux: "Time (ms)"
+  Exec.BenchmarkGame.meteor: "Time (ms)"
+  Exec.BenchmarkGame.fannkuchredux: "Time (ms)"
+
+  Exec.Examples.LoopTesterApp: "Time (ms)"
+  Exec.Examples.FibRange: "Time (ms)"
+  Exec.Examples.Collatz: "Time (ms)"
+
+groups:
+  - name: Comp
+    weight: 0.5
+    content:
+      - name: Comp.Ranges
+        weight: 0.33
+        content:
+        - name: Comp.Ranges.TotalTime
+          weight: 0.5
+        - name: Comp.Ranges.ImplicitLibTime
+          weight: 0.3
+        - name: Comp.Ranges.LlcTime
+          weight: 0.025
+        - name: Comp.Ranges.OptTime
+          weight: 0.025
+        - name: Comp.Ranges.FinalLinkTime
+          weight: 0.05
+        - name: Comp.Ranges.NumCtEvals
+          weight: 0.05
+        - name: Comp.Ranges.CtEvalsTime
+          weight: 0.05
+      - name: Comp.LoopTesterApp
+        weight: 0.66
+        content:
+        - name: Comp.LoopTesterApp.TotalTime
+          weight: 0.5
+        - name: Comp.LoopTesterApp.ImplicitLibTime
+          weight: 0.3
+        - name: Comp.LoopTesterApp.LlcTime
+          weight: 0.025
+        - name: Comp.LoopTesterApp.OptTime
+          weight: 0.025
+        - name: Comp.LoopTesterApp.FinalLinkTime
+          weight: 0.05
+        - name: Comp.LoopTesterApp.NumCtEvals
+          weight: 0.05
+        - name: Comp.LoopTesterApp.CtEvalsTime
+          weight: 0.05
+  - name: Exec
+    weight: 0.5
+    content:
+      - name: Exec.BenchmarkGame
+        weight: 0.5
+        content:
+        - name: Exec.BenchmarkGame.nbody
+          weight: 0.2
+        - name: Exec.BenchmarkGame.fasta
+          weight: 0.2
+        - name: Exec.BenchmarkGame.fastaredux
+          weight: 0.2
+        - name: Exec.BenchmarkGame.meteor
+          weight: 0.2
+        - name: Exec.BenchmarkGame.fannkuchredux
+          weight: 0.2
+      - name: Exec.Examples
+        weight: 0.5
+        content:
+        - name: Exec.Examples.LoopTesterApp
+          weight: 0.34
+        - name: Exec.Examples.FibRange
+          weight: 0.33
+        - name: Exec.Examples.Collatz
+          weight: 0.33

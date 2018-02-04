@@ -1,0 +1,134 @@
+/* LAYOUT CSS */
+.top-row {
+  color: $text-color;
+  background-color: $top-bar-color;
+  height: 60px;
+  .top-left {
+    text-align: right;
+    vertical-align: middle;
+    .avatar {
+      position: absolute;
+      margin: 10px 0 0 10px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      float: none;
+      vertical-align: middle;
+    }
+    .site_title {
+      display: block;
+      color: $titlecolor;
+      font-size: 1.75em;
+      text-transform: lowercase;
+      margin: 0px 20px 0px;
+    }
+    .site_subtitle {
+      display: block;
+      color: $secondary;
+      font-size: 0.8em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: -5px 20px 5px;
+    }
+  }
+}
+.nav-list {
+  position: absolute;
+  margin: 20px 0 0 20px;
+  color: $titlecolor;
+  font-size: 115%;
+  & a {
+    margin-top: 1em;
+    text-transform: lowercase;
+    color: $secondary;
+    &:hover,
+    &:focus {
+      color: lighten($secondary, 14%);
+    }
+  }
+}
+.social-links {
+  position: absolute;
+  right: 0;
+  margin: 19px 10px;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 1em;
+      a.social-link-item {
+        color: $secondary;
+        &:hover,
+        &:focus {
+          color: lighten($secondary, 14%);
+        }
+      }
+    }
+  }
+}
+.cover {
+  background-color: $background-color;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 30px 15px 20px;
+  z-index: 1;
+  @include media-query($small-screen) {
+    background-position: center;
+    padding: 10px;
+  }
+  @include media-query($medium-screen) {
+    height: calc(100vh - 60px);
+    position: initial;
+    width: 100%;
+  }
+}
+.cover-card {
+  color: $secondary;
+  padding: 0 30px;
+  .Collapsable {
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      color: lighten($secondary, 14%);
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li ul {
+    padding: 0 20px;
+  }
+  .open{
+  }
+  .closed{
+    ul {
+      display: none;
+    }
+  }
+  .closed:before {
+    display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+    width:1.28571429em;text-align:center;
+    content:"\f0da";
+  }
+  .open:before {
+    display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+    width:1.28571429em;text-align:center;
+    content:"\f0d7";
+  }
+  @include media-query($medium-screen) {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 0px 80px;
+  }
+
+  h4 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+}

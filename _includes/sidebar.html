@@ -1,0 +1,68 @@
+{%- assign bldData = site.data.builds[page.build-id] -%}
+{%- assign bldProcData = site.data.processed[page.build-id] -%}
+<div class="cover-card table-cell">
+{%- if page.build-id -%}
+
+<ul id="summary_side">
+
+{%- if bldProcData.summary.curProblems.size > 0 -%}
+<li class='open'><span class='Collapsable'>Current build problems</span>
+<ul>
+{%- for key in bldProcData.summary.curProblems -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul></li>
+{%- endif -%}
+
+{%- if bldProcData.summary.curFixes.size > 0 -%}
+<li class='open'><span class='Collapsable'>Current build fixes</span>
+<ul>
+{%- for key in bldProcData.summary.curFixes -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul></li>
+{%- endif -%}
+
+{%- if bldProcData.summary.trendProblems.size > 0 -%}
+<li class='open'><span class='Collapsable'>Trend problems</span>
+<ul>
+{%- for key in bldProcData.summary.trendProblems -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul></li>
+{%- endif -%}
+
+{%- if bldProcData.summary.trendFixes.size > 0 -%}
+<li class='open'><span class='Collapsable'>Trend fixes</span>
+<ul>
+{%- for key in bldProcData.summary.trendFixes -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul></li>
+{%- endif -%}
+</ul>
+
+
+<hr>
+
+<ul>
+{%- for g1 in site.data.metrics.groups -%}
+  <li class="open"><span class="Collapsable">{{site.data.metrics.names[g1.name]}}</span>
+    <ul>
+    {%- for g2 in g1.content -%}
+      <li class="closed"><span class="Collapsable">{{site.data.metrics.names[g2.name]}}</span>
+        <ul>
+        {%- for g3 in g2.content -%}
+          <li><a href="#{{g3.name}}"">{{site.data.metrics.names[g3.name]}}</a></li>
+        {%- endfor -%}
+        </ul>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </li>
+{%- endfor -%}
+</ul>
+
+{%- endif -%}
+</div>
+

@@ -1,0 +1,47 @@
+---
+layout: page
+permalink: /
+---
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+  </div>
+</div>
+
+<script type="text/javascript">
+  var builds = [
+{%- for p in site.pages -%}
+{%- if p.build-id -%}
+{%- assign bldData = site.data.builds[p.build-id] -%}
+{%- assign bldProcData = site.data.processed[p.build-id] -%}
+  [new Date('{{p.date | date: "%FT%TZ"}}'), '{{p.build-id}}', '#{{p.build-id}} / {{bldData.info.branch}} / {{bldData.info.commit-message | strip_newlines}}',
+    '<i class="status-{{bldProcData.statuses.overall}}"></i>'
+   ],
+{%- endif -%}
+{%- endfor -%}
+  ];
+function createEntries() {
+  builds = builds.sort(function(a, b){ return a[0] - b[0]; });
+  var lastYear = 0;
+  var yearId = '';
+  for (var i=builds.length-1; i>=0; i--) {
+    var d = builds[i][0];
+    // Add year div if we are switching years
+    var year = d.getFullYear();
+    if(year!=lastYear) {
+      lastYear = year;
+      yeadId = "year-"+year;
+      var content = "<div class='archive-title'><h4 class='archive-year'>"+year+"</h4></div><ul id='"+yeadId+"'></ul>";
+      addHTML("timeline", content);
+    }
+    // Add post item
+    var dayStr = d.toLocaleString('en-EN', {month:"short", day:"numeric"});
+    var url = '{{ site.url }}/builds/'+builds[i][1]+'.html';
+    var title = builds[i][2];
+    var iconHtml = builds[i][3];
+    var content = "<li><div style='width:60px;float:left;'>" + dayStr + "</div> <a href='"+url+"'>"+title+" " + iconHtml + "</a></li>";
+    addHTML(yeadId, content);
+  }
+}
+document.body.onload = createEntries;
+</script>

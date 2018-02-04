@@ -1,0 +1,29 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Sparrow dev performance
+email: lucteo@lucteo.ro
+description: Track the performance of the Sparrow language commits.
+url: "" # the base hostname & protocol for your site
+keywords: ["Sparrow", "performance"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Bucharest
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+

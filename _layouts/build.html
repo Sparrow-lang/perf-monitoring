@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+{%- assign bldData = site.data.builds[page.build-id] -%}
+{%- assign bldProcData = site.data.processed[page.build-id] -%}
+
+<div id="page">
+
+<h2>Build #{{bldData.info.name}} <i class='status-{{bldProcData.statuses.overall}}'></i>
+</h2>
+<table>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>{{bldData.info.date}}</td>
+    </tr>
+    <tr>
+      <td>Branch</td>
+      <td><a href="https://github.com/Sparrow-lang/sparrow/tree/{{bldData.info.branch}}">{{bldData.info.branch}}</a></td>
+    </tr>
+    <tr>
+      <td>Commit</td>
+      <td><a href="https://github.com/Sparrow-lang/sparrow/commit/{{bldData.info.sha-long}}">{{bldData.info.sha-long}}</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>{{bldData.info.commit-date}}</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>{{bldData.info.commit-author}}</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>{{bldData.info.commit-message}}</td>
+    </tr>
+    <tr>
+      <td>Build history</td>
+      <td>
+{%- for bld in bldProcData.show-history -%}
+        <a href="/builds/{{site.data.builds[bld].info.name}}.html">#{{site.data.builds[bld].info.name}}</a> &nbsp;
+{%- endfor -%}
+    </td>
+    </tr>
+</table>
+
+
+<h2>Performance summary</h2>
+
+{%- if bldProcData.summary.curProblems.size > 0 -%}
+<h4>Current build problems</h4>
+<ul>
+{%- for key in bldProcData.summary.curProblems -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
+{%- if bldProcData.summary.curFixes.size > 0 -%}
+<h4>Current build fixes</h4>
+<ul>
+{%- for key in bldProcData.summary.curFixes -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
+{%- if bldProcData.summary.trendProblems.size > 0 -%}
+<h4>Trend problems</h4>
+<ul>
+{%- for key in bldProcData.summary.trendProblems -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
+{%- if bldProcData.summary.trendFixes.size > 0 -%}
+<h4>Trend fixes</h4>
+<ul>
+{%- for key in bldProcData.summary.trendFixes -%}
+  <li><a href='#{{key}}'>{{site.data.metrics.names[key]}}</a> ({{bldProcData.trends[key].relPerf | round: 1}})</li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
+<script>
+var buildNames = [
+{%- for bld in bldProcData.show-history -%}
+  '#{{ site.data.builds[bld].info.name }}',
+{%- endfor -%}
+];
+var trends = {{ bldProcData.trends | jsonify }};
+</script>
+
+
+<h2>Details</h2>
+
+<!-- TOC links -->
+<ul>
+{% for g1 in site.data.metrics.groups %}
+  <li><a href="#{{g1.name}}">{{site.data.metrics.names[g1.name]}} <i class='status-{{bldProcData.statuses[g1.name]}}'></i></a></li>
+    <ul>
+    {% for g2 in g1.content %}
+      <li><a href="#g2.name}}">{{site.data.metrics.names[g2.name]}} <i class='status-{{bldProcData.statuses[g2.name]}}'></i></a></li>
+        <ul>
+        {% for g3 in g2.content %}
+          <li><a href="#{{g3.name}}"">{{site.data.metrics.names[g3.name]}} <i class='status-{{bldProcData.statuses[g3.name]}}'></i></a></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    </ul>
+{% endfor %}
+</ul>
+
+<!-- The actual data -->
+{%- for g1 in site.data.metrics.groups -%}
+  <h3 id={{g1.name}}>{{site.data.metrics.names[g1.name]}}</h3>
+    {%- for g2 in g1.content -%}
+      <h4 id={{g2.name}}>{{site.data.metrics.names[g2.name]}}</h4>
+        {%- for g3 in g2.content -%}
+          <h5 id={{g3.name}}>{{site.data.metrics.names[g3.name]}}</h5>
+          <p>Current values: {{bldData.measurements[g3.name] | jsonify}}</p>
+          <div id="chart-{{g3.name}}" style="width: 900px; height: 500px"></div>
+        {%- endfor -%}
+    {%- endfor -%}
+{%- endfor -%}
+
+<article class="page-content">
+  {{ content }}
+</article>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<script>
+function drawPerformanceChart(elementId, testId, title, units) {
+  // Add the data to our chart
+  chartValues = [];
+  chartValuesSd2 = [];
+  if ( trends[testId] ) {
+    chartValues = trends[testId]['values'];
+    chartValuesSd2 = [];
+    var N = buildNames.length;
+    var SDs = trends[testId]['stddevs']
+    for(var i=0; i<N; i++) {
+      var med = chartValues[i], sd2 = 2*SDs[i];
+      chartValuesSd2.push([med-sd2, med+sd2]);
+    }
+  }
+
+  Highcharts.chart(elementId, {
+    title: 'none',
+    yAxis: { title: { text: units }, min: 0 },
+    xAxis: { title: { text: 'build' }, categories: buildNames },
+    legend: 'none',
+    series: [
+      { name: units, data: chartValues, zIndex: 1},
+      { type: 'arearange', name: '2*stddev', linkedTo: ':previous', data: chartValuesSd2,
+        color: Highcharts.getOptions().colors[0], fillOpacity: 0.3,
+        zIndex: 0, lineWidth: 0, marker: {enabled: false}
+      }
+    ],
+    responsive: {
+      rules: [{
+        condition: { maxWidth: 500 },
+        chartOptions: { legend: { layout: 'horizontal', align: 'center', verticalAlign: 'bottom' } }
+      }]
+    }
+  });
+}
+document.addEventListener('DOMContentLoaded', function() {
+{%- for g1 in site.data.metrics.groups -%}
+    {%- for g2 in g1.content -%}
+        {%- for g3 in g2.content -%}
+  drawPerformanceChart('chart-{{g3.name}}', '{{g3.name}}', '{{site.data.metrics.names[g3.name]}}', '{{site.data.metrics.units[g3.name]}}');
+        {%- endfor -%}
+    {%- endfor -%}
+{%- endfor -%}
+  registerCollapsable();
+}, false);
+</script>
+
+
+</div>

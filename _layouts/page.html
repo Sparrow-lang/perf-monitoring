@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div id="page">
+  {% if page.tile %}
+  <header class="page-header">
+    <h2>{{ page.title }}</h2>
+  </header>
+  {% endif %}
+
+  <article class="page-content">
+    {{ content }}
+  </article>
+</div><!-- end page content -->

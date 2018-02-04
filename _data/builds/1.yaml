@@ -1,0 +1,27 @@
+info:
+  name: "1"
+  date: Sat, 01 Feb 2018 15:00:47 +0200
+  branch: perf_tracking
+  parents: ['ef983d4', '50f743a']
+  sha: 439c8b7
+  sha-long: 439c8b7a61e1e34c8941a00315e28fee296eca8d
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 13 Jan 2018 16:13:47 +0200
+  commit-message: "Merge pull request #52 from Sparrow-lang/fix_build_squish"
+
+measurements:
+  Comp.Ranges.TotalTime: [3674, 2669, 2691, 2625, 2660, 2639, 2648]
+  Comp.Ranges.CtEvalsTime: [986, 823, 857, 835, 831, 830, 844]
+  Comp.Ranges.NumCtEvals: [1279, 1279, 1279, 1279, 1279, 1279, 1279]
+  Comp.Ranges.OptTime: [1118, 886, 874, 865, 860, 843, 842]
+  Comp.Ranges.ImplicitLibTime: [345, 269, 278, 262, 276, 270, 283]
+  Comp.Ranges.FinalLinkTime: [334, 45, 40, 40, 40, 40, 40]
+  Comp.Ranges.LlcTime: [562, 345, 327, 319, 339, 343, 336]
+  Exec.BenchmarkGame.nbody: [608, 613, 625, 605, 615, 621, 611]
+  Exec.BenchmarkGame.fasta: [1614, 1605, 1608, 1628, 1622, 1627, 1624]
+  Exec.BenchmarkGame.fastaredux: [1444, 1471, 1418, 1439, 1492, 1432, 1424]
+  Exec.BenchmarkGame.meteor: [64, 64, 67, 65, 68, 65, 68]
+  Exec.BenchmarkGame.fannkuchredux: [2908, 2922, 2864, 3047, 2890, 2889, 2873]
+  Exec.Examples.LoopTesterApp: [1772, 1790, 1759, 1799, 1799, 1792, 1798]
+  Exec.Examples.FibRange: [791, 804, 809, 788, 823, 815, 824]
+  Exec.Examples.Collatz: [1330, 1332, 1312, 1314, 1326, 1300, 1306]
