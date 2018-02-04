@@ -2,9 +2,8 @@
 
 from __future__ import print_function
 
-import sys, os, argparse, glob
+import sys, os, argparse, glob, math
 import yaml
-import math
 
 def stddev(values):
     mean = float(sum(values)) / len(values)
