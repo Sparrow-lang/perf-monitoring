@@ -146,7 +146,11 @@ function drawPerformanceChart(elementId, testId, title, units) {
     var SDs = trends[testId]['stddevs']
     for(var i=0; i<N; i++) {
       var med = chartValues[i], sd2 = 2*SDs[i];
-      chartValuesSd2.push([med-sd2, med+sd2]);
+      if (med) {
+        chartValuesSd2.push([med-sd2, med+sd2]);
+      } else {
+        chartValuesSd2.push(null);
+      }
     }
   }
 

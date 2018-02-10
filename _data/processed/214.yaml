@@ -1,4 +1,4 @@
-show-history: ['999']
+show-history: ['214']
 
 statuses:
   Comp: same
@@ -35,23 +35,23 @@ trends:
   Comp.LoopTesterApp.CtEvalsTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [12.687773320671154]
-    values: [1906.0]
+    stddevs: [46.98892618131925]
+    values: [1841.0]
   Comp.LoopTesterApp.FinalLinkTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [0.6388765649999399]
-    values: [41.0]
+    stddevs: [2.1285234893930483]
+    values: [15.0]
   Comp.LoopTesterApp.ImplicitLibTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [0.9035079029052513]
-    values: [254.0]
+    stddevs: [6.670067159959286]
+    values: [232.0]
   Comp.LoopTesterApp.LlcTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [2.9137254363387344]
-    values: [284.0]
+    stddevs: [10.656032113698009]
+    values: [232.0]
   Comp.LoopTesterApp.NumCtEvals:
     relPerf: 0.0
     relPerfTrend: 0.0
@@ -60,33 +60,33 @@ trends:
   Comp.LoopTesterApp.OptTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [7.780142173822916]
-    values: [797.0]
+    stddevs: [22.783810937073863]
+    values: [645.0]
   Comp.LoopTesterApp.TotalTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [26.90952338819088]
-    values: [4087.0]
+    stddevs: [71.31104617184107]
+    values: [3781.0]
   Comp.Ranges.CtEvalsTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [31.828622723733993]
-    values: [787.0]
+    stddevs: [24.656828337672902]
+    values: [734.0]
   Comp.Ranges.FinalLinkTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [485.34919051616214]
-    values: [41.0]
+    stddevs: [0.6998542122237652]
+    values: [15.0]
   Comp.Ranges.ImplicitLibTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [31.10745038391535]
-    values: [259.0]
+    stddevs: [4.453844933748542]
+    values: [232.0]
   Comp.Ranges.LlcTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [108.21011307372602]
-    values: [310.0]
+    stddevs: [12.138654734998857]
+    values: [250.0]
   Comp.Ranges.NumCtEvals:
     relPerf: 0.0
     relPerfTrend: 0.0
@@ -95,53 +95,53 @@ trends:
   Comp.Ranges.OptTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [108.13728991142581]
-    values: [787.0]
+    stddevs: [19.55004045092115]
+    values: [644.0]
   Comp.Ranges.TotalTime:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [749.614894326359]
-    values: [2501.0]
+    stddevs: [36.83055519427269]
+    values: [2182.0]
   Exec.BenchmarkGame.fannkuchredux:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [16.50479213032706]
-    values: [2710.0]
+    stddevs: [68.6350894965839]
+    values: [3370.0]
   Exec.BenchmarkGame.fasta:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [7.515969393123375]
-    values: [1553.0]
+    stddevs: [6.565214453186318]
+    values: [558.0]
   Exec.BenchmarkGame.fastaredux:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [6.860118402024554]
-    values: [1369.0]
+    stddevs: [23.96255582429915]
+    values: [358.0]
   Exec.BenchmarkGame.meteor:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [0.6998542122237651]
-    values: [63.0]
+    stddevs: [1.2936264483053452]
+    values: [64.0]
   Exec.BenchmarkGame.nbody:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [2.6649654437396615]
-    values: [581.0]
+    stddevs: [13.582702084576814]
+    values: [549.0]
   Exec.Examples.Collatz:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [17.243750716578752]
-    values: [1249.0]
+    stddevs: [10.633025180530511]
+    values: [1406.0]
   Exec.Examples.FibRange:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [6.127888739864919]
-    values: [757.0]
+    stddevs: [62.277850093310846]
+    values: [984.0]
   Exec.Examples.LoopTesterApp:
     relPerf: 0.0
     relPerfTrend: 0.0
-    stddevs: [20.773806112702683]
-    values: [1717.0]
+    stddevs: [24.89897957092759]
+    values: [1226.0]
 
 summary:
   curFixes: []

@@ -2,8 +2,9 @@
 
 from __future__ import print_function
 
-import sys, os, argparse, glob, math
+import sys, os, argparse, glob, math, time
 import yaml
+from email.utils import parsedate_tz
 
 def stddev(values):
     mean = float(sum(values)) / len(values)
@@ -54,42 +55,71 @@ def main():
     if len(yamlFiles) > 100:
         del yamlFiles[100:]
 
-    # Build a map from short sha to yaml content
-    # Also identify the sha of the given build
-    data = {}
-    mainSha = None
+    # Read the builds data, and index all the builds
+    allBuilds = {}
+    mainBuildData = None
+    shaMap = {}
+    branchesMap = {}
     for f in yamlFiles:
         # Load the content of the yaml
         stream = open(f, 'r')
         content = yaml.load(stream)
         # Index it
+        buildName = str(content['info']['name'])
+        allBuilds[buildName] = content
+        if buildName == str(args.buildName):
+            mainBuildData = content
         sha = content['info']['sha']
-        data[sha] = content
-        if str(content['info']['name']) == str(args.buildName):
-            mainSha = sha
+        shaMap[sha] = buildName
+        branchName = content['info']['branch']
+        if branchName in branchesMap:
+            branchesMap[branchName].append(content)
+        else:
+            branchesMap[branchName] = [ content ]
+        # Parse the date, and add it to the info
+        dateTuple = parsedate_tz(content['info']['date'])
+        content['info']['parsedDate'] = time.mktime(dateTuple[:9])
 
-    if not mainSha:
+    if args.buildName not in allBuilds.keys():
         print('ERROR: Cannot find the given build!')
         sys.exit(1)
 
     # Build the trend, starting backward from the current build
-    trendSha = []
     trendBuilds = []
-    curSha = mainSha
+    curBuild = str(args.buildName)
     for i in range(args.maxEntries-1):
-        if curSha and curSha in data.keys():
-            buildInfo = data[curSha]['info']
-            trendSha.append(curSha)
-            trendBuilds.append(buildInfo['name'])
-            curSha = buildInfo['parents'][0]
+        if curBuild in trendBuilds:
+            break
+        if curBuild and curBuild in allBuilds.keys():
+            buildInfo = allBuilds[curBuild]['info']
+            trendBuilds.append(curBuild)
+            # Try chaining based on Shas
+            nextSha = buildInfo['parents'][0]
+            if nextSha in shaMap.keys():
+                print('%s -> %s based on SHA' % (curBuild, shaMap[nextSha]))
+                curBuild = shaMap[nextSha]
+            else:
+                # Try taking the latest build from the same branch
+                latestBuild = None
+                curDate = buildInfo['parsedDate']
+                # First, sort the array by date
+                buildsForBranch = branchesMap[buildInfo['branch']]
+                buildsForBranch.sort(key=lambda b: - b['info']['parsedDate'])
+                # Now try to find the first build
+                for b in buildsForBranch:
+                    if b['info']['name'] != curBuild and b['info']['parsedDate'] < curDate:
+                        latestBuild = b['info']['name']
+                        break
+                print('%s -> %s based on branch %s' % (curBuild, latestBuild, buildInfo['branch']))
+                curBuild = latestBuild
         else:
             break
-    N = len(trendSha)
+    N = len(trendBuilds)
 
     # Now build the trends for each measurement key
     perfTrends = {}
-    for sha in trendSha:
-        curPerf = getPerfDataForBuild(data[sha])
+    for buildName in trendBuilds:
+        curPerf = getPerfDataForBuild(allBuilds[buildName])
         if len(perfTrends) == 0:
             # Main build; add trends for current measurements
             for key, val in curPerf.iteritems():
@@ -106,7 +136,7 @@ def main():
                     perfTrends[key]['stddevs'].append(None)
 
     # Compute relative performance indicators
-    if len(trendSha) > 1:
+    if len(trendBuilds) > 1:
         for key, trend in perfTrends.iteritems():
             # Perf indicator relative to previous build
             val0 = trend['values'][0];
@@ -203,7 +233,6 @@ def main():
 
 
     # Reverse the lists that we have; current build should be last (instead of first)
-    trendSha.reverse()
     trendBuilds.reverse()
     for key, trend in perfTrends.iteritems():
         trend['values'].reverse();
@@ -236,7 +265,7 @@ build-id: "{0}"
 title: "Build #{0}"
 date: {1}
 ---
-""".format(args.buildName, data[mainSha]['info']['date']), file=outF)
+""".format(args.buildName, mainBuildData['info']['date']), file=outF)
 
 if __name__ == "__main__":
     main()
