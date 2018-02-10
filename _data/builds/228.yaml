@@ -2,7 +2,9 @@ info:
   name: "228"
   date: Sat, 10 Feb 2018 16:40:53 +0000
   branch: "remove_classes"
-  parents: ['d4b7abb', 'f1ae29a']
+  # Reverse parents for comparing this with master
+  parents: ['f1ae29a', 'd4b7abb']
+  # parents: ['d4b7abb', 'f1ae29a']
   sha: f47dbcc
   sha-long: f47dbccc45312263857ce8960b9882c185a6e8c4
   commit-author: Lucian Radu Teodorescu
