@@ -1,0 +1,34 @@
+info:
+  name: "224"
+  date: Sat, 10 Feb 2018 12:46:29 +0000
+  branch: "perf_tracking"
+  parents: ['a255323']
+  sha: 4e58e22
+  sha-long: 4e58e22c8ef8672651b3a9f71c5ca6db9da7e89b
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 10 Feb 2018 14:39:49 +0200
+  commit-message: "Remove origin before creating it"
+
+measurements:
+  Comp.Ranges.TotalTime: [2239, 2230, 2168, 2168, 2123, 2197, 2182]
+  Comp.Ranges.CtEvalsTime: [798, 746, 734, 721, 720, 732, 746]
+  Comp.Ranges.NumCtEvals: [1279, 1279, 1279, 1279, 1279, 1279, 1279]
+  Comp.Ranges.OptTime: [631, 644, 653, 683, 620, 666, 644]
+  Comp.Ranges.ImplicitLibTime: [234, 229, 238, 225, 233, 225, 232]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 17, 15]
+  Comp.Ranges.LlcTime: [240, 275, 241, 244, 250, 265, 254]
+  Comp.LoopTesterApp.TotalTime: [3788, 3954, 3781, 3750, 3769, 3714, 3824]
+  Comp.LoopTesterApp.CtEvalsTime: [1853, 1969, 1837, 1818, 1841, 1833, 1845]
+  Comp.LoopTesterApp.NumCtEvals: [3144, 3144, 3144, 3144, 3144, 3144, 3144]
+  Comp.LoopTesterApp.OptTime: [645, 628, 630, 654, 647, 600, 679]
+  Comp.LoopTesterApp.ImplicitLibTime: [224, 232, 242, 237, 230, 233, 221]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 21, 18, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [232, 246, 251, 229, 223, 220, 238]
+  Exec.BenchmarkGame.nbody: [545, 563, 581, 542, 560, 540, 549]
+  Exec.BenchmarkGame.fasta: [559, 558, 564, 542, 557, 551, 558]
+  Exec.BenchmarkGame.fastaredux: [358, 375, 383, 406, 346, 335, 340]
+  Exec.BenchmarkGame.meteor: [63, 63, 65, 64, 65, 64, 67]
+  Exec.BenchmarkGame.fannkuchredux: [3344, 3349, 3370, 3339, 3528, 3478, 3415]
+  Exec.Examples.LoopTesterApp: [1211, 1226, 1222, 1202, 1243, 1264, 1274]
+  Exec.Examples.FibRange: [969, 984, 983, 1004, 1129, 1102, 965]
+  Exec.Examples.Collatz: [1411, 1395, 1403, 1406, 1403, 1426, 1424]
