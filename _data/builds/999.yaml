@@ -1,6 +1,6 @@
 info:
   name: "999"
-  date: Sat, 10 Feb 2018 13:23:43 +0200
+  date: Sat, 10 Feb 2018 14:35:43 +0200
   branch: "hypothetical_branch"
   parents: ['d892ada']
   sha: a255323
@@ -10,25 +10,25 @@ info:
   commit-message: "Remove --force from git push"
 
 measurements:
-  Comp.Ranges.TotalTime: [4627, 2505, 2472, 2471, 2460, 2503, 2501]
-  Comp.Ranges.CtEvalsTime: [875, 800, 779, 787, 782, 788, 780]
+  Comp.Ranges.TotalTime: [3604, 2547, 2581, 2497, 2477, 2501, 2491]
+  Comp.Ranges.CtEvalsTime: [951, 812, 790, 792, 786, 791, 785]
   Comp.Ranges.NumCtEvals: [1279, 1279, 1279, 1279, 1279, 1279, 1279]
-  Comp.Ranges.OptTime: [1097, 793, 787, 784, 781, 787, 798]
-  Comp.Ranges.ImplicitLibTime: [346, 259, 252, 255, 254, 265, 263]
-  Comp.Ranges.FinalLinkTime: [1428, 42, 41, 41, 41, 41, 40]
-  Comp.Ranges.LlcTime: [620, 310, 316, 308, 310, 310, 311]
-  Comp.LoopTesterApp.TotalTime: [4104, 4096, 4098, 4087, 4047, 4064, 4028]
-  Comp.LoopTesterApp.CtEvalsTime: [1906, 1917, 1907, 1912, 1883, 1892, 1884]
+  Comp.Ranges.OptTime: [1049, 799, 853, 789, 793, 803, 800]
+  Comp.Ranges.ImplicitLibTime: [390, 261, 256, 260, 262, 253, 256]
+  Comp.Ranges.FinalLinkTime: [354, 41, 42, 42, 41, 44, 42]
+  Comp.Ranges.LlcTime: [591, 309, 336, 311, 306, 309, 312]
+  Comp.LoopTesterApp.TotalTime: [4135, 4143, 4108, 4099, 4062, 4050, 4036]
+  Comp.LoopTesterApp.CtEvalsTime: [1919, 1903, 1911, 1910, 1894, 1890, 1882]
   Comp.LoopTesterApp.NumCtEvals: [3144, 3144, 3144, 3144, 3144, 3144, 3144]
-  Comp.LoopTesterApp.OptTime: [797, 797, 813, 802, 795, 800, 785]
-  Comp.LoopTesterApp.ImplicitLibTime: [254, 256, 255, 255, 254, 253, 254]
-  Comp.LoopTesterApp.FinalLinkTime: [41, 41, 42, 41, 41, 42, 40]
-  Comp.LoopTesterApp.LlcTime: [281, 280, 288, 285, 281, 287, 284]
-  Exec.BenchmarkGame.nbody: [587, 580, 583, 581, 581, 578, 580]
-  Exec.BenchmarkGame.fasta: [1544, 1534, 1553, 1556, 1553, 1557, 1548]
-  Exec.BenchmarkGame.fastaredux: [1374, 1369, 1369, 1370, 1369, 1389, 1369]
-  Exec.BenchmarkGame.meteor: [62, 62, 63, 63, 64, 63, 62]
-  Exec.BenchmarkGame.fannkuchredux: [2707, 2694, 2690, 2714, 2737, 2733, 2710]
-  Exec.Examples.LoopTesterApp: [1722, 1676, 1686, 1717, 1740, 1713, 1724]
-  Exec.Examples.FibRange: [758, 758, 750, 749, 751, 757, 768]
-  Exec.Examples.Collatz: [1261, 1254, 1248, 1296, 1249, 1244, 1242]
+  Comp.LoopTesterApp.OptTime: [800, 811, 833, 809, 788, 794, 787]
+  Comp.LoopTesterApp.ImplicitLibTime: [256, 254, 254, 261, 254, 253, 254]
+  Comp.LoopTesterApp.FinalLinkTime: [42, 72, 41, 41, 41, 41, 41]
+  Comp.LoopTesterApp.LlcTime: [281, 311, 278, 278, 278, 279, 279]
+  Exec.BenchmarkGame.nbody: [580, 590, 581, 583, 581, 579, 578]
+  Exec.BenchmarkGame.fasta: [1536, 1533, 1545, 1534, 1557, 1544, 1534]
+  Exec.BenchmarkGame.fastaredux: [1377, 1369, 1374, 1372, 1372, 1369, 1365]
+  Exec.BenchmarkGame.meteor: [62, 63, 62, 64, 64, 63, 62]
+  Exec.BenchmarkGame.fannkuchredux: [2709, 2711, 2704, 2723, 2742, 2710, 2698]
+  Exec.Examples.LoopTesterApp: [1745, 1744, 1756, 1780, 1707, 1698, 1710]
+  Exec.Examples.FibRange: [747, 759, 749, 746, 748, 750, 757]
+  Exec.Examples.Collatz: [1258, 1351, 1332, 1287, 1274, 1245, 1259]
