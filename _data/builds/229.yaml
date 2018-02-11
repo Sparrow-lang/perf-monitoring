@@ -1,0 +1,34 @@
+info:
+  name: "229"
+  date: Sun, 11 Feb 2018 19:06:54 +0000
+  branch: "remove_classes"
+  parents: ['f47dbcc']
+  sha: 1d7053c
+  sha-long: 1d7053cbf60b9e5abdc8964e3d095961a8991795
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 11 Feb 2018 21:00:24 +0200
+  commit-message: "Allowed ctorFromCt to be outside of classes."
+
+measurements:
+  Comp.Ranges.TotalTime: [2769, 2672, 2809, 2652, 2676, 2637, 2621]
+  Comp.Ranges.CtEvalsTime: [912, 867, 922, 865, 865, 861, 857]
+  Comp.Ranges.NumCtEvals: [1502, 1502, 1502, 1502, 1502, 1502, 1502]
+  Comp.Ranges.OptTime: [536, 532, 554, 536, 547, 525, 524]
+  Comp.Ranges.ImplicitLibTime: [358, 349, 354, 352, 348, 347, 348]
+  Comp.Ranges.FinalLinkTime: [16, 15, 16, 15, 16, 15, 15]
+  Comp.Ranges.LlcTime: [229, 248, 228, 223, 235, 229, 223]
+  Comp.LoopTesterApp.TotalTime: [5296, 5229, 5366, 5803, 5441, 5234, 5225]
+  Comp.LoopTesterApp.CtEvalsTime: [2545, 2519, 2577, 2874, 2636, 2537, 2528]
+  Comp.LoopTesterApp.NumCtEvals: [3902, 3902, 3902, 3902, 3902, 3902, 3902]
+  Comp.LoopTesterApp.OptTime: [756, 753, 763, 791, 770, 745, 747]
+  Comp.LoopTesterApp.ImplicitLibTime: [350, 345, 355, 359, 365, 351, 347]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 18, 16, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [322, 311, 313, 307, 304, 311, 303]
+  Exec.BenchmarkGame.nbody: [529, 520, 529, 532, 514, 514, 533]
+  Exec.BenchmarkGame.fasta: [536, 540, 536, 537, 540, 545, 537]
+  Exec.BenchmarkGame.fastaredux: [333, 331, 331, 334, 336, 335, 338]
+  Exec.BenchmarkGame.meteor: [63, 63, 64, 63, 66, 62, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3262, 3258, 3269, 3267, 3266, 3266, 3272]
+  Exec.Examples.LoopTesterApp: [1180, 1161, 1177, 1170, 1161, 1176, 1157]
+  Exec.Examples.FibRange: [941, 962, 996, 953, 951, 970, 951]
+  Exec.Examples.Collatz: [1406, 1406, 1403, 1406, 1416, 1432, 1404]
