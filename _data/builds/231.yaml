@@ -1,0 +1,34 @@
+info:
+  name: "231"
+  date: Sat, 17 Feb 2018 20:39:41 +0000
+  branch: "remove_classes"
+  parents: ['45990c8']
+  sha: 6e2720f
+  sha-long: 6e2720f04b36a708c9aa701b55a51a09b3b1e3da
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 17 Feb 2018 22:32:51 +0200
+  commit-message: "Allowed ctors outside of classes."
+
+measurements:
+  Comp.Ranges.TotalTime: [3216, 3418, 3195, 2997, 2960, 2935, 3043]
+  Comp.Ranges.CtEvalsTime: [1005, 1028, 1015, 953, 943, 919, 984]
+  Comp.Ranges.NumCtEvals: [1502, 1502, 1502, 1502, 1502, 1502, 1502]
+  Comp.Ranges.OptTime: [703, 742, 657, 636, 653, 660, 602]
+  Comp.Ranges.ImplicitLibTime: [420, 480, 443, 422, 413, 395, 434]
+  Comp.Ranges.FinalLinkTime: [16, 16, 14, 14, 14, 15, 14]
+  Comp.Ranges.LlcTime: [319, 335, 279, 268, 247, 261, 250]
+  Comp.LoopTesterApp.TotalTime: [5110, 4956, 5011, 5434, 5431, 5915, 5464]
+  Comp.LoopTesterApp.CtEvalsTime: [2052, 2034, 2006, 2221, 2115, 2328, 2185]
+  Comp.LoopTesterApp.NumCtEvals: [2972, 2972, 2972, 2972, 2972, 2972, 2972]
+  Comp.LoopTesterApp.OptTime: [958, 898, 922, 950, 1065, 1161, 1028]
+  Comp.LoopTesterApp.ImplicitLibTime: [385, 383, 405, 443, 405, 489, 416]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 16, 16, 16, 16, 19]
+  Comp.LoopTesterApp.LlcTime: [346, 337, 393, 397, 440, 377, 424]
+  Exec.BenchmarkGame.nbody: [567, 636, 620, 642, 626, 616, 666]
+  Exec.BenchmarkGame.fasta: [656, 642, 680, 641, 600, 586, 581]
+  Exec.BenchmarkGame.fastaredux: [425, 444, 422, 397, 388, 387, 374]
+  Exec.BenchmarkGame.meteor: [66, 68, 69, 61, 61, 70, 72]
+  Exec.BenchmarkGame.fannkuchredux: [3232, 3346, 3270, 3241, 3312, 3281, 3409]
+  Exec.Examples.LoopTesterApp: [1196, 1111, 1158, 1183, 1216, 1209, 1236]
+  Exec.Examples.FibRange: [976, 929, 981, 935, 960, 954, 950]
+  Exec.Examples.Collatz: [1364, 1365, 1381, 1369, 1363, 1357, 1349]
