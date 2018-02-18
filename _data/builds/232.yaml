@@ -1,0 +1,34 @@
+info:
+  name: "232"
+  date: Sun, 18 Feb 2018 18:05:43 +0000
+  branch: "remove_classes"
+  parents: ['6e2720f']
+  sha: 26f0215
+  sha-long: 26f02157286db4d7eeb721c56fd705a58677aa7f
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 18 Feb 2018 19:59:16 +0200
+  commit-message: "Remove static modifier"
+
+measurements:
+  Comp.Ranges.TotalTime: [2502, 2511, 2504, 2524, 2501, 2484, 2511]
+  Comp.Ranges.CtEvalsTime: [830, 831, 832, 833, 833, 831, 835]
+  Comp.Ranges.NumCtEvals: [1502, 1502, 1502, 1502, 1502, 1502, 1502]
+  Comp.Ranges.OptTime: [490, 498, 491, 486, 491, 491, 493]
+  Comp.Ranges.ImplicitLibTime: [336, 341, 339, 348, 337, 333, 337]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [215, 215, 214, 214, 216, 215, 215]
+  Comp.LoopTesterApp.TotalTime: [4127, 4118, 4137, 4137, 4150, 4134, 4165]
+  Comp.LoopTesterApp.CtEvalsTime: [1724, 1724, 1723, 1728, 1730, 1726, 1733]
+  Comp.LoopTesterApp.NumCtEvals: [2972, 2972, 2972, 2972, 2972, 2972, 2972]
+  Comp.LoopTesterApp.OptTime: [704, 705, 713, 707, 711, 708, 702]
+  Comp.LoopTesterApp.ImplicitLibTime: [337, 334, 338, 341, 335, 335, 337]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 14, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [295, 292, 294, 294, 295, 295, 295]
+  Exec.BenchmarkGame.nbody: [513, 513, 514, 527, 514, 513, 525]
+  Exec.BenchmarkGame.fasta: [535, 534, 534, 535, 535, 535, 534]
+  Exec.BenchmarkGame.fastaredux: [330, 330, 330, 332, 330, 332, 330]
+  Exec.BenchmarkGame.meteor: [62, 63, 62, 62, 63, 62, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3245, 3244, 3250, 3247, 3245, 3246, 3244]
+  Exec.Examples.LoopTesterApp: [1108, 1197, 1096, 1106, 1099, 1098, 1100]
+  Exec.Examples.FibRange: [937, 936, 936, 939, 935, 935, 936]
+  Exec.Examples.Collatz: [1397, 1397, 1397, 1396, 1396, 1396, 1396]
