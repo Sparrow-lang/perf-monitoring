@@ -1,0 +1,34 @@
+info:
+  name: "233"
+  date: Sun, 18 Feb 2018 19:51:12 +0000
+  branch: "remove_classes"
+  parents: ['26f0215']
+  sha: a3e9eed
+  sha-long: a3e9eed6d19e6e02ea9364789a091f2d4daccf4f
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 18 Feb 2018 21:44:24 +0200
+  commit-message: "Remove implicit ‘this’ from functions"
+
+measurements:
+  Comp.Ranges.TotalTime: [2854, 2877, 2806, 2803, 3004, 2777, 3031]
+  Comp.Ranges.CtEvalsTime: [910, 906, 901, 897, 976, 900, 982]
+  Comp.Ranges.NumCtEvals: [1502, 1502, 1502, 1502, 1502, 1502, 1502]
+  Comp.Ranges.OptTime: [606, 663, 590, 594, 655, 595, 652]
+  Comp.Ranges.ImplicitLibTime: [377, 386, 378, 373, 398, 365, 407]
+  Comp.Ranges.FinalLinkTime: [15, 16, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [290, 249, 269, 284, 250, 261, 248]
+  Comp.LoopTesterApp.TotalTime: [4618, 4650, 4576, 4614, 4603, 4652, 4967]
+  Comp.LoopTesterApp.CtEvalsTime: [1866, 1874, 1855, 1869, 1866, 1897, 1948]
+  Comp.LoopTesterApp.NumCtEvals: [2972, 2972, 2972, 2972, 2972, 2972, 2972]
+  Comp.LoopTesterApp.OptTime: [859, 837, 885, 913, 891, 845, 1018]
+  Comp.LoopTesterApp.ImplicitLibTime: [383, 388, 385, 364, 373, 368, 380]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 17, 14, 14, 14, 16, 14]
+  Comp.LoopTesterApp.LlcTime: [381, 358, 332, 339, 336, 369, 425]
+  Exec.BenchmarkGame.nbody: [659, 850, 771, 782, 662, 663, 686]
+  Exec.BenchmarkGame.fasta: [618, 631, 636, 622, 674, 685, 591]
+  Exec.BenchmarkGame.fastaredux: [492, 454, 428, 475, 410, 403, 440]
+  Exec.BenchmarkGame.meteor: [66, 63, 61, 65, 65, 64, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3095, 3083, 3099, 3077, 3073, 3075, 3151]
+  Exec.Examples.LoopTesterApp: [1012, 1011, 1220, 1009, 999, 1006, 1018]
+  Exec.Examples.FibRange: [881, 858, 947, 1028, 1003, 943, 977]
+  Exec.Examples.Collatz: [1399, 1401, 1400, 1399, 1402, 1401, 1399]
