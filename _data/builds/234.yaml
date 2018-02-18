@@ -1,0 +1,34 @@
+info:
+  name: "234"
+  date: Sun, 18 Feb 2018 20:58:25 +0000
+  branch: "remove_classes"
+  parents: ['a3e9eed']
+  sha: ec90935
+  sha-long: ec9093590ab706b6e6fd8853059870e29d6d99d9
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 18 Feb 2018 22:51:36 +0200
+  commit-message: "Added test for checking instantiation speed of generic classes."
+
+measurements:
+  Comp.Ranges.TotalTime: [2833, 2878, 2877, 2829, 2861, 2893, 2838]
+  Comp.Ranges.CtEvalsTime: [917, 931, 926, 920, 930, 938, 917]
+  Comp.Ranges.NumCtEvals: [1502, 1502, 1502, 1502, 1502, 1502, 1502]
+  Comp.Ranges.OptTime: [607, 628, 630, 606, 621, 618, 608]
+  Comp.Ranges.ImplicitLibTime: [376, 393, 370, 371, 372, 388, 371]
+  Comp.Ranges.FinalLinkTime: [15, 14, 14, 18, 14, 14, 14]
+  Comp.Ranges.LlcTime: [259, 248, 264, 255, 253, 249, 271]
+  Comp.LoopTesterApp.TotalTime: [4876, 4941, 4748, 4726, 4995, 4623, 4661]
+  Comp.LoopTesterApp.CtEvalsTime: [2021, 2055, 1957, 1940, 2083, 1903, 1899]
+  Comp.LoopTesterApp.NumCtEvals: [2972, 2972, 2972, 2972, 2972, 2972, 2972]
+  Comp.LoopTesterApp.OptTime: [895, 870, 872, 868, 853, 848, 882]
+  Comp.LoopTesterApp.ImplicitLibTime: [393, 439, 395, 387, 408, 371, 377]
+  Comp.LoopTesterApp.FinalLinkTime: [17, 15, 15, 15, 15, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [345, 346, 342, 354, 348, 348, 356]
+  Exec.BenchmarkGame.nbody: [691, 672, 684, 679, 673, 682, 680]
+  Exec.BenchmarkGame.fasta: [593, 605, 599, 592, 595, 592, 608]
+  Exec.BenchmarkGame.fastaredux: [434, 474, 487, 436, 425, 412, 434]
+  Exec.BenchmarkGame.meteor: [61, 61, 60, 63, 63, 63, 62]
+  Exec.BenchmarkGame.fannkuchredux: [3182, 3142, 3140, 3135, 3147, 3135, 3169]
+  Exec.Examples.LoopTesterApp: [1077, 1141, 1058, 1012, 997, 1023, 1055]
+  Exec.Examples.FibRange: [868, 861, 880, 863, 865, 856, 868]
+  Exec.Examples.Collatz: [1444, 1450, 1447, 1411, 1414, 1409, 1413]
