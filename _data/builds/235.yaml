@@ -1,0 +1,34 @@
+info:
+  name: "235"
+  date: Wed, 21 Feb 2018 22:40:10 +0000
+  branch: "remove_classes"
+  parents: ['ec90935']
+  sha: 7a46325
+  sha-long: 7a463255447f9bdcf26d5a47c25390152e617468
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 22 Feb 2018 00:33:54 +0200
+  commit-message: "Completely removed dtors from classes"
+
+measurements:
+  Comp.Ranges.TotalTime: [2206, 2235, 2216, 2203, 2227, 2229, 2294]
+  Comp.Ranges.CtEvalsTime: [440, 441, 439, 437, 441, 444, 447]
+  Comp.Ranges.NumCtEvals: [742, 742, 742, 742, 742, 742, 742]
+  Comp.Ranges.OptTime: [599, 606, 586, 594, 593, 598, 623]
+  Comp.Ranges.ImplicitLibTime: [311, 311, 319, 308, 313, 314, 325]
+  Comp.Ranges.FinalLinkTime: [14, 15, 14, 15, 15, 14, 15]
+  Comp.Ranges.LlcTime: [245, 247, 250, 244, 251, 244, 249]
+  Comp.LoopTesterApp.TotalTime: [3685, 3636, 3652, 3866, 3678, 3622, 3649]
+  Comp.LoopTesterApp.CtEvalsTime: [1023, 1005, 1017, 1094, 1045, 1009, 1012]
+  Comp.LoopTesterApp.NumCtEvals: [1616, 1616, 1616, 1616, 1616, 1616, 1616]
+  Comp.LoopTesterApp.OptTime: [854, 854, 848, 868, 839, 830, 848]
+  Comp.LoopTesterApp.ImplicitLibTime: [319, 314, 312, 316, 319, 330, 327]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 16, 15, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [334, 339, 340, 355, 337, 335, 336]
+  Exec.BenchmarkGame.nbody: [505, 507, 499, 502, 507, 503, 502]
+  Exec.BenchmarkGame.fasta: [549, 557, 557, 549, 553, 548, 576]
+  Exec.BenchmarkGame.fastaredux: [369, 363, 371, 366, 362, 391, 367]
+  Exec.BenchmarkGame.meteor: [60, 61, 61, 61, 61, 58, 60]
+  Exec.BenchmarkGame.fannkuchredux: [3086, 3077, 3073, 3079, 3067, 3071, 3079]
+  Exec.Examples.LoopTesterApp: [1032, 1023, 1040, 1027, 1032, 1043, 1029]
+  Exec.Examples.FibRange: [854, 848, 847, 850, 848, 848, 853]
+  Exec.Examples.Collatz: [1341, 1344, 1345, 1343, 1344, 1346, 1342]
