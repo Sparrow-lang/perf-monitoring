@@ -1,0 +1,34 @@
+info:
+  name: "236"
+  date: Thu, 22 Feb 2018 19:39:58 +0000
+  branch: "remove_classes"
+  parents: ['7a46325']
+  sha: c8635ff
+  sha-long: c8635ffa28bb187a1faf5f2d43e95b22f62fd34e
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 22 Feb 2018 21:33:56 +0200
+  commit-message: "Move ctorFromCt outside of classes completely."
+
+measurements:
+  Comp.Ranges.TotalTime: [2207, 2215, 2177, 2188, 2182, 2250, 2168]
+  Comp.Ranges.CtEvalsTime: [437, 445, 430, 432, 429, 431, 430]
+  Comp.Ranges.NumCtEvals: [742, 742, 742, 742, 742, 742, 742]
+  Comp.Ranges.OptTime: [553, 541, 546, 556, 545, 593, 548]
+  Comp.Ranges.ImplicitLibTime: [310, 310, 317, 308, 307, 342, 307]
+  Comp.Ranges.FinalLinkTime: [16, 16, 16, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [235, 229, 231, 230, 241, 231, 231]
+  Comp.LoopTesterApp.TotalTime: [3582, 3637, 3546, 3560, 3551, 3531, 3548]
+  Comp.LoopTesterApp.CtEvalsTime: [987, 1001, 985, 984, 978, 981, 982]
+  Comp.LoopTesterApp.NumCtEvals: [1616, 1616, 1616, 1616, 1616, 1616, 1616]
+  Comp.LoopTesterApp.OptTime: [783, 832, 765, 770, 773, 763, 780]
+  Comp.LoopTesterApp.ImplicitLibTime: [309, 307, 321, 307, 311, 312, 309]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 15, 16, 15, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [312, 320, 310, 323, 333, 309, 310]
+  Exec.BenchmarkGame.nbody: [535, 520, 526, 515, 524, 524, 526]
+  Exec.BenchmarkGame.fasta: [537, 536, 537, 543, 541, 538, 549]
+  Exec.BenchmarkGame.fastaredux: [334, 333, 334, 332, 332, 334, 337]
+  Exec.BenchmarkGame.meteor: [65, 64, 63, 63, 63, 63, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3311, 3289, 3317, 3275, 3330, 3441, 3255]
+  Exec.Examples.LoopTesterApp: [1271, 1269, 1212, 1213, 1218, 1261, 1227]
+  Exec.Examples.FibRange: [940, 950, 957, 946, 957, 1048, 1006]
+  Exec.Examples.Collatz: [1410, 1401, 1408, 1402, 1402, 1401, 1403]
