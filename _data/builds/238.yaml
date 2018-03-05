@@ -1,0 +1,34 @@
+info:
+  name: "238"
+  date: Mon, 05 Mar 2018 20:51:46 +0000
+  branch: "remove_classes"
+  parents: ['c7f99a0']
+  sha: 6ca3850
+  sha-long: 6ca38500a65a4b8d04f5a1ecd579e4d6928d408f
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 5 Mar 2018 22:46:23 +0200
+  commit-message: "Different strategy for auto-generated functions."
+
+measurements:
+  Comp.Ranges.TotalTime: [1891, 2023, 2006, 2289, 1900, 1932, 1937]
+  Comp.Ranges.CtEvalsTime: [308, 314, 311, 401, 312, 320, 312]
+  Comp.Ranges.NumCtEvals: [539, 539, 539, 539, 539, 539, 539]
+  Comp.Ranges.OptTime: [523, 632, 533, 524, 526, 525, 539]
+  Comp.Ranges.ImplicitLibTime: [297, 296, 301, 419, 293, 298, 294]
+  Comp.Ranges.FinalLinkTime: [15, 20, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [217, 216, 315, 216, 221, 218, 239]
+  Comp.LoopTesterApp.TotalTime: [3191, 3123, 3167, 3139, 3326, 3182, 3065]
+  Comp.LoopTesterApp.CtEvalsTime: [861, 848, 853, 858, 902, 860, 829]
+  Comp.LoopTesterApp.NumCtEvals: [1398, 1398, 1398, 1398, 1398, 1398, 1398]
+  Comp.LoopTesterApp.OptTime: [622, 593, 609, 602, 626, 588, 592]
+  Comp.LoopTesterApp.ImplicitLibTime: [303, 307, 294, 297, 321, 331, 305]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 18, 20, 15, 19, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [254, 249, 269, 249, 247, 250, 249]
+  Exec.BenchmarkGame.nbody: [520, 527, 598, 673, 526, 539, 579]
+  Exec.BenchmarkGame.fasta: [540, 543, 541, 541, 542, 548, 540]
+  Exec.BenchmarkGame.fastaredux: [334, 334, 382, 360, 356, 338, 335]
+  Exec.BenchmarkGame.meteor: [67, 63, 64, 64, 65, 63, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3290, 3280, 3323, 3307, 3286, 3278, 3293]
+  Exec.Examples.LoopTesterApp: [1115, 1126, 1125, 1132, 1126, 1126, 1108]
+  Exec.Examples.FibRange: [939, 947, 947, 950, 949, 952, 947]
+  Exec.Examples.Collatz: [1403, 1412, 1408, 1405, 1404, 1409, 1410]
