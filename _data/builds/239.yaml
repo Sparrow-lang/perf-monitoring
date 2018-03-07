@@ -1,0 +1,34 @@
+info:
+  name: "239"
+  date: Wed, 07 Mar 2018 21:33:01 +0000
+  branch: "remove_classes"
+  parents: ['6ca3850']
+  sha: 1231193
+  sha-long: 12311934456c6afc3a6da1754568d15916285a8f
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Wed, 7 Mar 2018 23:26:39 +0200
+  commit-message: "Beter initialization of class fields."
+
+measurements:
+  Comp.Ranges.TotalTime: [1948, 1967, 1958, 1952, 1977, 1992, 2040]
+  Comp.Ranges.CtEvalsTime: [282, 282, 279, 278, 280, 288, 282]
+  Comp.Ranges.NumCtEvals: [445, 445, 445, 445, 445, 445, 445]
+  Comp.Ranges.OptTime: [589, 594, 590, 591, 604, 599, 653]
+  Comp.Ranges.ImplicitLibTime: [305, 309, 305, 312, 315, 307, 311]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 15]
+  Comp.Ranges.LlcTime: [239, 243, 241, 240, 241, 245, 254]
+  Comp.LoopTesterApp.TotalTime: [3177, 3108, 3013, 3020, 2957, 2962, 2961]
+  Comp.LoopTesterApp.CtEvalsTime: [757, 766, 749, 734, 724, 723, 725]
+  Comp.LoopTesterApp.NumCtEvals: [1114, 1114, 1114, 1114, 1114, 1114, 1114]
+  Comp.LoopTesterApp.OptTime: [746, 675, 664, 703, 659, 667, 668]
+  Comp.LoopTesterApp.ImplicitLibTime: [316, 319, 312, 308, 308, 314, 301]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [305, 278, 271, 271, 271, 272, 276]
+  Exec.BenchmarkGame.nbody: [498, 493, 498, 492, 491, 492, 491]
+  Exec.BenchmarkGame.fasta: [546, 551, 550, 546, 546, 549, 547]
+  Exec.BenchmarkGame.fastaredux: [364, 363, 369, 361, 364, 365, 375]
+  Exec.BenchmarkGame.meteor: [60, 59, 58, 59, 63, 61, 58]
+  Exec.BenchmarkGame.fannkuchredux: [3080, 3055, 3050, 3074, 3057, 3049, 3064]
+  Exec.Examples.LoopTesterApp: [1005, 1000, 984, 1008, 1015, 998, 989]
+  Exec.Examples.FibRange: [842, 843, 842, 844, 843, 842, 843]
+  Exec.Examples.Collatz: [1344, 1342, 1343, 1343, 1343, 1345, 1343]
