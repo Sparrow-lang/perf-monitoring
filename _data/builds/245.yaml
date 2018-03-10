@@ -1,0 +1,34 @@
+info:
+  name: "245"
+  date: Sat, 10 Mar 2018 16:37:48 +0000
+  branch: "remove_classes"
+  parents: ['35f11ce']
+  sha: 752d336
+  sha-long: 752d336caca976df90bc0a563a78c957dfb73e9c
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 10 Mar 2018 18:31:21 +0200
+  commit-message: "Replace the use of ‘class’ with the use of ‘datatype’"
+
+measurements:
+  Comp.Ranges.TotalTime: [2093, 2045, 2066, 2154, 2047, 2066, 2213]
+  Comp.Ranges.CtEvalsTime: [291, 281, 285, 305, 286, 288, 314]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [624, 656, 658, 637, 625, 622, 647]
+  Comp.Ranges.ImplicitLibTime: [324, 308, 305, 381, 308, 306, 330]
+  Comp.Ranges.FinalLinkTime: [15, 14, 14, 15, 14, 15, 14]
+  Comp.Ranges.LlcTime: [253, 247, 259, 246, 247, 246, 258]
+  Comp.LoopTesterApp.TotalTime: [2855, 2904, 2876, 2874, 3127, 3087, 3142]
+  Comp.LoopTesterApp.CtEvalsTime: [700, 711, 694, 689, 736, 697, 703]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [604, 612, 594, 593, 716, 831, 856]
+  Comp.LoopTesterApp.ImplicitLibTime: [313, 314, 330, 318, 327, 314, 342]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 16, 15, 19, 19, 20, 14]
+  Comp.LoopTesterApp.LlcTime: [225, 246, 225, 228, 227, 239, 232]
+  Exec.BenchmarkGame.nbody: [656, 656, 655, 825, 800, 656, 662]
+  Exec.BenchmarkGame.fasta: [698, 718, 701, 726, 694, 587, 607]
+  Exec.BenchmarkGame.fastaredux: [398, 526, 504, 504, 508, 497, 545]
+  Exec.BenchmarkGame.meteor: [71, 71, 70, 69, 66, 71, 69]
+  Exec.BenchmarkGame.fannkuchredux: [3582, 3075, 3067, 3070, 3484, 3486, 3518]
+  Exec.Examples.LoopTesterApp: [1047, 1194, 1261, 1327, 1246, 1405, 1377]
+  Exec.Examples.FibRange: [848, 844, 851, 853, 1088, 1033, 987]
+  Exec.Examples.Collatz: [1501, 1479, 1482, 1482, 1491, 1497, 1500]
