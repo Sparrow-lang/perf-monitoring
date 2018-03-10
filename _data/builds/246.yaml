@@ -1,0 +1,34 @@
+info:
+  name: "246"
+  date: Sat, 10 Mar 2018 20:59:16 +0000
+  branch: "fix_llvm"
+  parents: ['752d336']
+  sha: 7bfa8e5
+  sha-long: 7bfa8e5661724cb93f29fc0fac595bb081e68082
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 10 Mar 2018 22:53:52 +0200
+  commit-message: "Change path for LLVM on Travis-CI OSX build"
+
+measurements:
+  Comp.Ranges.TotalTime: [1946, 2320, 1913, 2433, 2054, 2181, 2193]
+  Comp.Ranges.CtEvalsTime: [267, 328, 268, 346, 293, 338, 310]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [538, 594, 550, 743, 540, 547, 542]
+  Comp.Ranges.ImplicitLibTime: [307, 384, 301, 368, 347, 315, 345]
+  Comp.Ranges.FinalLinkTime: [16, 18, 16, 16, 16, 17, 16]
+  Comp.Ranges.LlcTime: [272, 307, 225, 222, 252, 241, 272]
+  Comp.LoopTesterApp.TotalTime: [2759, 2675, 2696, 2733, 2665, 2675, 2685]
+  Comp.LoopTesterApp.CtEvalsTime: [704, 655, 667, 659, 653, 652, 657]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [513, 509, 519, 571, 515, 513, 520]
+  Comp.LoopTesterApp.ImplicitLibTime: [304, 309, 300, 298, 300, 299, 301]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 17, 16, 15, 15, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [205, 201, 202, 204, 200, 219, 202]
+  Exec.BenchmarkGame.nbody: [533, 521, 528, 517, 529, 517, 515]
+  Exec.BenchmarkGame.fasta: [544, 541, 540, 541, 550, 551, 540]
+  Exec.BenchmarkGame.fastaredux: [344, 352, 347, 355, 347, 342, 342]
+  Exec.BenchmarkGame.meteor: [63, 64, 63, 64, 64, 64, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3336, 3518, 3488, 3314, 3339, 3336, 3312]
+  Exec.Examples.LoopTesterApp: [1222, 1217, 1213, 1201, 1207, 1219, 1224]
+  Exec.Examples.FibRange: [943, 954, 990, 950, 945, 944, 945]
+  Exec.Examples.Collatz: [1413, 1433, 1415, 1414, 1406, 1410, 1409]
