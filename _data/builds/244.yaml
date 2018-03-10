@@ -1,0 +1,34 @@
+info:
+  name: "244"
+  date: Sat, 10 Mar 2018 15:30:26 +0000
+  branch: "remove_classes"
+  parents: ['a24078f']
+  sha: 35f11ce
+  sha-long: 35f11cea941715bcb5f118fa33544d9662be6967
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 10 Mar 2018 17:22:31 +0200
+  commit-message: "Made sure datatype supports inner ‘using’ nodes"
+
+measurements:
+  Comp.Ranges.TotalTime: [2011, 2000, 2034, 2031, 2024, 2079, 2307]
+  Comp.Ranges.CtEvalsTime: [282, 283, 285, 278, 292, 287, 334]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [613, 606, 609, 656, 605, 605, 637]
+  Comp.Ranges.ImplicitLibTime: [317, 307, 323, 300, 312, 316, 391]
+  Comp.Ranges.FinalLinkTime: [14, 14, 15, 15, 14, 15, 18]
+  Comp.Ranges.LlcTime: [242, 236, 240, 248, 239, 303, 252]
+  Comp.LoopTesterApp.TotalTime: [3281, 3325, 3421, 3033, 3342, 2850, 3082]
+  Comp.LoopTesterApp.CtEvalsTime: [824, 829, 855, 704, 833, 705, 766]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [587, 564, 597, 691, 599, 573, 621]
+  Comp.LoopTesterApp.ImplicitLibTime: [378, 381, 422, 378, 411, 318, 340]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 18, 16, 14, 17]
+  Comp.LoopTesterApp.LlcTime: [258, 302, 268, 236, 276, 231, 217]
+  Exec.BenchmarkGame.nbody: [542, 514, 671, 613, 494, 648, 522]
+  Exec.BenchmarkGame.fasta: [548, 556, 571, 553, 552, 555, 554]
+  Exec.BenchmarkGame.fastaredux: [364, 363, 375, 364, 364, 365, 372]
+  Exec.BenchmarkGame.meteor: [66, 58, 60, 67, 65, 67, 60]
+  Exec.BenchmarkGame.fannkuchredux: [3223, 3168, 3224, 3070, 3059, 3306, 3295]
+  Exec.Examples.LoopTesterApp: [1081, 1083, 1115, 1075, 1202, 1174, 1353]
+  Exec.Examples.FibRange: [905, 936, 926, 959, 933, 987, 1100]
+  Exec.Examples.Collatz: [1404, 1345, 1344, 1346, 1352, 1346, 1349]
