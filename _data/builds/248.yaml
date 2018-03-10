@@ -1,0 +1,34 @@
+info:
+  name: "248"
+  date: Sat, 10 Mar 2018 22:44:20 +0000
+  branch: "remove_classes"
+  parents: ['8e879c5']
+  sha: 7f9327b
+  sha-long: 7f9327bd5c7e3b9758112739a9bb25aa80ff1ef3
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 11 Mar 2018 00:38:46 +0200
+  commit-message: "Removed ‘class’ keyword completely."
+
+measurements:
+  Comp.Ranges.TotalTime: [1847, 1823, 1825, 1833, 1836, 1840, 1784]
+  Comp.Ranges.CtEvalsTime: [261, 257, 260, 257, 261, 264, 254]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [525, 520, 523, 540, 528, 512, 509]
+  Comp.Ranges.ImplicitLibTime: [295, 297, 290, 292, 295, 313, 288]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 14, 15]
+  Comp.Ranges.LlcTime: [228, 218, 216, 214, 216, 212, 211]
+  Comp.LoopTesterApp.TotalTime: [2507, 2522, 2515, 2539, 2516, 2558, 2585]
+  Comp.LoopTesterApp.CtEvalsTime: [625, 628, 624, 628, 625, 632, 643]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [484, 486, 486, 493, 483, 492, 487]
+  Comp.LoopTesterApp.ImplicitLibTime: [291, 291, 284, 286, 285, 288, 300]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [194, 193, 194, 195, 196, 196, 194]
+  Exec.BenchmarkGame.nbody: [514, 512, 532, 517, 529, 527, 517]
+  Exec.BenchmarkGame.fasta: [535, 537, 537, 538, 536, 535, 541]
+  Exec.BenchmarkGame.fastaredux: [332, 331, 333, 333, 331, 333, 333]
+  Exec.BenchmarkGame.meteor: [63, 63, 64, 63, 62, 62, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3271, 3293, 3271, 3285, 3312, 3282, 3297]
+  Exec.Examples.LoopTesterApp: [1216, 1277, 1274, 1226, 1235, 1207, 1199]
+  Exec.Examples.FibRange: [954, 956, 951, 961, 950, 966, 962]
+  Exec.Examples.Collatz: [1404, 1407, 1406, 1406, 1402, 1406, 1402]
