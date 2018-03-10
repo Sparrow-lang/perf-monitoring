@@ -1,0 +1,34 @@
+info:
+  name: "243"
+  date: Sat, 10 Mar 2018 13:47:14 +0000
+  branch: "remove_classes"
+  parents: ['01bdd33']
+  sha: a24078f
+  sha-long: a24078fcdcbf3d249f4d25e4094788dac9bb6957
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 10 Mar 2018 15:41:21 +0200
+  commit-message: "Cleanup code after removing functions from classes"
+
+measurements:
+  Comp.Ranges.TotalTime: [1920, 1981, 1990, 1986, 1970, 1947, 1902]
+  Comp.Ranges.CtEvalsTime: [265, 269, 283, 276, 284, 274, 268]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [555, 593, 562, 565, 550, 557, 543]
+  Comp.Ranges.ImplicitLibTime: [315, 299, 314, 301, 310, 311, 303]
+  Comp.Ranges.FinalLinkTime: [17, 15, 15, 16, 18, 15, 16]
+  Comp.Ranges.LlcTime: [228, 240, 223, 261, 233, 230, 224]
+  Comp.LoopTesterApp.TotalTime: [2757, 2718, 2851, 3111, 2835, 2727, 2621]
+  Comp.LoopTesterApp.CtEvalsTime: [676, 651, 685, 746, 687, 668, 642]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [523, 539, 559, 616, 533, 514, 505]
+  Comp.LoopTesterApp.ImplicitLibTime: [302, 302, 302, 305, 357, 309, 296]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 17, 17, 16, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [210, 217, 212, 246, 200, 202, 199]
+  Exec.BenchmarkGame.nbody: [541, 538, 556, 585, 563, 604, 544]
+  Exec.BenchmarkGame.fasta: [679, 576, 545, 593, 591, 641, 605]
+  Exec.BenchmarkGame.fastaredux: [375, 383, 413, 376, 404, 389, 355]
+  Exec.BenchmarkGame.meteor: [73, 70, 68, 65, 68, 71, 72]
+  Exec.BenchmarkGame.fannkuchredux: [3453, 3296, 3285, 3269, 3290, 3352, 3261]
+  Exec.Examples.LoopTesterApp: [1252, 1231, 1193, 1193, 1270, 1267, 1252]
+  Exec.Examples.FibRange: [984, 1037, 1013, 950, 946, 952, 954]
+  Exec.Examples.Collatz: [1410, 1415, 1402, 1403, 1399, 1406, 1417]
