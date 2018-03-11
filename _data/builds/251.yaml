@@ -1,0 +1,34 @@
+info:
+  name: "251"
+  date: Sun, 11 Mar 2018 21:20:49 +0000
+  branch: "remove_classes"
+  parents: ['0bd1601']
+  sha: d6f708e
+  sha-long: d6f708e97787b2505205d2867002aa6e47fe05d2
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 11 Mar 2018 23:14:41 +0200
+  commit-message: "Renamed ‘SprClass’ to ‘SprDatatype’"
+
+measurements:
+  Comp.Ranges.TotalTime: [2406, 2606, 2202, 2249, 2156, 2169, 2274]
+  Comp.Ranges.CtEvalsTime: [352, 352, 281, 307, 289, 322, 315]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [572, 798, 796, 713, 695, 600, 685]
+  Comp.Ranges.ImplicitLibTime: [377, 420, 306, 403, 318, 360, 329]
+  Comp.Ranges.FinalLinkTime: [16, 15, 17, 19, 21, 16, 18]
+  Comp.Ranges.LlcTime: [303, 253, 229, 239, 242, 246, 248]
+  Comp.LoopTesterApp.TotalTime: [2920, 3377, 2730, 2804, 3156, 2933, 3291]
+  Comp.LoopTesterApp.CtEvalsTime: [724, 797, 670, 689, 759, 657, 852]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [547, 734, 558, 514, 515, 779, 515]
+  Comp.LoopTesterApp.ImplicitLibTime: [319, 384, 303, 334, 412, 295, 417]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 21, 15, 17, 21, 22, 16]
+  Comp.LoopTesterApp.LlcTime: [231, 200, 199, 229, 273, 199, 200]
+  Exec.BenchmarkGame.nbody: [525, 523, 529, 543, 526, 577, 788]
+  Exec.BenchmarkGame.fasta: [556, 551, 549, 550, 548, 550, 558]
+  Exec.BenchmarkGame.fastaredux: [341, 339, 468, 349, 341, 377, 416]
+  Exec.BenchmarkGame.meteor: [63, 64, 64, 64, 63, 63, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3794, 3892, 3601, 3297, 3447, 3376, 3413]
+  Exec.Examples.LoopTesterApp: [1210, 1199, 1221, 1197, 1217, 1247, 1223]
+  Exec.Examples.FibRange: [1062, 1034, 1074, 948, 952, 953, 951]
+  Exec.Examples.Collatz: [1512, 1461, 1478, 1531, 1534, 1405, 1407]
