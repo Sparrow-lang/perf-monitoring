@@ -1,0 +1,34 @@
+info:
+  name: "252"
+  date: Sun, 11 Mar 2018 22:07:02 +0000
+  branch: "remove_classes"
+  parents: ['d6f708e']
+  sha: ea874b5
+  sha-long: ea874b56f1c43496d2e16a9187d0654cc1d57729
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 12 Mar 2018 00:00:55 +0200
+  commit-message: "Arranged tests related to datatypes"
+
+measurements:
+  Comp.Ranges.TotalTime: [2438, 2069, 2016, 2412, 2052, 2129, 2492]
+  Comp.Ranges.CtEvalsTime: [328, 279, 273, 328, 290, 280, 357]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [775, 564, 578, 735, 555, 605, 573]
+  Comp.Ranges.ImplicitLibTime: [369, 323, 309, 384, 306, 313, 420]
+  Comp.Ranges.FinalLinkTime: [18, 21, 16, 22, 16, 16, 22]
+  Comp.Ranges.LlcTime: [226, 308, 272, 221, 290, 314, 327]
+  Comp.LoopTesterApp.TotalTime: [3477, 3034, 3595, 3167, 2812, 2864, 2764]
+  Comp.LoopTesterApp.CtEvalsTime: [833, 722, 912, 766, 689, 697, 677]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [598, 581, 562, 558, 527, 548, 519]
+  Comp.LoopTesterApp.ImplicitLibTime: [406, 352, 436, 364, 312, 306, 314]
+  Comp.LoopTesterApp.FinalLinkTime: [22, 16, 18, 17, 16, 21, 15]
+  Comp.LoopTesterApp.LlcTime: [286, 284, 240, 216, 212, 206, 207]
+  Exec.BenchmarkGame.nbody: [559, 553, 540, 588, 539, 541, 537]
+  Exec.BenchmarkGame.fasta: [562, 553, 604, 623, 585, 558, 550]
+  Exec.BenchmarkGame.fastaredux: [336, 335, 348, 345, 341, 386, 366]
+  Exec.BenchmarkGame.meteor: [64, 65, 64, 64, 65, 64, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3319, 3310, 3292, 3546, 3513, 3436, 3344]
+  Exec.Examples.LoopTesterApp: [1274, 1264, 1250, 1278, 1249, 1915, 1762]
+  Exec.Examples.FibRange: [1438, 1459, 969, 971, 972, 966, 962]
+  Exec.Examples.Collatz: [1411, 1411, 1416, 1413, 1411, 1415, 1413]
