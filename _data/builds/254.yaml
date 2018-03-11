@@ -1,0 +1,34 @@
+info:
+  name: "254"
+  date: Sun, 11 Mar 2018 22:18:48 +0000
+  branch: "v0.10.29"
+  parents: ['439c8b7', '531a5c6']
+  sha: f1ae29a
+  sha-long: f1ae29a60198c9bf801fe560ed3f7f8113c6e147
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 10 Feb 2018 16:46:10 +0200
+  commit-message: "Merge branch 'perf_tracking'"
+
+measurements:
+  Comp.Ranges.TotalTime: [2174, 2151, 2334, 2353, 2182, 2272, 2391]
+  Comp.Ranges.CtEvalsTime: [751, 746, 797, 866, 735, 751, 774]
+  Comp.Ranges.NumCtEvals: [1279, 1279, 1279, 1279, 1279, 1279, 1279]
+  Comp.Ranges.OptTime: [646, 633, 706, 652, 628, 659, 775]
+  Comp.Ranges.ImplicitLibTime: [229, 227, 233, 227, 258, 230, 251]
+  Comp.Ranges.FinalLinkTime: [16, 15, 15, 15, 19, 15, 16]
+  Comp.Ranges.LlcTime: [244, 247, 269, 246, 245, 322, 257]
+  Comp.LoopTesterApp.TotalTime: [3789, 3984, 3738, 3764, 3789, 3938, 3978]
+  Comp.LoopTesterApp.CtEvalsTime: [1862, 1960, 1821, 1829, 1833, 1967, 1964]
+  Comp.LoopTesterApp.NumCtEvals: [3144, 3144, 3144, 3144, 3144, 3144, 3144]
+  Comp.LoopTesterApp.OptTime: [631, 688, 651, 661, 692, 649, 660]
+  Comp.LoopTesterApp.ImplicitLibTime: [254, 277, 234, 221, 236, 227, 241]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 17, 16, 15, 16, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [236, 223, 236, 244, 223, 236, 226]
+  Exec.BenchmarkGame.nbody: [523, 531, 523, 531, 520, 523, 521]
+  Exec.BenchmarkGame.fasta: [566, 578, 565, 553, 548, 565, 554]
+  Exec.BenchmarkGame.fastaredux: [341, 354, 344, 343, 348, 339, 338]
+  Exec.BenchmarkGame.meteor: [64, 65, 64, 63, 64, 66, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3329, 3359, 3388, 3389, 3343, 3350, 3382]
+  Exec.Examples.LoopTesterApp: [1315, 1271, 1176, 1241, 1210, 1201, 1212]
+  Exec.Examples.FibRange: [951, 1106, 1183, 1089, 1069, 1130, 954]
+  Exec.Examples.Collatz: [1431, 1431, 1428, 1398, 1402, 1395, 1439]
