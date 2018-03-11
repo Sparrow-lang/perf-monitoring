@@ -1,0 +1,34 @@
+info:
+  name: "256"
+  date: Sun, 11 Mar 2018 23:01:38 +0000
+  branch: "v0.11.30"
+  parents: ['f1ae29a', 'ea874b5']
+  sha: 29e75f4
+  sha-long: 29e75f4e49ddc46484371e859b7709ec0854e8c9
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 12 Mar 2018 00:34:09 +0200
+  commit-message: "Merge pull request #60 from Sparrow-lang/remove_classes"
+
+measurements:
+  Comp.Ranges.TotalTime: [2305, 2035, 2361, 2475, 2008, 1986, 2251]
+  Comp.Ranges.CtEvalsTime: [334, 280, 307, 347, 282, 269, 321]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [553, 550, 840, 767, 553, 560, 558]
+  Comp.Ranges.ImplicitLibTime: [382, 317, 337, 384, 317, 297, 356]
+  Comp.Ranges.FinalLinkTime: [16, 18, 16, 17, 15, 20, 16]
+  Comp.Ranges.LlcTime: [251, 256, 223, 228, 274, 291, 281]
+  Comp.LoopTesterApp.TotalTime: [3321, 2645, 2881, 3285, 2916, 2766, 2858]
+  Comp.LoopTesterApp.CtEvalsTime: [831, 643, 709, 786, 705, 665, 682]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [638, 504, 523, 625, 608, 520, 614]
+  Comp.LoopTesterApp.ImplicitLibTime: [382, 300, 314, 363, 325, 310, 304]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 15, 16, 16, 21, 22]
+  Comp.LoopTesterApp.LlcTime: [205, 208, 237, 209, 201, 239, 200]
+  Exec.BenchmarkGame.nbody: [536, 863, 804, 836, 760, 800, 634]
+  Exec.BenchmarkGame.fasta: [544, 702, 778, 831, 721, 664, 758]
+  Exec.BenchmarkGame.fastaredux: [338, 369, 455, 482, 337, 581, 410]
+  Exec.BenchmarkGame.meteor: [78, 79, 77, 78, 78, 74, 78]
+  Exec.BenchmarkGame.fannkuchredux: [3321, 3313, 3303, 3294, 3299, 3368, 3300]
+  Exec.Examples.LoopTesterApp: [1770, 1724, 1671, 1555, 1611, 1489, 1557]
+  Exec.Examples.FibRange: [1264, 1296, 1285, 1218, 1268, 970, 1443]
+  Exec.Examples.Collatz: [1563, 1594, 1564, 1410, 1416, 1572, 1545]
