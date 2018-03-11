@@ -1,0 +1,34 @@
+info:
+  name: "249"
+  date: Sun, 11 Mar 2018 14:35:15 +0000
+  branch: "remove_classes"
+  parents: ['7f9327b']
+  sha: dba18a5
+  sha-long: dba18a56e741c479bb6c9d0a20bdbf5b7be77157
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 11 Mar 2018 16:29:18 +0200
+  commit-message: "Fixed some problems with logic tests"
+
+measurements:
+  Comp.Ranges.TotalTime: [2021, 1996, 2073, 2016, 1987, 1970, 1954]
+  Comp.Ranges.CtEvalsTime: [283, 279, 289, 283, 281, 277, 278]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [622, 613, 619, 610, 592, 598, 592]
+  Comp.Ranges.ImplicitLibTime: [306, 314, 327, 312, 307, 313, 302]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 16, 15, 15]
+  Comp.Ranges.LlcTime: [247, 243, 248, 246, 246, 243, 245]
+  Comp.LoopTesterApp.TotalTime: [2783, 2914, 2853, 2829, 2735, 2725, 2718]
+  Comp.LoopTesterApp.CtEvalsTime: [681, 708, 713, 690, 666, 665, 673]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [604, 613, 581, 592, 586, 595, 573]
+  Comp.LoopTesterApp.ImplicitLibTime: [306, 350, 320, 338, 312, 300, 310]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 16, 14, 14, 14, 15, 14]
+  Comp.LoopTesterApp.LlcTime: [231, 232, 231, 219, 222, 221, 219]
+  Exec.BenchmarkGame.nbody: [494, 502, 504, 494, 500, 507, 509]
+  Exec.BenchmarkGame.fasta: [548, 550, 551, 550, 551, 547, 551]
+  Exec.BenchmarkGame.fastaredux: [368, 367, 369, 367, 371, 369, 371]
+  Exec.BenchmarkGame.meteor: [58, 60, 60, 61, 61, 60, 60]
+  Exec.BenchmarkGame.fannkuchredux: [3101, 3193, 3067, 3058, 3068, 3064, 3071]
+  Exec.Examples.LoopTesterApp: [988, 1016, 1048, 1039, 1000, 982, 1082]
+  Exec.Examples.FibRange: [842, 883, 847, 850, 843, 847, 853]
+  Exec.Examples.Collatz: [1347, 1343, 1341, 1344, 1344, 1344, 1346]
