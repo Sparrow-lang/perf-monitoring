@@ -1,0 +1,34 @@
+info:
+  name: "265"
+  date: Tue, 13 Mar 2018 22:26:07 +0000
+  branch: "cpp_improvements"
+  parents: ['5aa56cd']
+  sha: 423ab4d
+  sha-long: 423ab4d38b209cc084b24fba5a92d0c7269956d0
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Wed, 14 Mar 2018 00:20:15 +0200
+  commit-message: "More modernize- tidy"
+
+measurements:
+  Comp.Ranges.TotalTime: [2087, 2036, 2044, 2057, 2038, 2008, 2002]
+  Comp.Ranges.CtEvalsTime: [300, 284, 286, 286, 291, 282, 283]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [601, 605, 617, 605, 601, 604, 595]
+  Comp.Ranges.ImplicitLibTime: [330, 315, 317, 315, 335, 315, 319]
+  Comp.Ranges.FinalLinkTime: [14, 14, 15, 14, 15, 14, 16]
+  Comp.Ranges.LlcTime: [241, 251, 247, 268, 241, 244, 240]
+  Comp.LoopTesterApp.TotalTime: [2908, 2765, 2755, 2801, 2812, 2795, 2789]
+  Comp.LoopTesterApp.CtEvalsTime: [708, 676, 677, 686, 691, 683, 679]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [580, 570, 563, 584, 574, 572, 576]
+  Comp.LoopTesterApp.ImplicitLibTime: [314, 313, 305, 306, 309, 315, 311]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 14, 16, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [225, 218, 219, 218, 223, 218, 221]
+  Exec.BenchmarkGame.nbody: [503, 494, 492, 490, 497, 498, 511]
+  Exec.BenchmarkGame.fasta: [545, 549, 547, 546, 547, 548, 548]
+  Exec.BenchmarkGame.fastaredux: [364, 364, 363, 363, 363, 365, 367]
+  Exec.BenchmarkGame.meteor: [58, 61, 60, 60, 59, 59, 59]
+  Exec.BenchmarkGame.fannkuchredux: [3058, 3060, 3053, 3062, 3060, 3057, 3050]
+  Exec.Examples.LoopTesterApp: [1026, 1015, 1025, 1006, 1038, 1033, 1021]
+  Exec.Examples.FibRange: [844, 844, 842, 842, 855, 847, 845]
+  Exec.Examples.Collatz: [1341, 1344, 1342, 1344, 1345, 1343, 1352]
