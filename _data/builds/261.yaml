@@ -1,0 +1,34 @@
+info:
+  name: "261"
+  date: Tue, 13 Mar 2018 19:54:10 +0000
+  branch: "cpp_improvements"
+  parents: ['33a3e4a']
+  sha: a3623f8
+  sha-long: a3623f8d4701944a1122337f2c26435bc394fa32
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Tue, 13 Mar 2018 21:48:42 +0200
+  commit-message: "Applied clang-format to the entire code base"
+
+measurements:
+  Comp.Ranges.TotalTime: [1881, 1860, 1854, 1872, 1902, 1887, 1894]
+  Comp.Ranges.CtEvalsTime: [270, 265, 264, 263, 269, 274, 268]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [541, 537, 537, 532, 541, 533, 545]
+  Comp.Ranges.ImplicitLibTime: [298, 294, 296, 299, 301, 301, 303]
+  Comp.Ranges.FinalLinkTime: [16, 16, 15, 15, 16, 16, 15]
+  Comp.Ranges.LlcTime: [222, 219, 217, 223, 229, 222, 223]
+  Comp.LoopTesterApp.TotalTime: [2635, 2669, 2654, 2641, 2637, 2694, 2706]
+  Comp.LoopTesterApp.CtEvalsTime: [646, 653, 650, 648, 650, 657, 666]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [514, 527, 524, 507, 507, 530, 535]
+  Comp.LoopTesterApp.ImplicitLibTime: [295, 300, 295, 302, 299, 299, 297]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 18, 16, 15, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [199, 203, 202, 202, 202, 202, 207]
+  Exec.BenchmarkGame.nbody: [517, 535, 522, 534, 534, 518, 534]
+  Exec.BenchmarkGame.fasta: [543, 545, 542, 543, 538, 543, 541]
+  Exec.BenchmarkGame.fastaredux: [334, 336, 333, 335, 337, 339, 348]
+  Exec.BenchmarkGame.meteor: [63, 64, 63, 63, 63, 64, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3277, 3271, 3270, 3261, 3273, 3271, 3280]
+  Exec.Examples.LoopTesterApp: [1153, 1151, 1158, 1527, 1191, 1193, 1165]
+  Exec.Examples.FibRange: [952, 957, 956, 955, 955, 951, 956]
+  Exec.Examples.Collatz: [1409, 1406, 1404, 1462, 1408, 1408, 1404]
