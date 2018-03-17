@@ -1,0 +1,34 @@
+info:
+  name: "267"
+  date: Sat, 17 Mar 2018 17:08:14 +0000
+  branch: "cpp_improvements"
+  parents: ['f4745df']
+  sha: 446759d
+  sha-long: 446759df20adbb2cd05795de0684a9b14e3f1a89
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 17 Mar 2018 19:02:09 +0200
+  commit-message: "Default tidy checks"
+
+measurements:
+  Comp.Ranges.TotalTime: [2064, 2467, 2339, 2418, 2324, 2120, 2050]
+  Comp.Ranges.CtEvalsTime: [285, 335, 336, 335, 319, 290, 283]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [626, 788, 605, 748, 763, 640, 660]
+  Comp.Ranges.ImplicitLibTime: [305, 383, 372, 401, 384, 306, 301]
+  Comp.Ranges.FinalLinkTime: [14, 20, 14, 14, 17, 14, 14]
+  Comp.Ranges.LlcTime: [306, 247, 310, 247, 251, 310, 246]
+  Comp.LoopTesterApp.TotalTime: [3062, 2773, 3144, 2910, 2973, 3168, 3161]
+  Comp.LoopTesterApp.CtEvalsTime: [750, 673, 753, 689, 718, 769, 795]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [585, 580, 717, 705, 580, 664, 585]
+  Comp.LoopTesterApp.ImplicitLibTime: [355, 310, 358, 318, 351, 380, 356]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 14, 17, 14, 14, 18, 14]
+  Comp.LoopTesterApp.LlcTime: [272, 253, 232, 229, 271, 224, 251]
+  Exec.BenchmarkGame.nbody: [658, 655, 674, 656, 654, 656, 657]
+  Exec.BenchmarkGame.fasta: [583, 580, 584, 584, 581, 585, 590]
+  Exec.BenchmarkGame.fastaredux: [398, 409, 400, 532, 554, 516, 406]
+  Exec.BenchmarkGame.meteor: [69, 70, 70, 69, 69, 67, 69]
+  Exec.BenchmarkGame.fannkuchredux: [3074, 3339, 3418, 3406, 3099, 3247, 3271]
+  Exec.Examples.LoopTesterApp: [1018, 1025, 998, 1178, 1161, 1117, 1197]
+  Exec.Examples.FibRange: [964, 956, 945, 848, 854, 848, 843]
+  Exec.Examples.Collatz: [1452, 1402, 1408, 1404, 1403, 1409, 1409]
