@@ -1,0 +1,34 @@
+info:
+  name: "269"
+  date: Fri, 23 Mar 2018 22:47:49 +0000
+  branch: "cpp_improvements"
+  parents: ['38d1557']
+  sha: 1d6e43f
+  sha-long: 1d6e43f1a20de09bcc0ec5dcb68cd51bccbc44d4
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 24 Mar 2018 00:42:30 +0200
+  commit-message: "Fixed c-style casts tidy warnings"
+
+measurements:
+  Comp.Ranges.TotalTime: [1877, 1883, 1861, 1877, 1848, 1863, 1871]
+  Comp.Ranges.CtEvalsTime: [272, 270, 269, 267, 264, 266, 265]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [534, 542, 526, 537, 533, 540, 539]
+  Comp.Ranges.ImplicitLibTime: [297, 298, 305, 300, 294, 293, 296]
+  Comp.Ranges.FinalLinkTime: [16, 15, 15, 16, 16, 15, 15]
+  Comp.Ranges.LlcTime: [222, 221, 223, 222, 219, 220, 225]
+  Comp.LoopTesterApp.TotalTime: [2686, 2630, 2671, 2638, 2754, 2743, 2741]
+  Comp.LoopTesterApp.CtEvalsTime: [660, 652, 655, 649, 677, 685, 694]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [531, 508, 515, 513, 546, 527, 509]
+  Comp.LoopTesterApp.ImplicitLibTime: [299, 294, 300, 298, 310, 304, 302]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 16, 17, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [208, 198, 201, 205, 203, 206, 203]
+  Exec.BenchmarkGame.nbody: [531, 537, 536, 537, 527, 537, 523]
+  Exec.BenchmarkGame.fasta: [542, 541, 548, 547, 539, 538, 542]
+  Exec.BenchmarkGame.fastaredux: [336, 337, 343, 339, 333, 373, 340]
+  Exec.BenchmarkGame.meteor: [64, 64, 63, 64, 63, 64, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3301, 3282, 3288, 3282, 3294, 3289, 3277]
+  Exec.Examples.LoopTesterApp: [1153, 1156, 1149, 1136, 1151, 1166, 1156]
+  Exec.Examples.FibRange: [961, 962, 955, 962, 942, 958, 963]
+  Exec.Examples.Collatz: [1405, 1408, 1411, 1405, 1408, 1408, 1408]
