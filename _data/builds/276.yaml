@@ -1,0 +1,34 @@
+info:
+  name: "276"
+  date: Sat, 24 Mar 2018 18:31:33 +0000
+  branch: "master"
+  parents: ['15d161b', '952aa2c']
+  sha: 4301f4f
+  sha-long: 4301f4f118b4987a2976c4de03279d93e0f26aa2
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 24 Mar 2018 20:26:12 +0200
+  commit-message: "Merge pull request #62 from Sparrow-lang/bug_gabriel"
+
+measurements:
+  Comp.Ranges.TotalTime: [1913, 1881, 2037, 1886, 1833, 1885, 1846]
+  Comp.Ranges.CtEvalsTime: [268, 268, 263, 270, 260, 264, 258]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [553, 530, 713, 531, 529, 544, 535]
+  Comp.Ranges.ImplicitLibTime: [300, 298, 292, 301, 293, 313, 295]
+  Comp.Ranges.FinalLinkTime: [18, 15, 20, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [222, 230, 218, 229, 216, 216, 216]
+  Comp.LoopTesterApp.TotalTime: [2622, 2725, 2758, 2769, 2663, 2582, 2668]
+  Comp.LoopTesterApp.CtEvalsTime: [640, 672, 636, 681, 654, 632, 641]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [514, 501, 648, 501, 517, 498, 558]
+  Comp.LoopTesterApp.ImplicitLibTime: [298, 301, 301, 352, 293, 298, 291]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 18, 16, 15, 17, 18, 15]
+  Comp.LoopTesterApp.LlcTime: [196, 236, 198, 201, 196, 196, 197]
+  Exec.BenchmarkGame.nbody: [609, 555, 532, 532, 534, 533, 534]
+  Exec.BenchmarkGame.fasta: [573, 541, 546, 543, 548, 551, 551]
+  Exec.BenchmarkGame.fastaredux: [454, 427, 484, 423, 332, 339, 477]
+  Exec.BenchmarkGame.meteor: [63, 69, 69, 78, 73, 71, 70]
+  Exec.BenchmarkGame.fannkuchredux: [3880, 4009, 3771, 3387, 3271, 3267, 3823]
+  Exec.Examples.LoopTesterApp: [1161, 1189, 1582, 1613, 1265, 1294, 1236]
+  Exec.Examples.FibRange: [949, 956, 962, 1085, 1400, 1074, 981]
+  Exec.Examples.Collatz: [1451, 1468, 1501, 1413, 1519, 1408, 1411]
