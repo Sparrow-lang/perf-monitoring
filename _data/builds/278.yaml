@@ -1,0 +1,34 @@
+info:
+  name: "278"
+  date: Sun, 25 Mar 2018 10:49:50 +0000
+  branch: "debug_info"
+  parents: ['4301f4f']
+  sha: 5ba8f71
+  sha-long: 5ba8f71882168cc9ca94f01ab031f3cd20c6ef58
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 25 Mar 2018 13:43:50 +0300
+  commit-message: "Made source-level debugging information to work on Mac"
+
+measurements:
+  Comp.Ranges.TotalTime: [1871, 1869, 1875, 1868, 1886, 1923, 1892]
+  Comp.Ranges.CtEvalsTime: [264, 264, 264, 264, 263, 268, 266]
+  Comp.Ranges.NumCtEvals: [427, 427, 427, 427, 427, 427, 427]
+  Comp.Ranges.OptTime: [572, 567, 570, 562, 576, 589, 573]
+  Comp.Ranges.ImplicitLibTime: [298, 299, 300, 301, 302, 303, 302]
+  Comp.Ranges.FinalLinkTime: [14, 13, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [230, 231, 232, 232, 234, 236, 230]
+  Comp.LoopTesterApp.TotalTime: [2599, 2613, 2613, 2624, 2622, 2612, 2617]
+  Comp.LoopTesterApp.CtEvalsTime: [645, 649, 646, 646, 657, 648, 648]
+  Comp.LoopTesterApp.NumCtEvals: [948, 948, 948, 948, 948, 948, 948]
+  Comp.LoopTesterApp.OptTime: [548, 548, 557, 552, 551, 542, 550]
+  Comp.LoopTesterApp.ImplicitLibTime: [288, 293, 288, 300, 289, 300, 290]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 13, 13, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [212, 209, 214, 213, 215, 211, 219]
+  Exec.BenchmarkGame.nbody: [492, 489, 498, 489, 496, 492, 496]
+  Exec.BenchmarkGame.fasta: [543, 542, 544, 544, 544, 544, 546]
+  Exec.BenchmarkGame.fastaredux: [360, 361, 360, 362, 361, 361, 362]
+  Exec.BenchmarkGame.meteor: [59, 58, 59, 58, 60, 57, 57]
+  Exec.BenchmarkGame.fannkuchredux: [3036, 3038, 3037, 3041, 3034, 3035, 3034]
+  Exec.Examples.LoopTesterApp: [1226, 1032, 953, 956, 962, 955, 961]
+  Exec.Examples.FibRange: [842, 843, 840, 841, 841, 842, 841]
+  Exec.Examples.Collatz: [1341, 1341, 1338, 1338, 1343, 1338, 1338]
