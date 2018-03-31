@@ -1,0 +1,34 @@
+info:
+  name: "285"
+  date: Sat, 31 Mar 2018 16:52:33 +0000
+  branch: "rtct"
+  parents: ['9feb52f']
+  sha: a48846b
+  sha-long: a48846b6aa32b4c10bf2ff6dee412973cead274d
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 31 Mar 2018 19:46:53 +0300
+  commit-message: "Fix some mode changes functions"
+
+measurements:
+  Comp.Ranges.TotalTime: [2162, 2185, 2245, 2211, 2142, 1979, 1921]
+  Comp.Ranges.CtEvalsTime: [282, 308, 313, 284, 316, 282, 255]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [689, 661, 656, 709, 611, 576, 603]
+  Comp.Ranges.ImplicitLibTime: [321, 332, 351, 311, 348, 301, 297]
+  Comp.Ranges.FinalLinkTime: [18, 16, 19, 20, 16, 15, 16]
+  Comp.Ranges.LlcTime: [265, 240, 282, 299, 230, 224, 225]
+  Comp.LoopTesterApp.TotalTime: [2663, 2727, 2666, 2661, 2759, 2736, 2764]
+  Comp.LoopTesterApp.CtEvalsTime: [644, 639, 636, 654, 658, 669, 662]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [531, 601, 550, 518, 585, 542, 564]
+  Comp.LoopTesterApp.ImplicitLibTime: [289, 286, 307, 298, 291, 317, 293]
+  Comp.LoopTesterApp.FinalLinkTime: [17, 16, 16, 15, 16, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [211, 231, 210, 203, 222, 202, 238]
+  Exec.BenchmarkGame.nbody: [529, 519, 524, 530, 516, 521, 516]
+  Exec.BenchmarkGame.fasta: [543, 538, 538, 543, 567, 546, 592]
+  Exec.BenchmarkGame.fastaredux: [380, 431, 389, 356, 341, 339, 346]
+  Exec.BenchmarkGame.meteor: [68, 68, 69, 75, 70, 76, 75]
+  Exec.BenchmarkGame.fannkuchredux: [3431, 3389, 3390, 3385, 3466, 3447, 3429]
+  Exec.Examples.LoopTesterApp: [1324, 1241, 1254, 1209, 1201, 1286, 1201]
+  Exec.Examples.FibRange: [964, 997, 1063, 993, 956, 954, 964]
+  Exec.Examples.Collatz: [1441, 1422, 1411, 1431, 1406, 1406, 1409]
