@@ -1,0 +1,34 @@
+info:
+  name: "286"
+  date: Sat, 31 Mar 2018 18:07:50 +0000
+  branch: "rtct"
+  parents: ['a48846b']
+  sha: 1b69166
+  sha-long: 1b69166d9ba9d11f81fa41541726a6b6e558a1f0
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 31 Mar 2018 21:00:27 +0300
+  commit-message: "More rtct cleanup"
+
+measurements:
+  Comp.Ranges.TotalTime: [2507, 2360, 2338, 2344, 2465, 2357, 2417]
+  Comp.Ranges.CtEvalsTime: [319, 295, 313, 296, 291, 302, 302]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [856, 847, 777, 807, 927, 795, 870]
+  Comp.Ranges.ImplicitLibTime: [361, 323, 341, 337, 347, 334, 346]
+  Comp.Ranges.FinalLinkTime: [16, 14, 14, 14, 16, 16, 14]
+  Comp.Ranges.LlcTime: [339, 305, 297, 318, 317, 316, 296]
+  Comp.LoopTesterApp.TotalTime: [3303, 3191, 3297, 3342, 3309, 3264, 3172]
+  Comp.LoopTesterApp.CtEvalsTime: [780, 741, 756, 786, 760, 788, 751]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [793, 794, 819, 805, 820, 739, 737]
+  Comp.LoopTesterApp.ImplicitLibTime: [352, 333, 362, 354, 343, 363, 337]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 14, 15, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [258, 261, 283, 278, 272, 274, 275]
+  Exec.BenchmarkGame.nbody: [647, 713, 638, 642, 652, 631, 661]
+  Exec.BenchmarkGame.fasta: [546, 542, 558, 545, 555, 541, 546]
+  Exec.BenchmarkGame.fastaredux: [399, 401, 404, 392, 393, 397, 386]
+  Exec.BenchmarkGame.meteor: [60, 58, 60, 61, 60, 61, 60]
+  Exec.BenchmarkGame.fannkuchredux: [2860, 2808, 2822, 2884, 2798, 2821, 2871]
+  Exec.Examples.LoopTesterApp: [1149, 1117, 1067, 1129, 1104, 1084, 1101]
+  Exec.Examples.FibRange: [1251, 1272, 1279, 1280, 1273, 1320, 1320]
+  Exec.Examples.Collatz: [1390, 1392, 1388, 1400, 1431, 1390, 1388]
