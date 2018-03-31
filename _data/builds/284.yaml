@@ -1,0 +1,34 @@
+info:
+  name: "284"
+  date: Sat, 31 Mar 2018 15:11:10 +0000
+  branch: "rtct"
+  parents: ['6a90829']
+  sha: 9feb52f
+  sha-long: 9feb52ff6148bab70a37123d02fd8ad81717903c
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 31 Mar 2018 18:05:13 +0300
+  commit-message: "Remove RTCT for LLVM source code"
+
+measurements:
+  Comp.Ranges.TotalTime: [2254, 2351, 2205, 2069, 2104, 2105, 2080]
+  Comp.Ranges.CtEvalsTime: [289, 288, 286, 269, 265, 274, 279]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [711, 796, 698, 633, 684, 647, 637]
+  Comp.Ranges.ImplicitLibTime: [323, 336, 332, 329, 309, 321, 320]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 16, 14]
+  Comp.Ranges.LlcTime: [262, 287, 267, 252, 265, 254, 262]
+  Comp.LoopTesterApp.TotalTime: [2978, 2901, 2932, 2992, 2836, 2764, 2893]
+  Comp.LoopTesterApp.CtEvalsTime: [718, 695, 695, 709, 655, 663, 685]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [631, 623, 662, 652, 641, 591, 604]
+  Comp.LoopTesterApp.ImplicitLibTime: [338, 310, 309, 329, 332, 313, 303]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 16, 16, 15, 14, 19]
+  Comp.LoopTesterApp.LlcTime: [230, 220, 240, 258, 238, 223, 254]
+  Exec.BenchmarkGame.nbody: [525, 530, 501, 503, 516, 517, 513]
+  Exec.BenchmarkGame.fasta: [567, 581, 570, 581, 590, 579, 569]
+  Exec.BenchmarkGame.fastaredux: [386, 377, 373, 389, 384, 377, 380]
+  Exec.BenchmarkGame.meteor: [65, 61, 62, 62, 59, 61, 61]
+  Exec.BenchmarkGame.fannkuchredux: [3301, 3201, 3343, 3250, 3284, 3212, 3303]
+  Exec.Examples.LoopTesterApp: [1262, 1201, 1217, 1253, 1192, 1206, 1163]
+  Exec.Examples.FibRange: [945, 951, 918, 883, 913, 919, 888]
+  Exec.Examples.Collatz: [1364, 1370, 1399, 1379, 1367, 1352, 1360]
