@@ -1,0 +1,34 @@
+info:
+  name: "288"
+  date: Sun, 01 Apr 2018 10:19:41 +0000
+  branch: "rtct"
+  parents: ['37438f9']
+  sha: 4ae8946
+  sha-long: 4ae8946d0bc16fcb0fdb7788821fae7f972a58fe
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 1 Apr 2018 13:13:35 +0300
+  commit-message: "Remove canBeUsedAtCt"
+
+measurements:
+  Comp.Ranges.TotalTime: [1771, 1772, 1800, 1810, 1780, 1799, 1860]
+  Comp.Ranges.CtEvalsTime: [236, 239, 238, 241, 238, 237, 240]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [563, 567, 573, 566, 561, 563, 575]
+  Comp.Ranges.ImplicitLibTime: [279, 281, 289, 308, 286, 277, 308]
+  Comp.Ranges.FinalLinkTime: [13, 15, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [234, 233, 238, 233, 234, 265, 265]
+  Comp.LoopTesterApp.TotalTime: [2526, 2521, 2559, 2514, 2570, 2538, 2685]
+  Comp.LoopTesterApp.CtEvalsTime: [617, 615, 617, 613, 617, 616, 672]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [552, 541, 582, 545, 551, 550, 566]
+  Comp.LoopTesterApp.ImplicitLibTime: [282, 287, 296, 289, 311, 290, 286]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 14, 13, 14, 13]
+  Comp.LoopTesterApp.LlcTime: [214, 212, 214, 212, 215, 217, 211]
+  Exec.BenchmarkGame.nbody: [500, 489, 512, 511, 535, 493, 489]
+  Exec.BenchmarkGame.fasta: [546, 545, 545, 545, 545, 547, 555]
+  Exec.BenchmarkGame.fastaredux: [362, 362, 363, 387, 382, 362, 374]
+  Exec.BenchmarkGame.meteor: [59, 57, 57, 57, 57, 58, 59]
+  Exec.BenchmarkGame.fannkuchredux: [3112, 3113, 3042, 3046, 3046, 3064, 3085]
+  Exec.Examples.LoopTesterApp: [948, 948, 943, 964, 946, 955, 951]
+  Exec.Examples.FibRange: [840, 843, 840, 844, 842, 845, 861]
+  Exec.Examples.Collatz: [1339, 1346, 1342, 1341, 1345, 1340, 1345]
