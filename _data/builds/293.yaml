@@ -1,0 +1,34 @@
+info:
+  name: "293"
+  date: Sun, 01 Apr 2018 17:16:28 +0000
+  branch: "unit_tests"
+  parents: ['82c516a']
+  sha: 344655b
+  sha-long: 344655b48b4007713aa2372b3aa03ba53928abc1
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 1 Apr 2018 20:09:29 +0300
+  commit-message: "Add smoke test in CATCH"
+
+measurements:
+  Comp.Ranges.TotalTime: [2102, 2304, 2272, 2193, 2087, 2060, 2301]
+  Comp.Ranges.CtEvalsTime: [284, 304, 304, 290, 278, 276, 308]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [632, 747, 734, 685, 651, 620, 738]
+  Comp.Ranges.ImplicitLibTime: [340, 345, 326, 350, 311, 332, 362]
+  Comp.Ranges.FinalLinkTime: [15, 16, 15, 14, 15, 15, 16]
+  Comp.Ranges.LlcTime: [287, 300, 299, 275, 306, 313, 288]
+  Comp.LoopTesterApp.TotalTime: [3142, 2915, 2939, 2997, 3230, 2986, 3059]
+  Comp.LoopTesterApp.CtEvalsTime: [725, 724, 738, 718, 794, 683, 728]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [753, 598, 637, 631, 692, 724, 733]
+  Comp.LoopTesterApp.ImplicitLibTime: [349, 313, 330, 341, 369, 315, 375]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 14, 15, 18, 15, 18, 15]
+  Comp.LoopTesterApp.LlcTime: [258, 264, 226, 277, 237, 309, 228]
+  Exec.BenchmarkGame.nbody: [517, 523, 504, 610, 577, 559, 586]
+  Exec.BenchmarkGame.fasta: [566, 562, 569, 570, 617, 603, 620]
+  Exec.BenchmarkGame.fastaredux: [427, 433, 396, 378, 379, 372, 385]
+  Exec.BenchmarkGame.meteor: [63, 65, 64, 65, 65, 70, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3248, 3179, 3180, 3391, 3348, 3397, 3343]
+  Exec.Examples.LoopTesterApp: [1152, 1178, 1171, 1384, 1260, 1330, 1353]
+  Exec.Examples.FibRange: [969, 987, 1010, 962, 933, 946, 894]
+  Exec.Examples.Collatz: [1382, 1375, 1376, 1380, 1378, 1402, 1426]
