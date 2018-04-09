@@ -1,0 +1,34 @@
+info:
+  name: "305"
+  date: Mon, 09 Apr 2018 15:50:32 +0000
+  branch: "v0.11.32"
+  parents: ['712220c']
+  sha: db34f91
+  sha-long: db34f91576a8407c3f7b8a8abc095701dbc61172
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 9 Apr 2018 18:12:55 +0300
+  commit-message: "Update README.md"
+
+measurements:
+  Comp.Ranges.TotalTime: [2800, 2847, 2868, 3094, 2946, 2842, 2951]
+  Comp.Ranges.CtEvalsTime: [379, 380, 392, 430, 400, 368, 399]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [909, 895, 892, 1015, 980, 953, 945]
+  Comp.Ranges.ImplicitLibTime: [367, 372, 393, 447, 418, 382, 397]
+  Comp.Ranges.FinalLinkTime: [25, 24, 26, 25, 24, 21, 19]
+  Comp.Ranges.LlcTime: [358, 370, 345, 358, 360, 331, 363]
+  Comp.LoopTesterApp.TotalTime: [4059, 4012, 4194, 3879, 3893, 4003, 3921]
+  Comp.LoopTesterApp.CtEvalsTime: [1020, 994, 1031, 914, 929, 963, 937]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [832, 817, 861, 841, 842, 853, 821]
+  Comp.LoopTesterApp.ImplicitLibTime: [369, 431, 407, 397, 378, 403, 398]
+  Comp.LoopTesterApp.FinalLinkTime: [28, 21, 24, 22, 22, 24, 27]
+  Comp.LoopTesterApp.LlcTime: [282, 285, 276, 269, 286, 264, 273]
+  Exec.BenchmarkGame.nbody: [514, 508, 516, 513, 851, 517, 506]
+  Exec.BenchmarkGame.fasta: [565, 562, 570, 567, 573, 566, 562]
+  Exec.BenchmarkGame.fastaredux: [382, 373, 378, 383, 388, 381, 387]
+  Exec.BenchmarkGame.meteor: [61, 64, 62, 62, 62, 62, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3139, 3179, 3133, 3129, 3139, 3138, 3114]
+  Exec.Examples.LoopTesterApp: [2741, 2385, 2327, 2335, 2306, 2441, 2388]
+  Exec.Examples.FibRange: [859, 927, 922, 919, 879, 890, 875]
+  Exec.Examples.Collatz: [1368, 1368, 1365, 1369, 1365, 1370, 1361]
