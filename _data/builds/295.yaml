@@ -1,0 +1,34 @@
+info:
+  name: "295"
+  date: Mon, 09 Apr 2018 10:23:46 +0000
+  branch: "docs"
+  parents: ['8757ff3']
+  sha: 3f349b4
+  sha-long: 3f349b47744bd692c6ffb594019de981ddbd3032
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 9 Apr 2018 13:18:10 +0300
+  commit-message: "Adding PhD thesis info"
+
+measurements:
+  Comp.Ranges.TotalTime: [1742, 1741, 1743, 1730, 1756, 1734, 1757]
+  Comp.Ranges.CtEvalsTime: [235, 234, 233, 234, 238, 235, 232]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [524, 532, 524, 520, 541, 521, 542]
+  Comp.Ranges.ImplicitLibTime: [282, 284, 292, 282, 279, 281, 283]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [220, 218, 217, 215, 220, 218, 215]
+  Comp.LoopTesterApp.TotalTime: [2522, 2504, 2517, 2495, 2500, 2544, 2504]
+  Comp.LoopTesterApp.CtEvalsTime: [614, 611, 612, 602, 611, 623, 611]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [510, 503, 499, 498, 501, 502, 504]
+  Comp.LoopTesterApp.ImplicitLibTime: [279, 286, 281, 289, 283, 286, 286]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 14, 15, 15, 14, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [202, 196, 196, 194, 197, 195, 194]
+  Exec.BenchmarkGame.nbody: [528, 531, 524, 529, 531, 522, 536]
+  Exec.BenchmarkGame.fasta: [552, 552, 545, 561, 551, 557, 569]
+  Exec.BenchmarkGame.fastaredux: [333, 336, 334, 335, 343, 336, 333]
+  Exec.BenchmarkGame.meteor: [63, 63, 63, 63, 65, 65, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3270, 3277, 3298, 3265, 3347, 3265, 3259]
+  Exec.Examples.LoopTesterApp: [1226, 1163, 1175, 1171, 1165, 1172, 1148]
+  Exec.Examples.FibRange: [968, 957, 950, 959, 967, 968, 947]
+  Exec.Examples.Collatz: [1405, 1405, 1402, 1403, 1408, 1404, 1404]
