@@ -1,0 +1,34 @@
+info:
+  name: "296"
+  date: Mon, 09 Apr 2018 13:55:23 +0000
+  branch: "docs"
+  parents: ['3f349b4']
+  sha: 798deea
+  sha-long: 798deea87eda330e1f76e406f8e0339bb93571e4
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 9 Apr 2018 16:50:08 +0300
+  commit-message: "Converting existing documentation to rst format."
+
+measurements:
+  Comp.Ranges.TotalTime: [1712, 1707, 1697, 1687, 1711, 1729, 1711]
+  Comp.Ranges.CtEvalsTime: [229, 229, 228, 228, 230, 232, 231]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [521, 518, 510, 503, 520, 525, 514]
+  Comp.Ranges.ImplicitLibTime: [276, 276, 279, 282, 276, 280, 279]
+  Comp.Ranges.FinalLinkTime: [15, 15, 14, 15, 15, 14, 14]
+  Comp.Ranges.LlcTime: [212, 214, 213, 212, 216, 213, 211]
+  Comp.LoopTesterApp.TotalTime: [2430, 2430, 2436, 2449, 2460, 2443, 2435]
+  Comp.LoopTesterApp.CtEvalsTime: [599, 592, 596, 595, 599, 594, 595]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [486, 486, 490, 494, 498, 493, 493]
+  Comp.LoopTesterApp.ImplicitLibTime: [277, 277, 280, 276, 280, 279, 277]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 18, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [193, 194, 194, 195, 195, 194, 193]
+  Exec.BenchmarkGame.nbody: [513, 517, 518, 515, 513, 525, 515]
+  Exec.BenchmarkGame.fasta: [541, 535, 535, 535, 536, 539, 535]
+  Exec.BenchmarkGame.fastaredux: [331, 333, 332, 331, 331, 333, 331]
+  Exec.BenchmarkGame.meteor: [62, 63, 62, 62, 64, 64, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3252, 3248, 3250, 3248, 3251, 3252, 3248]
+  Exec.Examples.LoopTesterApp: [1119, 1133, 1122, 1129, 1127, 1127, 1133]
+  Exec.Examples.FibRange: [936, 937, 937, 938, 936, 937, 937]
+  Exec.Examples.Collatz: [1398, 1396, 1400, 1398, 1397, 1397, 1398]
