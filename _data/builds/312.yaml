@@ -1,0 +1,34 @@
+info:
+  name: "312"
+  date: Wed, 25 Apr 2018 18:46:27 +0000
+  branch: "unit_tests"
+  parents: ['9906761']
+  sha: 2fde596
+  sha-long: 2fde596c587fc349d6355c38de50a525907ec434
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Wed, 25 Apr 2018 21:39:01 +0300
+  commit-message: "Attempt to fix travis failing on MacOsX"
+
+measurements:
+  Comp.Ranges.TotalTime: [2019, 2016, 2112, 2083, 2022, 2081, 2158]
+  Comp.Ranges.CtEvalsTime: [267, 264, 276, 273, 262, 279, 288]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [643, 647, 678, 674, 667, 642, 656]
+  Comp.Ranges.ImplicitLibTime: [311, 330, 335, 345, 318, 324, 348]
+  Comp.Ranges.FinalLinkTime: [15, 14, 15, 16, 16, 15, 16]
+  Comp.Ranges.LlcTime: [272, 260, 287, 254, 273, 274, 291]
+  Comp.LoopTesterApp.TotalTime: [2923, 3007, 2889, 2831, 2881, 2967, 2980]
+  Comp.LoopTesterApp.CtEvalsTime: [718, 729, 711, 687, 702, 704, 712]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [615, 667, 630, 615, 613, 663, 671]
+  Comp.LoopTesterApp.ImplicitLibTime: [333, 344, 313, 305, 346, 334, 350]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 16, 16, 15, 14, 14, 15]
+  Comp.LoopTesterApp.LlcTime: [236, 237, 249, 259, 231, 253, 238]
+  Exec.BenchmarkGame.nbody: [738, 753, 752, 721, 680, 689, 685]
+  Exec.BenchmarkGame.fasta: [642, 613, 615, 614, 615, 621, 622]
+  Exec.BenchmarkGame.fastaredux: [415, 418, 430, 413, 417, 420, 417]
+  Exec.BenchmarkGame.meteor: [65, 67, 66, 67, 67, 67, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3216, 3200, 3238, 3209, 3229, 3163, 3172]
+  Exec.Examples.LoopTesterApp: [1078, 1027, 1038, 1013, 1032, 1091, 1019]
+  Exec.Examples.FibRange: [911, 889, 890, 925, 937, 957, 935]
+  Exec.Examples.Collatz: [1461, 1471, 1464, 1474, 1474, 1461, 1476]
