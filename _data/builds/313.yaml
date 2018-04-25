@@ -1,0 +1,34 @@
+info:
+  name: "313"
+  date: Wed, 25 Apr 2018 19:24:38 +0000
+  branch: "unit_tests"
+  parents: ['2fde596']
+  sha: 23325d9
+  sha-long: 23325d98f02c94d8a17345d4300bb1919dd9ac6f
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Wed, 25 Apr 2018 22:17:04 +0300
+  commit-message: "Another attempt of fixing MacOsX build failing on Travis"
+
+measurements:
+  Comp.Ranges.TotalTime: [1818, 1772, 1770, 1827, 1887, 1862, 1885]
+  Comp.Ranges.CtEvalsTime: [243, 242, 237, 244, 261, 247, 256]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [549, 537, 538, 556, 565, 564, 571]
+  Comp.Ranges.ImplicitLibTime: [289, 286, 287, 285, 307, 300, 294]
+  Comp.Ranges.FinalLinkTime: [20, 15, 15, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [222, 220, 219, 234, 226, 235, 231]
+  Comp.LoopTesterApp.TotalTime: [2636, 2538, 2542, 2595, 2590, 2633, 2739]
+  Comp.LoopTesterApp.CtEvalsTime: [646, 618, 618, 630, 628, 639, 673]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [534, 507, 515, 526, 518, 537, 539]
+  Comp.LoopTesterApp.ImplicitLibTime: [290, 287, 285, 298, 293, 304, 307]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [200, 199, 198, 209, 202, 204, 216]
+  Exec.BenchmarkGame.nbody: [544, 533, 608, 702, 542, 524, 536]
+  Exec.BenchmarkGame.fasta: [549, 546, 561, 558, 542, 550, 565]
+  Exec.BenchmarkGame.fastaredux: [334, 335, 338, 353, 334, 336, 335]
+  Exec.BenchmarkGame.meteor: [64, 65, 63, 63, 64, 63, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3289, 3299, 3291, 3286, 3304, 3308, 3279]
+  Exec.Examples.LoopTesterApp: [1223, 1229, 1227, 1213, 1240, 1238, 1236]
+  Exec.Examples.FibRange: [962, 953, 965, 983, 953, 990, 963]
+  Exec.Examples.Collatz: [1411, 1421, 1420, 1414, 1418, 1409, 1418]
