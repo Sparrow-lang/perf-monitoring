@@ -1,0 +1,34 @@
+info:
+  name: "323"
+  date: Sun, 29 Apr 2018 18:13:12 +0000
+  branch: "build"
+  parents: ['f630191']
+  sha: 4233f24
+  sha-long: 4233f245b47371f6cd6b45e27b818eb29310e6c7
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 29 Apr 2018 21:06:59 +0300
+  commit-message: "Make Sparrow work with both LLVM 5 and 6"
+
+measurements:
+  Comp.Ranges.TotalTime: [2233, 2044, 2170, 2319, 2255, 2255, 2010]
+  Comp.Ranges.CtEvalsTime: [289, 259, 280, 298, 293, 293, 260]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [735, 666, 655, 718, 770, 727, 633]
+  Comp.Ranges.ImplicitLibTime: [379, 307, 372, 359, 335, 357, 327]
+  Comp.Ranges.FinalLinkTime: [15, 14, 15, 15, 15, 16, 15]
+  Comp.Ranges.LlcTime: [250, 273, 278, 305, 250, 255, 265]
+  Comp.LoopTesterApp.TotalTime: [2996, 3117, 2858, 3155, 2932, 2840, 2853]
+  Comp.LoopTesterApp.CtEvalsTime: [702, 723, 665, 765, 670, 672, 660]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [628, 716, 650, 679, 720, 612, 678]
+  Comp.LoopTesterApp.ImplicitLibTime: [343, 341, 320, 328, 327, 313, 330]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 14, 14, 17, 15, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [259, 230, 255, 231, 232, 251, 228]
+  Exec.BenchmarkGame.nbody: [654, 659, 666, 667, 665, 678, 662]
+  Exec.BenchmarkGame.fasta: [592, 649, 597, 592, 594, 606, 597]
+  Exec.BenchmarkGame.fastaredux: [462, 479, 463, 459, 400, 402, 411]
+  Exec.BenchmarkGame.meteor: [61, 62, 62, 62, 63, 62, 68]
+  Exec.BenchmarkGame.fannkuchredux: [3200, 3382, 3268, 3272, 3255, 3303, 3213]
+  Exec.Examples.LoopTesterApp: [1349, 1425, 1351, 1399, 1287, 1272, 1299]
+  Exec.Examples.FibRange: [911, 850, 858, 870, 864, 856, 867]
+  Exec.Examples.Collatz: [1399, 1408, 1419, 1447, 1434, 1440, 1442]
