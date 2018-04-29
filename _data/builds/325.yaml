@@ -1,0 +1,34 @@
+info:
+  name: "325"
+  date: Sun, 29 Apr 2018 19:16:22 +0000
+  branch: "build"
+  parents: ['bb0866c']
+  sha: e3a69af
+  sha-long: e3a69af2c89f532de4da832d01fc0e814d1efe80
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 29 Apr 2018 22:10:49 +0300
+  commit-message: "Make Sparrow compile with GCC as well"
+
+measurements:
+  Comp.Ranges.TotalTime: [1843, 1837, 1831, 1817, 1798, 1817, 1830]
+  Comp.Ranges.CtEvalsTime: [248, 246, 245, 243, 243, 243, 246]
+  Comp.Ranges.NumCtEvals: [374, 374, 374, 374, 374, 374, 374]
+  Comp.Ranges.OptTime: [591, 590, 582, 579, 578, 585, 577]
+  Comp.Ranges.ImplicitLibTime: [287, 296, 297, 297, 284, 289, 297]
+  Comp.Ranges.FinalLinkTime: [14, 14, 13, 14, 13, 14, 14]
+  Comp.Ranges.LlcTime: [235, 231, 234, 232, 232, 233, 232]
+  Comp.LoopTesterApp.TotalTime: [2555, 2574, 2556, 2558, 2618, 2620, 2603]
+  Comp.LoopTesterApp.CtEvalsTime: [630, 645, 627, 626, 633, 634, 633]
+  Comp.LoopTesterApp.NumCtEvals: [879, 879, 879, 879, 879, 879, 879]
+  Comp.LoopTesterApp.OptTime: [556, 562, 556, 559, 566, 572, 577]
+  Comp.LoopTesterApp.ImplicitLibTime: [283, 290, 296, 284, 303, 290, 299]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 13, 14, 14, 14, 13, 14]
+  Comp.LoopTesterApp.LlcTime: [213, 213, 214, 216, 220, 216, 216]
+  Exec.BenchmarkGame.nbody: [492, 497, 502, 496, 496, 493, 495]
+  Exec.BenchmarkGame.fasta: [554, 550, 551, 549, 550, 551, 550]
+  Exec.BenchmarkGame.fastaredux: [405, 378, 363, 362, 363, 362, 363]
+  Exec.BenchmarkGame.meteor: [59, 62, 61, 60, 60, 60, 60]
+  Exec.BenchmarkGame.fannkuchredux: [3055, 3053, 3047, 3041, 3055, 3050, 3055]
+  Exec.Examples.LoopTesterApp: [974, 979, 973, 979, 978, 973, 971]
+  Exec.Examples.FibRange: [843, 851, 840, 846, 841, 842, 850]
+  Exec.Examples.Collatz: [1348, 1350, 1347, 1351, 1358, 1354, 1351]
