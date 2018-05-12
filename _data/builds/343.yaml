@@ -1,0 +1,34 @@
+info:
+  name: "343"
+  date: Sat, 12 May 2018 20:13:24 +0000
+  branch: "fix_docker"
+  parents: ['2f6c04b']
+  sha: ee18d13
+  sha-long: ee18d135c710d53a265cd7aa39bb7c9197f5c8b6
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 12 May 2018 23:05:34 +0300
+  commit-message: "Fix also arch linux Docker"
+
+measurements:
+  Comp.Ranges.TotalTime: [2247, 2310, 2388, 2300, 2327, 2163, 2277]
+  Comp.Ranges.CtEvalsTime: [262, 259, 270, 272, 265, 242, 271]
+  Comp.Ranges.NumCtEvals: [319, 319, 319, 319, 319, 319, 319]
+  Comp.Ranges.OptTime: [710, 775, 796, 786, 751, 692, 786]
+  Comp.Ranges.ImplicitLibTime: [295, 296, 298, 278, 303, 270, 268]
+  Comp.Ranges.FinalLinkTime: [18, 15, 18, 17, 17, 17, 18]
+  Comp.Ranges.LlcTime: [309, 309, 294, 298, 313, 316, 291]
+  Comp.LoopTesterApp.TotalTime: [3088, 3257, 3150, 3117, 3192, 3133, 3317]
+  Comp.LoopTesterApp.CtEvalsTime: [646, 703, 671, 669, 679, 678, 728]
+  Comp.LoopTesterApp.NumCtEvals: [734, 734, 734, 734, 734, 734, 734]
+  Comp.LoopTesterApp.OptTime: [754, 756, 718, 686, 748, 718, 747]
+  Comp.LoopTesterApp.ImplicitLibTime: [287, 318, 292, 299, 300, 279, 315]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 18, 16, 17, 17, 16]
+  Comp.LoopTesterApp.LlcTime: [278, 270, 266, 272, 269, 268, 261]
+  Exec.BenchmarkGame.nbody: [767, 781, 760, 787, 759, 742, 777]
+  Exec.BenchmarkGame.fasta: [641, 690, 676, 652, 675, 677, 698]
+  Exec.BenchmarkGame.fastaredux: [490, 445, 485, 474, 470, 502, 496]
+  Exec.BenchmarkGame.meteor: [66, 65, 67, 67, 64, 63, 61]
+  Exec.BenchmarkGame.fannkuchredux: [3311, 3375, 3386, 3484, 3469, 3395, 3267]
+  Exec.Examples.LoopTesterApp: [1217, 1142, 1159, 1281, 1272, 1257, 1179]
+  Exec.Examples.FibRange: [1071, 1105, 1007, 1041, 1008, 989, 956]
+  Exec.Examples.Collatz: [1422, 1471, 1425, 1436, 1441, 1459, 1465]
