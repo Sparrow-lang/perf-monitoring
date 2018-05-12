@@ -1,0 +1,34 @@
+info:
+  name: "342"
+  date: Sat, 12 May 2018 18:32:07 +0000
+  branch: "fix_docker"
+  parents: ['0b385b6']
+  sha: 2f6c04b
+  sha-long: 2f6c04be33d0a13f1d0183974f5bedc37251cc85
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 12 May 2018 21:25:51 +0300
+  commit-message: "Add externals and unittests to docker"
+
+measurements:
+  Comp.Ranges.TotalTime: [1754, 1750, 1757, 1774, 1743, 1762, 1752]
+  Comp.Ranges.CtEvalsTime: [211, 210, 213, 214, 212, 210, 209]
+  Comp.Ranges.NumCtEvals: [319, 319, 319, 319, 319, 319, 319]
+  Comp.Ranges.OptTime: [534, 534, 523, 531, 530, 538, 537]
+  Comp.Ranges.ImplicitLibTime: [226, 228, 236, 227, 226, 227, 230]
+  Comp.Ranges.FinalLinkTime: [16, 16, 15, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [220, 215, 215, 216, 218, 215, 215]
+  Comp.LoopTesterApp.TotalTime: [2474, 2450, 2505, 2528, 2475, 2488, 2462]
+  Comp.LoopTesterApp.CtEvalsTime: [534, 535, 542, 552, 536, 545, 532]
+  Comp.LoopTesterApp.NumCtEvals: [734, 734, 734, 734, 734, 734, 734]
+  Comp.LoopTesterApp.OptTime: [515, 503, 514, 523, 519, 514, 510]
+  Comp.LoopTesterApp.ImplicitLibTime: [230, 224, 234, 230, 227, 225, 227]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 19, 16, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [199, 204, 200, 201, 205, 201, 204]
+  Exec.BenchmarkGame.nbody: [524, 528, 551, 546, 525, 535, 535]
+  Exec.BenchmarkGame.fasta: [556, 558, 553, 555, 560, 557, 552]
+  Exec.BenchmarkGame.fastaredux: [339, 335, 335, 331, 335, 333, 335]
+  Exec.BenchmarkGame.meteor: [65, 66, 65, 66, 66, 66, 67]
+  Exec.BenchmarkGame.fannkuchredux: [3379, 3382, 3392, 3389, 3366, 3356, 3397]
+  Exec.Examples.LoopTesterApp: [1291, 1282, 1265, 1267, 1276, 1250, 1248]
+  Exec.Examples.FibRange: [954, 949, 958, 951, 946, 941, 944]
+  Exec.Examples.Collatz: [1394, 1392, 1396, 1395, 1394, 1392, 1396]
