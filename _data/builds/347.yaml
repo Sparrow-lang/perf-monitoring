@@ -1,0 +1,34 @@
+info:
+  name: "347"
+  date: Tue, 15 May 2018 20:37:17 +0000
+  branch: "cteval_opt"
+  parents: ['53197e2']
+  sha: c2b19f8
+  sha-long: c2b19f83632ffa952f64fa4d8c360fed2e187a51
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Tue, 15 May 2018 23:29:03 +0300
+  commit-message: "Reduce the number of CT evals"
+
+measurements:
+  Comp.Ranges.TotalTime: [1913, 1934, 1927, 1895, 1896, 1890, 1903]
+  Comp.Ranges.CtEvalsTime: [166, 165, 167, 162, 163, 167, 167]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [679, 699, 702, 686, 674, 674, 679]
+  Comp.Ranges.ImplicitLibTime: [237, 245, 229, 239, 241, 226, 227]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [270, 263, 266, 263, 266, 271, 268]
+  Comp.LoopTesterApp.TotalTime: [2459, 2451, 2467, 2496, 2475, 2469, 2437]
+  Comp.LoopTesterApp.CtEvalsTime: [365, 363, 370, 369, 367, 371, 363]
+  Comp.LoopTesterApp.NumCtEvals: [259, 259, 259, 259, 259, 259, 259]
+  Comp.LoopTesterApp.OptTime: [669, 673, 662, 671, 679, 673, 668]
+  Comp.LoopTesterApp.ImplicitLibTime: [243, 238, 230, 245, 228, 227, 225]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 13, 14, 14, 13, 14, 13]
+  Comp.LoopTesterApp.LlcTime: [245, 248, 248, 246, 244, 247, 251]
+  Exec.BenchmarkGame.nbody: [634, 899, 639, 624, 619, 628, 620]
+  Exec.BenchmarkGame.fasta: [545, 539, 542, 542, 539, 541, 539]
+  Exec.BenchmarkGame.fastaredux: [386, 384, 382, 382, 381, 383, 383]
+  Exec.BenchmarkGame.meteor: [58, 61, 60, 61, 60, 59, 59]
+  Exec.BenchmarkGame.fannkuchredux: [2815, 2813, 2835, 2839, 2841, 2837, 2837]
+  Exec.Examples.LoopTesterApp: [1001, 985, 993, 1001, 990, 978, 983]
+  Exec.Examples.FibRange: [843, 838, 841, 838, 841, 841, 838]
+  Exec.Examples.Collatz: [1367, 1366, 1366, 1369, 1372, 1374, 1365]
