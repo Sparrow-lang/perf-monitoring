@@ -1,0 +1,34 @@
+info:
+  name: "350"
+  date: Sun, 20 May 2018 08:27:33 +0000
+  branch: "master"
+  parents: ['53197e2', '7c7db73']
+  sha: 8769eec
+  sha-long: 8769eecb0936c5ea19ec697857a10d022c17cae4
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 20 May 2018 10:46:38 +0300
+  commit-message: "Merge pull request #70 from Sparrow-lang/cteval_opt"
+
+measurements:
+  Comp.Ranges.TotalTime: [1866, 1886, 1882, 1848, 1877, 1874, 1868]
+  Comp.Ranges.CtEvalsTime: [162, 166, 166, 161, 164, 163, 161]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [672, 671, 660, 661, 667, 665, 657]
+  Comp.Ranges.ImplicitLibTime: [229, 226, 241, 222, 238, 242, 232]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [261, 268, 262, 262, 261, 257, 262]
+  Comp.LoopTesterApp.TotalTime: [2418, 2409, 2441, 2422, 2420, 2452, 2434]
+  Comp.LoopTesterApp.CtEvalsTime: [359, 359, 365, 361, 361, 362, 363]
+  Comp.LoopTesterApp.NumCtEvals: [259, 259, 259, 259, 259, 259, 259]
+  Comp.LoopTesterApp.OptTime: [653, 649, 653, 650, 652, 649, 654]
+  Comp.LoopTesterApp.ImplicitLibTime: [228, 228, 242, 228, 240, 241, 232]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [245, 246, 242, 242, 240, 243, 245]
+  Exec.BenchmarkGame.nbody: [623, 628, 628, 632, 637, 622, 628]
+  Exec.BenchmarkGame.fasta: [544, 540, 541, 544, 543, 542, 543]
+  Exec.BenchmarkGame.fastaredux: [380, 382, 380, 381, 382, 382, 408]
+  Exec.BenchmarkGame.meteor: [58, 60, 61, 61, 60, 59, 59]
+  Exec.BenchmarkGame.fannkuchredux: [2845, 2851, 2962, 2847, 2839, 2846, 2828]
+  Exec.Examples.LoopTesterApp: [990, 993, 988, 996, 1016, 993, 989]
+  Exec.Examples.FibRange: [832, 833, 835, 834, 833, 837, 836]
+  Exec.Examples.Collatz: [1374, 1372, 1369, 1369, 1366, 1366, 1366]
