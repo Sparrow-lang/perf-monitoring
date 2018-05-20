@@ -1,0 +1,34 @@
+info:
+  name: "348"
+  date: Sun, 20 May 2018 07:40:30 +0000
+  branch: "cteval_opt"
+  parents: ['c2b19f8']
+  sha: 7c7db73
+  sha-long: 7c7db734007f69905706d9e62a1b8ffcfaafa24a
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 20 May 2018 09:32:34 +0200
+  commit-message: "Fix Sparrow parser test"
+
+measurements:
+  Comp.Ranges.TotalTime: [1902, 1884, 1902, 1888, 1907, 1854, 1861]
+  Comp.Ranges.CtEvalsTime: [167, 162, 164, 162, 165, 159, 161]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [685, 683, 688, 666, 665, 674, 673]
+  Comp.Ranges.ImplicitLibTime: [234, 225, 237, 245, 247, 224, 230]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 13, 13, 14, 14]
+  Comp.Ranges.LlcTime: [266, 264, 265, 265, 265, 260, 257]
+  Comp.LoopTesterApp.TotalTime: [2403, 2416, 2454, 2465, 2448, 2457, 2419]
+  Comp.LoopTesterApp.CtEvalsTime: [359, 362, 367, 363, 366, 363, 360]
+  Comp.LoopTesterApp.NumCtEvals: [259, 259, 259, 259, 259, 259, 259]
+  Comp.LoopTesterApp.OptTime: [646, 648, 647, 657, 665, 656, 654]
+  Comp.LoopTesterApp.ImplicitLibTime: [221, 224, 239, 249, 229, 247, 223]
+  Comp.LoopTesterApp.FinalLinkTime: [13, 14, 14, 13, 14, 13, 14]
+  Comp.LoopTesterApp.LlcTime: [247, 247, 250, 245, 243, 251, 253]
+  Exec.BenchmarkGame.nbody: [638, 635, 649, 630, 629, 637, 642]
+  Exec.BenchmarkGame.fasta: [564, 561, 565, 566, 559, 558, 561]
+  Exec.BenchmarkGame.fastaredux: [398, 390, 387, 391, 415, 392, 397]
+  Exec.BenchmarkGame.meteor: [62, 65, 60, 60, 59, 59, 61]
+  Exec.BenchmarkGame.fannkuchredux: [2906, 2970, 2913, 2922, 2910, 2919, 2919]
+  Exec.Examples.LoopTesterApp: [1008, 1014, 998, 998, 998, 1014, 1018]
+  Exec.Examples.FibRange: [852, 841, 853, 842, 840, 838, 838]
+  Exec.Examples.Collatz: [1389, 1388, 1391, 1401, 1396, 1394, 1405]
