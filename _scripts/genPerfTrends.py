@@ -61,24 +61,27 @@ def main():
     shaMap = {}
     branchesMap = {}
     for f in yamlFiles:
-        # Load the content of the yaml
-        stream = open(f, 'r')
-        content = yaml.load(stream)
-        # Index it
-        buildName = str(content['info']['name'])
-        allBuilds[buildName] = content
-        if buildName == str(args.buildName):
-            mainBuildData = content
-        sha = content['info']['sha']
-        shaMap[sha] = buildName
-        branchName = content['info']['branch']
-        if branchName in branchesMap:
-            branchesMap[branchName].append(content)
-        else:
-            branchesMap[branchName] = [ content ]
-        # Parse the date, and add it to the info
-        dateTuple = parsedate_tz(content['info']['date'])
-        content['info']['parsedDate'] = time.mktime(dateTuple[:9])
+        try:
+            # Load the content of the yaml
+            stream = open(f, 'r')
+            content = yaml.load(stream)
+            # Index it
+            buildName = str(content['info']['name'])
+            allBuilds[buildName] = content
+            if buildName == str(args.buildName):
+                mainBuildData = content
+            sha = content['info']['sha']
+            shaMap[sha] = buildName
+            branchName = content['info']['branch']
+            if branchName in branchesMap:
+                branchesMap[branchName].append(content)
+            else:
+                branchesMap[branchName] = [ content ]
+            # Parse the date, and add it to the info
+            dateTuple = parsedate_tz(content['info']['date'])
+            content['info']['parsedDate'] = time.mktime(dateTuple[:9])
+        except:
+            pass
 
     if args.buildName not in allBuilds.keys():
         print('ERROR: Cannot find the given build!')

@@ -23,8 +23,8 @@ def main():
 
     # Add the given build
     content.insert(0, args.buildName)
-    if len(content) > 100:
-        del content[100:]
+    if len(content) > 7:
+        del content[7:]
 
     # Write the output
     outF = sys.stdout
