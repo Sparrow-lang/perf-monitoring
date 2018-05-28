@@ -1,0 +1,34 @@
+info:
+  name: "354"
+  date: Mon, 28 May 2018 01:19:37 +0000
+  branch: "types_work"
+  parents: ['dd79ae6']
+  sha: cce3463
+  sha-long: cce3463ce5bbdbf6841c4ac87e1fd914c11fc77a
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 27 May 2018 18:13:03 -0700
+  commit-message: "Remove target triple line from parserIf.ll"
+
+measurements:
+  Comp.Ranges.TotalTime: [1554, 1528, 1576, 1574, 1600, 1554, 1570]
+  Comp.Ranges.CtEvalsTime: [144, 140, 145, 146, 146, 143, 146]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [516, 499, 516, 515, 526, 508, 511]
+  Comp.Ranges.ImplicitLibTime: [189, 186, 192, 189, 198, 192, 187]
+  Comp.Ranges.FinalLinkTime: [15, 15, 16, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [209, 211, 216, 212, 214, 212, 213]
+  Comp.LoopTesterApp.TotalTime: [2097, 2139, 2138, 2144, 2104, 2155, 2141]
+  Comp.LoopTesterApp.CtEvalsTime: [330, 335, 345, 336, 326, 340, 339]
+  Comp.LoopTesterApp.NumCtEvals: [257, 257, 257, 257, 257, 257, 257]
+  Comp.LoopTesterApp.OptTime: [515, 495, 504, 496, 505, 516, 501]
+  Comp.LoopTesterApp.ImplicitLibTime: [189, 230, 192, 236, 211, 218, 231]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 16, 15, 16, 15, 15, 17]
+  Comp.LoopTesterApp.LlcTime: [198, 199, 202, 200, 198, 201, 197]
+  Exec.BenchmarkGame.nbody: [528, 525, 520, 523, 534, 526, 524]
+  Exec.BenchmarkGame.fasta: [554, 553, 556, 554, 555, 554, 554]
+  Exec.BenchmarkGame.fastaredux: [331, 331, 333, 330, 332, 332, 331]
+  Exec.BenchmarkGame.meteor: [66, 65, 66, 64, 64, 66, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3349, 3348, 3355, 3352, 3350, 3359, 3359]
+  Exec.Examples.LoopTesterApp: [1183, 1176, 1175, 1208, 1203, 1193, 1194]
+  Exec.Examples.FibRange: [942, 943, 942, 943, 942, 946, 942]
+  Exec.Examples.Collatz: [1391, 1390, 1391, 1389, 1391, 1390, 1390]
