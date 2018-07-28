@@ -1,0 +1,34 @@
+info:
+  name: "361"
+  date: Sat, 28 Jul 2018 22:00:59 +0000
+  branch: "test_feather"
+  parents: ['6f5ef0d']
+  sha: 25aacc9
+  sha-long: 25aacc97752b4be22e07c077501426a195378892
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 28 Jul 2018 23:53:33 +0200
+  commit-message: "Add tests for Nest’s Type and Node"
+
+measurements:
+  Comp.Ranges.TotalTime: [1648, 1626, 1663, 1592, 1571, 1573, 1572]
+  Comp.Ranges.CtEvalsTime: [150, 147, 155, 145, 146, 142, 144]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [562, 559, 570, 534, 517, 536, 524]
+  Comp.Ranges.ImplicitLibTime: [191, 193, 192, 190, 194, 187, 197]
+  Comp.Ranges.FinalLinkTime: [21, 15, 18, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [227, 225, 219, 225, 216, 221, 210]
+  Comp.LoopTesterApp.TotalTime: [1846, 1896, 1932, 1912, 1908, 1859, 1891]
+  Comp.LoopTesterApp.CtEvalsTime: [188, 196, 201, 198, 198, 192, 190]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [502, 512, 534, 510, 514, 497, 528]
+  Comp.LoopTesterApp.ImplicitLibTime: [186, 190, 193, 200, 194, 187, 189]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 15, 16, 15, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [202, 206, 198, 202, 200, 202, 208]
+  Exec.BenchmarkGame.nbody: [552, 538, 529, 550, 547, 527, 530]
+  Exec.BenchmarkGame.fasta: [560, 561, 561, 570, 562, 554, 559]
+  Exec.BenchmarkGame.fastaredux: [334, 335, 342, 340, 335, 336, 338]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 65, 66, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3368, 3385, 3401, 3385, 3388, 3381, 3398]
+  Exec.Examples.LoopTesterApp: [1151, 1176, 1160, 1176, 1151, 1159, 1155]
+  Exec.Examples.FibRange: [965, 958, 955, 954, 952, 956, 977]
+  Exec.Examples.Collatz: [1399, 1394, 1398, 1395, 1399, 1397, 1397]
