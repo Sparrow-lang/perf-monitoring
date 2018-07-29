@@ -1,0 +1,34 @@
+info:
+  name: "362"
+  date: Sun, 29 Jul 2018 22:32:59 +0000
+  branch: "test_feather"
+  parents: ['25aacc9']
+  sha: 719b55d
+  sha-long: 719b55d60844277a080ec295ceb2c92fa87de024
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 30 Jul 2018 00:25:22 +0200
+  commit-message: "Add C++ interfaces for Feather types"
+
+measurements:
+  Comp.Ranges.TotalTime: [1661, 1977, 1800, 1723, 1915, 1874, 1893]
+  Comp.Ranges.CtEvalsTime: [149, 189, 150, 147, 186, 174, 183]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [536, 555, 711, 560, 546, 541, 546]
+  Comp.Ranges.ImplicitLibTime: [194, 268, 193, 206, 248, 248, 250]
+  Comp.Ranges.FinalLinkTime: [16, 18, 20, 21, 18, 20, 16]
+  Comp.Ranges.LlcTime: [281, 309, 226, 297, 290, 274, 279]
+  Comp.LoopTesterApp.TotalTime: [2242, 2301, 2365, 1988, 2402, 2062, 2117]
+  Comp.LoopTesterApp.CtEvalsTime: [228, 241, 235, 196, 249, 197, 193]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [514, 520, 677, 518, 659, 664, 678]
+  Comp.LoopTesterApp.ImplicitLibTime: [227, 260, 243, 199, 272, 195, 192]
+  Comp.LoopTesterApp.FinalLinkTime: [21, 16, 18, 16, 19, 18, 15]
+  Comp.LoopTesterApp.LlcTime: [282, 256, 205, 278, 207, 201, 256]
+  Exec.BenchmarkGame.nbody: [672, 916, 530, 539, 933, 951, 977]
+  Exec.BenchmarkGame.fasta: [564, 564, 566, 603, 563, 561, 810]
+  Exec.BenchmarkGame.fastaredux: [340, 342, 537, 473, 556, 502, 546]
+  Exec.BenchmarkGame.meteor: [65, 66, 66, 66, 66, 65, 66]
+  Exec.BenchmarkGame.fannkuchredux: [4061, 4103, 3380, 4050, 3704, 3531, 3447]
+  Exec.Examples.LoopTesterApp: [1244, 1238, 1253, 1252, 1240, 1260, 1251]
+  Exec.Examples.FibRange: [980, 968, 980, 1383, 974, 1283, 963]
+  Exec.Examples.Collatz: [1407, 1404, 1509, 1401, 1524, 1542, 1404]
