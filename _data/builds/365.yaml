@@ -1,0 +1,34 @@
+info:
+  name: "365"
+  date: Sun, 05 Aug 2018 14:07:37 +0000
+  branch: "test_feather"
+  parents: ['6eb846e']
+  sha: 00875ca
+  sha-long: 00875cac28f8c994bb5962b366537641305df909
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 5 Aug 2018 16:59:47 +0300
+  commit-message: "Replace node Feather free functions with calls to Feather node methods"
+
+measurements:
+  Comp.Ranges.TotalTime: [1689, 1675, 1694, 1698, 1673, 1701, 1676]
+  Comp.Ranges.CtEvalsTime: [153, 153, 153, 155, 152, 157, 152]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [598, 590, 585, 589, 576, 587, 579]
+  Comp.Ranges.ImplicitLibTime: [202, 207, 208, 208, 213, 209, 202]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [237, 234, 246, 239, 237, 240, 239]
+  Comp.LoopTesterApp.TotalTime: [1965, 1955, 1964, 1971, 1957, 1948, 1976]
+  Comp.LoopTesterApp.CtEvalsTime: [199, 197, 198, 198, 198, 196, 201]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [559, 555, 558, 564, 558, 548, 559]
+  Comp.LoopTesterApp.ImplicitLibTime: [203, 197, 197, 204, 205, 206, 203]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [220, 226, 222, 221, 223, 223, 220]
+  Exec.BenchmarkGame.nbody: [667, 661, 661, 663, 661, 660, 660]
+  Exec.BenchmarkGame.fasta: [589, 597, 595, 596, 600, 594, 593]
+  Exec.BenchmarkGame.fastaredux: [398, 397, 398, 399, 406, 399, 398]
+  Exec.BenchmarkGame.meteor: [60, 61, 63, 60, 63, 62, 60]
+  Exec.BenchmarkGame.fannkuchredux: [3112, 3085, 3085, 3097, 3093, 3091, 3110]
+  Exec.Examples.LoopTesterApp: [1013, 990, 997, 1005, 1009, 995, 992]
+  Exec.Examples.FibRange: [845, 856, 847, 843, 840, 845, 845]
+  Exec.Examples.Collatz: [1400, 1404, 1412, 1407, 1412, 1416, 1396]
