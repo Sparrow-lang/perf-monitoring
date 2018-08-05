@@ -1,0 +1,34 @@
+info:
+  name: "363"
+  date: Sun, 05 Aug 2018 10:21:05 +0000
+  branch: "test_feather"
+  parents: ['bfad344']
+  sha: 16c5e36
+  sha-long: 16c5e36d1aef48db9029d1dcc0900c4e01e73fba
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 5 Aug 2018 13:13:25 +0300
+  commit-message: "Add classes for all Feather nodes"
+
+measurements:
+  Comp.Ranges.TotalTime: [1624, 1624, 1658, 1656, 1675, 1688, 1680]
+  Comp.Ranges.CtEvalsTime: [149, 147, 147, 150, 149, 148, 152]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [554, 562, 594, 598, 599, 630, 583]
+  Comp.Ranges.ImplicitLibTime: [205, 193, 204, 196, 205, 195, 196]
+  Comp.Ranges.FinalLinkTime: [14, 14, 16, 15, 14, 14, 14]
+  Comp.Ranges.LlcTime: [232, 249, 231, 232, 238, 239, 248]
+  Comp.LoopTesterApp.TotalTime: [2075, 1954, 1908, 2028, 2040, 2026, 2002]
+  Comp.LoopTesterApp.CtEvalsTime: [218, 192, 189, 219, 211, 204, 200]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [574, 578, 553, 565, 548, 575, 571]
+  Comp.LoopTesterApp.ImplicitLibTime: [248, 200, 194, 205, 202, 208, 222]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 14, 14, 14, 14, 15, 17]
+  Comp.LoopTesterApp.LlcTime: [216, 217, 215, 216, 236, 214, 220]
+  Exec.BenchmarkGame.nbody: [506, 538, 509, 510, 503, 505, 510]
+  Exec.BenchmarkGame.fasta: [559, 552, 561, 593, 560, 557, 602]
+  Exec.BenchmarkGame.fastaredux: [371, 365, 364, 364, 367, 395, 364]
+  Exec.BenchmarkGame.meteor: [61, 59, 60, 61, 62, 64, 61]
+  Exec.BenchmarkGame.fannkuchredux: [3230, 3261, 3240, 3342, 3380, 3174, 3270]
+  Exec.Examples.LoopTesterApp: [1052, 1075, 1028, 1212, 1127, 1072, 1040]
+  Exec.Examples.FibRange: [860, 872, 846, 849, 850, 852, 853]
+  Exec.Examples.Collatz: [1343, 1342, 1341, 1352, 1351, 1364, 1348]
