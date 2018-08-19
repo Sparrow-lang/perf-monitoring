@@ -1,0 +1,34 @@
+info:
+  name: "376"
+  date: Sun, 19 Aug 2018 12:26:44 +0000
+  branch: "master"
+  parents: ['6fb522b', '797f503']
+  sha: f9172d9
+  sha-long: f9172d9169deb5440c5151bfc8a26fb9ed7038da
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 19 Aug 2018 15:19:05 +0300
+  commit-message: "Merge pull request #72 from Sparrow-lang/test_feather"
+
+measurements:
+  Comp.Ranges.TotalTime: [1650, 1645, 1657, 1668, 1656, 1648, 1647]
+  Comp.Ranges.CtEvalsTime: [153, 150, 150, 153, 152, 150, 151]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [563, 561, 567, 565, 568, 564, 559]
+  Comp.Ranges.ImplicitLibTime: [197, 204, 206, 208, 206, 210, 206]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [237, 235, 236, 236, 233, 236, 236]
+  Comp.LoopTesterApp.TotalTime: [1946, 1945, 1943, 1956, 1954, 1963, 1938]
+  Comp.LoopTesterApp.CtEvalsTime: [193, 192, 192, 194, 193, 200, 189]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [539, 549, 539, 544, 551, 540, 543]
+  Comp.LoopTesterApp.ImplicitLibTime: [211, 201, 207, 211, 200, 203, 210]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [220, 220, 221, 218, 222, 219, 222]
+  Exec.BenchmarkGame.nbody: [499, 498, 494, 497, 499, 498, 506]
+  Exec.BenchmarkGame.fasta: [554, 552, 556, 555, 553, 555, 558]
+  Exec.BenchmarkGame.fastaredux: [366, 365, 365, 367, 365, 365, 368]
+  Exec.BenchmarkGame.meteor: [62, 61, 61, 60, 60, 63, 63]
+  Exec.BenchmarkGame.fannkuchredux: [3097, 3109, 3099, 3104, 3103, 3100, 3121]
+  Exec.Examples.LoopTesterApp: [987, 1215, 989, 982, 1000, 1003, 979]
+  Exec.Examples.FibRange: [851, 848, 852, 850, 849, 851, 847]
+  Exec.Examples.Collatz: [1355, 1352, 1351, 1348, 1350, 1351, 1346]
