@@ -1,0 +1,34 @@
+info:
+  name: "373"
+  date: Sun, 19 Aug 2018 11:22:51 +0000
+  branch: "test_feather"
+  parents: ['62a6778']
+  sha: 797f503
+  sha-long: 797f503f41babe4aeda36323c2553b094e2432df
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 19 Aug 2018 14:14:49 +0300
+  commit-message: "Make NodeHandle use Type instead of TypeRef"
+
+measurements:
+  Comp.Ranges.TotalTime: [1666, 1669, 1668, 1669, 1657, 1678, 1670]
+  Comp.Ranges.CtEvalsTime: [153, 153, 153, 154, 154, 152, 154]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [583, 575, 582, 575, 575, 577, 574]
+  Comp.Ranges.ImplicitLibTime: [198, 208, 201, 211, 199, 213, 209]
+  Comp.Ranges.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.Ranges.LlcTime: [241, 240, 242, 241, 241, 243, 242]
+  Comp.LoopTesterApp.TotalTime: [1986, 1968, 1968, 1960, 1950, 1965, 1969]
+  Comp.LoopTesterApp.CtEvalsTime: [195, 196, 195, 194, 194, 195, 195]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [555, 560, 563, 561, 557, 557, 556]
+  Comp.LoopTesterApp.ImplicitLibTime: [203, 201, 212, 205, 199, 213, 215]
+  Comp.LoopTesterApp.FinalLinkTime: [14, 14, 14, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [227, 228, 226, 225, 227, 226, 225]
+  Exec.BenchmarkGame.nbody: [659, 664, 661, 656, 661, 657, 662]
+  Exec.BenchmarkGame.fasta: [598, 594, 606, 596, 592, 593, 596]
+  Exec.BenchmarkGame.fastaredux: [401, 399, 400, 397, 397, 399, 398]
+  Exec.BenchmarkGame.meteor: [63, 62, 61, 63, 63, 63, 61]
+  Exec.BenchmarkGame.fannkuchredux: [3119, 3169, 3169, 3166, 3173, 3146, 3125]
+  Exec.Examples.LoopTesterApp: [941, 935, 939, 942, 937, 950, 941]
+  Exec.Examples.FibRange: [842, 843, 840, 845, 840, 839, 843]
+  Exec.Examples.Collatz: [1403, 1406, 1397, 1398, 1397, 1398, 1401]
