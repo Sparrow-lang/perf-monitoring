@@ -1,0 +1,34 @@
+info:
+  name: "379"
+  date: Thu, 20 Sep 2018 20:48:34 +0000
+  branch: "types_work"
+  parents: ['40c5836']
+  sha: 3abad05
+  sha-long: 3abad0524a90b2ba2e236934f86fa4941acf5d2a
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 20 Sep 2018 23:36:56 +0300
+  commit-message: "First step towards using MutableType instead of LValueType"
+
+measurements:
+  Comp.Ranges.TotalTime: [1578, 1558, 1540, 1541, 1527, 1554, 1519]
+  Comp.Ranges.CtEvalsTime: [143, 142, 141, 144, 139, 140, 139]
+  Comp.Ranges.NumCtEvals: [195, 195, 195, 195, 195, 195, 195]
+  Comp.Ranges.OptTime: [535, 509, 512, 515, 507, 513, 502]
+  Comp.Ranges.ImplicitLibTime: [190, 192, 193, 189, 188, 193, 193]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [214, 221, 213, 213, 213, 223, 211]
+  Comp.LoopTesterApp.TotalTime: [1825, 1846, 1850, 1825, 1831, 1962, 1964]
+  Comp.LoopTesterApp.CtEvalsTime: [184, 186, 189, 182, 182, 197, 196]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [485, 501, 489, 487, 487, 532, 524]
+  Comp.LoopTesterApp.ImplicitLibTime: [194, 189, 193, 187, 188, 195, 199]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 14, 14, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [198, 198, 197, 198, 197, 209, 214]
+  Exec.BenchmarkGame.nbody: [609, 584, 589, 574, 590, 581, 580]
+  Exec.BenchmarkGame.fasta: [592, 574, 584, 600, 576, 582, 595]
+  Exec.BenchmarkGame.fastaredux: [399, 361, 362, 368, 366, 363, 363]
+  Exec.BenchmarkGame.meteor: [64, 66, 66, 66, 66, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3392, 3398, 3408, 3393, 3388, 3392, 3386]
+  Exec.Examples.LoopTesterApp: [1193, 1190, 1196, 1209, 1178, 1199, 1201]
+  Exec.Examples.FibRange: [946, 951, 947, 949, 947, 951, 947]
+  Exec.Examples.Collatz: [1403, 1400, 1401, 1400, 1402, 1408, 1400]
