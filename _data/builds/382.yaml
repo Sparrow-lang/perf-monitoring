@@ -1,0 +1,34 @@
+info:
+  name: "382"
+  date: Sat, 17 Nov 2018 22:26:42 +0000
+  branch: "types_work"
+  parents: ['f62bdc9']
+  sha: a7e8da2
+  sha-long: a7e8da256a4b7c920c6bd1ec7788cc27526b832a
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 18 Nov 2018 00:18:46 +0200
+  commit-message: "Refactor concept type"
+
+measurements:
+  Comp.Ranges.TotalTime: [1795, 1796, 1733, 1749, 1741, 1728, 1747]
+  Comp.Ranges.CtEvalsTime: [177, 172, 167, 168, 167, 166, 166]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [596, 613, 569, 591, 592, 572, 589]
+  Comp.Ranges.ImplicitLibTime: [202, 199, 193, 196, 193, 198, 202]
+  Comp.Ranges.FinalLinkTime: [17, 17, 16, 17, 17, 16, 16]
+  Comp.Ranges.LlcTime: [251, 233, 234, 230, 229, 232, 233]
+  Comp.LoopTesterApp.TotalTime: [2060, 2056, 2097, 2049, 2057, 2045, 2044]
+  Comp.LoopTesterApp.CtEvalsTime: [209, 206, 216, 211, 209, 208, 206]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [558, 550, 572, 535, 542, 551, 551]
+  Comp.LoopTesterApp.ImplicitLibTime: [198, 206, 203, 196, 199, 195, 195]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 18, 17, 17, 16, 16, 18]
+  Comp.LoopTesterApp.LlcTime: [209, 214, 208, 223, 218, 212, 216]
+  Exec.BenchmarkGame.nbody: [594, 580, 607, 600, 585, 600, 592]
+  Exec.BenchmarkGame.fasta: [575, 576, 572, 578, 578, 578, 569]
+  Exec.BenchmarkGame.fastaredux: [357, 375, 367, 366, 376, 375, 366]
+  Exec.BenchmarkGame.meteor: [74, 68, 68, 67, 66, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3450, 3448, 3449, 3439, 3406, 3417, 3468]
+  Exec.Examples.LoopTesterApp: [1463, 1420, 1436, 1430, 1446, 1437, 1431]
+  Exec.Examples.FibRange: [966, 970, 974, 960, 964, 960, 967]
+  Exec.Examples.Collatz: [1430, 1447, 1434, 1439, 1431, 1438, 1426]
