@@ -1,0 +1,34 @@
+info:
+  name: "389"
+  date: Sun, 16 Dec 2018 17:31:38 +0000
+  branch: "types_work"
+  parents: ['4e850f6']
+  sha: 4942c6a
+  sha-long: 4942c6a2273bedfe2dab71062d0a0cd947985686
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 16 Dec 2018 19:24:12 +0200
+  commit-message: "Unify C++ node handling"
+
+measurements:
+  Comp.Ranges.TotalTime: [1576, 1592, 1572, 1572, 1560, 1572, 1577]
+  Comp.Ranges.CtEvalsTime: [156, 157, 156, 156, 153, 157, 155]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [535, 548, 530, 538, 539, 535, 537]
+  Comp.Ranges.ImplicitLibTime: [178, 182, 182, 181, 175, 179, 182]
+  Comp.Ranges.FinalLinkTime: [16, 15, 15, 15, 16, 15, 16]
+  Comp.Ranges.LlcTime: [230, 220, 226, 221, 220, 221, 223]
+  Comp.LoopTesterApp.TotalTime: [1877, 1862, 1855, 1879, 1884, 1885, 1889]
+  Comp.LoopTesterApp.CtEvalsTime: [194, 195, 194, 194, 195, 201, 193]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [511, 506, 506, 514, 509, 512, 510]
+  Comp.LoopTesterApp.ImplicitLibTime: [177, 176, 178, 176, 181, 180, 179]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [209, 203, 203, 205, 205, 207, 206]
+  Exec.BenchmarkGame.nbody: [588, 603, 601, 581, 610, 577, 583]
+  Exec.BenchmarkGame.fasta: [562, 563, 567, 563, 566, 566, 561]
+  Exec.BenchmarkGame.fastaredux: [362, 350, 353, 365, 354, 404, 376]
+  Exec.BenchmarkGame.meteor: [65, 68, 65, 65, 65, 67, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3399, 3423, 3398, 3404, 3413, 3404, 3402]
+  Exec.Examples.LoopTesterApp: [1190, 1193, 1345, 1414, 1346, 1300, 1406]
+  Exec.Examples.FibRange: [953, 951, 957, 956, 959, 953, 960]
+  Exec.Examples.Collatz: [1427, 1422, 1425, 1412, 1406, 1411, 1430]
