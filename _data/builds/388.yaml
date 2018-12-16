@@ -1,0 +1,34 @@
+info:
+  name: "388"
+  date: Sun, 16 Dec 2018 16:26:50 +0000
+  branch: "types_work"
+  parents: ['3560257']
+  sha: 4e850f6
+  sha-long: 4e850f6e7cabf046cfffd8e7744800f565dbce09
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 16 Dec 2018 18:19:10 +0200
+  commit-message: "Refactor Sparrow nodes"
+
+measurements:
+  Comp.Ranges.TotalTime: [1595, 1642, 1786, 1777, 1774, 1801, 1814]
+  Comp.Ranges.CtEvalsTime: [157, 157, 176, 171, 171, 174, 180]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [543, 561, 609, 625, 634, 631, 616]
+  Comp.Ranges.ImplicitLibTime: [178, 180, 198, 191, 197, 196, 204]
+  Comp.Ranges.FinalLinkTime: [17, 18, 18, 18, 17, 19, 18]
+  Comp.Ranges.LlcTime: [225, 250, 254, 256, 244, 257, 255]
+  Comp.LoopTesterApp.TotalTime: [2055, 1948, 1957, 1953, 1937, 1977, 2163]
+  Comp.LoopTesterApp.CtEvalsTime: [220, 199, 198, 201, 199, 204, 229]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [547, 550, 547, 534, 521, 529, 591]
+  Comp.LoopTesterApp.ImplicitLibTime: [196, 184, 181, 180, 182, 193, 193]
+  Comp.LoopTesterApp.FinalLinkTime: [17, 17, 16, 16, 16, 17, 18]
+  Comp.LoopTesterApp.LlcTime: [217, 210, 212, 213, 222, 227, 229]
+  Exec.BenchmarkGame.nbody: [601, 629, 621, 643, 622, 584, 597]
+  Exec.BenchmarkGame.fasta: [575, 566, 568, 567, 568, 574, 566]
+  Exec.BenchmarkGame.fastaredux: [355, 349, 361, 365, 367, 363, 358]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 66, 65, 65, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3409, 3473, 3462, 3436, 3426, 3437, 3426]
+  Exec.Examples.LoopTesterApp: [1581, 1546, 1557, 1537, 1274, 1269, 1242]
+  Exec.Examples.FibRange: [959, 955, 954, 962, 963, 954, 959]
+  Exec.Examples.Collatz: [1410, 1415, 1413, 1416, 1411, 1413, 1414]
