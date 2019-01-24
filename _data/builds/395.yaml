@@ -1,0 +1,34 @@
+info:
+  name: "395"
+  date: Thu, 24 Jan 2019 13:08:50 +0000
+  branch: "types_work"
+  parents: ['cef68db']
+  sha: 1e8adea
+  sha-long: 1e8adeab43ac69b011a0a06d016036ed94b079bd
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 24 Jan 2019 14:57:46 +0200
+  commit-message: "Add test functionality to generate callable decls"
+
+measurements:
+  Comp.Ranges.TotalTime: [1571, 1567, 1566, 1578, 1561, 1560, 1556]
+  Comp.Ranges.CtEvalsTime: [157, 155, 155, 155, 153, 157, 153]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [534, 536, 533, 537, 534, 527, 537]
+  Comp.Ranges.ImplicitLibTime: [179, 181, 177, 183, 181, 177, 181]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 16, 15, 16, 15]
+  Comp.Ranges.LlcTime: [222, 226, 225, 222, 222, 220, 219]
+  Comp.LoopTesterApp.TotalTime: [1890, 1878, 1859, 1866, 1848, 1883, 1875]
+  Comp.LoopTesterApp.CtEvalsTime: [192, 194, 193, 193, 190, 194, 191]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [522, 521, 507, 507, 505, 512, 509]
+  Comp.LoopTesterApp.ImplicitLibTime: [182, 176, 175, 180, 179, 183, 187]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 16, 15, 15, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [208, 207, 207, 207, 207, 209, 209]
+  Exec.BenchmarkGame.nbody: [600, 576, 552, 597, 609, 553, 593]
+  Exec.BenchmarkGame.fasta: [566, 574, 570, 576, 570, 574, 571]
+  Exec.BenchmarkGame.fastaredux: [374, 358, 368, 376, 370, 370, 369]
+  Exec.BenchmarkGame.meteor: [66, 67, 68, 66, 66, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3434, 3432, 3428, 3430, 3486, 3405, 3414]
+  Exec.Examples.LoopTesterApp: [1216, 1114, 1122, 1527, 1552, 1423, 1093]
+  Exec.Examples.FibRange: [956, 963, 956, 957, 962, 961, 958]
+  Exec.Examples.Collatz: [1417, 1426, 1427, 1418, 1425, 1423, 1421]
