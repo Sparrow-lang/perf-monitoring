@@ -1,0 +1,34 @@
+info:
+  name: "397"
+  date: Sat, 02 Feb 2019 22:52:54 +0000
+  branch: "tmp_merge"
+  parents: ['62dfeff']
+  sha: aa9a071
+  sha-long: aa9a0718f928303a9e100b54dcf0b120d21350d2
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 3 Feb 2019 00:43:52 +0200
+  commit-message: "Refactor GenGenericParams & GenCallableDecl"
+
+measurements:
+  Comp.Ranges.TotalTime: [1614, 1612, 1612, 1587, 1611, 1608, 1610]
+  Comp.Ranges.CtEvalsTime: [156, 157, 158, 155, 168, 160, 160]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [558, 559, 559, 547, 544, 540, 552]
+  Comp.Ranges.ImplicitLibTime: [181, 181, 184, 179, 188, 184, 182]
+  Comp.Ranges.FinalLinkTime: [16, 15, 16, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [230, 232, 227, 224, 222, 228, 225]
+  Comp.LoopTesterApp.TotalTime: [1915, 1907, 1918, 1909, 1927, 1944, 1928]
+  Comp.LoopTesterApp.CtEvalsTime: [198, 199, 200, 201, 199, 202, 200]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [533, 524, 530, 530, 536, 540, 533]
+  Comp.LoopTesterApp.ImplicitLibTime: [178, 179, 185, 183, 180, 183, 180]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 16, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [211, 212, 210, 208, 213, 214, 216]
+  Exec.BenchmarkGame.nbody: [587, 613, 596, 614, 603, 616, 561]
+  Exec.BenchmarkGame.fasta: [573, 569, 566, 568, 567, 568, 574]
+  Exec.BenchmarkGame.fastaredux: [381, 382, 376, 372, 367, 360, 375]
+  Exec.BenchmarkGame.meteor: [70, 65, 66, 66, 66, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3504, 3445, 3438, 3493, 3407, 3413, 3423]
+  Exec.Examples.LoopTesterApp: [1153, 1108, 1125, 1153, 1125, 1156, 1521]
+  Exec.Examples.FibRange: [966, 963, 954, 956, 956, 958, 958]
+  Exec.Examples.Collatz: [1417, 1408, 1412, 1421, 1413, 1417, 1432]
