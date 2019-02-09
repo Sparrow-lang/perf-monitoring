@@ -1,0 +1,34 @@
+info:
+  name: "400"
+  date: Sat, 09 Feb 2019 15:49:58 +0000
+  branch: "types_work"
+  parents: ['273af2a']
+  sha: b33c6e5
+  sha-long: b33c6e5b4149ab3802397d2a2e6d3e7a8a461085
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 9 Feb 2019 17:41:03 +0200
+  commit-message: "Add interface for Callable and CallableService"
+
+measurements:
+  Comp.Ranges.TotalTime: [1687, 1703, 1678, 1710, 1724, 1679, 1749]
+  Comp.Ranges.CtEvalsTime: [169, 164, 162, 161, 168, 166, 170]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [567, 579, 556, 598, 590, 560, 604]
+  Comp.Ranges.ImplicitLibTime: [189, 184, 194, 196, 196, 185, 192]
+  Comp.Ranges.FinalLinkTime: [16, 18, 15, 17, 16, 17, 16]
+  Comp.Ranges.LlcTime: [223, 239, 240, 225, 226, 229, 232]
+  Comp.LoopTesterApp.TotalTime: [1987, 2008, 1999, 2050, 2010, 2026, 2043]
+  Comp.LoopTesterApp.CtEvalsTime: [205, 205, 205, 216, 208, 217, 217]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [530, 544, 523, 529, 534, 536, 540]
+  Comp.LoopTesterApp.ImplicitLibTime: [190, 188, 187, 188, 188, 193, 191]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 17, 17, 16, 16, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [207, 211, 211, 213, 217, 215, 213]
+  Exec.BenchmarkGame.nbody: [596, 597, 611, 607, 565, 599, 576]
+  Exec.BenchmarkGame.fasta: [566, 563, 572, 567, 574, 584, 631]
+  Exec.BenchmarkGame.fastaredux: [368, 371, 367, 373, 367, 380, 371]
+  Exec.BenchmarkGame.meteor: [67, 67, 68, 67, 66, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3471, 3435, 3421, 3434, 3404, 3403, 3406]
+  Exec.Examples.LoopTesterApp: [1328, 1295, 1331, 1319, 1333, 1315, 1363]
+  Exec.Examples.FibRange: [950, 953, 957, 975, 984, 966, 968]
+  Exec.Examples.Collatz: [1431, 1434, 1444, 1421, 1405, 1406, 1430]
