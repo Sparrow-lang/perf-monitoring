@@ -1,0 +1,34 @@
+info:
+  name: "429"
+  date: Sun, 17 Mar 2019 19:17:38 +0000
+  branch: "parallel_fix"
+  parents: ['760cd46']
+  sha: 06ac2e2
+  sha-long: 06ac2e277e75e617dca0be897e7fef3bd3413a00
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 17 Mar 2019 21:07:59 +0200
+  commit-message: "Make par,semaphore work again on MacOS"
+
+measurements:
+  Comp.Ranges.TotalTime: [2072, 2059, 2061, 2083, 2088, 2066, 2063]
+  Comp.Ranges.CtEvalsTime: [162, 160, 160, 162, 166, 159, 162]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [519, 513, 518, 522, 519, 530, 521]
+  Comp.Ranges.ImplicitLibTime: [238, 239, 239, 239, 238, 235, 237]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [214, 218, 214, 217, 214, 218, 215]
+  Comp.LoopTesterApp.TotalTime: [2843, 2844, 2823, 2838, 2833, 2836, 2854]
+  Comp.LoopTesterApp.CtEvalsTime: [210, 211, 209, 211, 210, 212, 209]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [501, 501, 495, 500, 497, 504, 504]
+  Comp.LoopTesterApp.ImplicitLibTime: [242, 242, 240, 238, 241, 238, 245]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 16, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [202, 202, 203, 204, 203, 201, 204]
+  Exec.BenchmarkGame.nbody: [574, 579, 567, 576, 575, 591, 587]
+  Exec.BenchmarkGame.fasta: [560, 562, 603, 560, 561, 561, 559]
+  Exec.BenchmarkGame.fastaredux: [360, 359, 352, 362, 358, 337, 357]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 65, 65, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3394, 3390, 3384, 3380, 3384, 3384, 3384]
+  Exec.Examples.LoopTesterApp: [1220, 1531, 1574, 1529, 1597, 1600, 1224]
+  Exec.Examples.FibRange: [946, 948, 947, 950, 947, 947, 948]
+  Exec.Examples.Collatz: [1404, 1401, 1400, 1403, 1400, 1402, 1399]
