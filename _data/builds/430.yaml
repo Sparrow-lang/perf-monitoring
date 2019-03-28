@@ -1,0 +1,34 @@
+info:
+  name: "430"
+  date: Thu, 28 Mar 2019 21:43:39 +0000
+  branch: "parallel_fix"
+  parents: ['06ac2e2']
+  sha: b5c46ff
+  sha-long: b5c46ff334f0f02350ec11a9083fbe2395d19742
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 28 Mar 2019 23:22:38 +0200
+  commit-message: "Make the par tests to be defined only for Darwin"
+
+measurements:
+  Comp.Ranges.TotalTime: [1436, 1468, 1453, 1446, 1436, 1417, 1452]
+  Comp.Ranges.CtEvalsTime: [155, 158, 158, 157, 155, 154, 161]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [540, 551, 545, 534, 536, 524, 541]
+  Comp.Ranges.ImplicitLibTime: [119, 122, 125, 126, 122, 120, 126]
+  Comp.Ranges.FinalLinkTime: [16, 16, 15, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [221, 227, 221, 219, 220, 223, 221]
+  Comp.LoopTesterApp.TotalTime: [1710, 1674, 1708, 1713, 1682, 1685, 1688]
+  Comp.LoopTesterApp.CtEvalsTime: [199, 194, 198, 199, 193, 194, 192]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [507, 502, 508, 510, 498, 501, 508]
+  Comp.LoopTesterApp.ImplicitLibTime: [122, 121, 125, 121, 124, 127, 123]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 16, 15, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [204, 201, 203, 201, 203, 204, 203]
+  Exec.BenchmarkGame.nbody: [562, 586, 583, 579, 569, 586, 570]
+  Exec.BenchmarkGame.fasta: [561, 560, 561, 557, 561, 559, 560]
+  Exec.BenchmarkGame.fastaredux: [370, 358, 356, 352, 358, 354, 354]
+  Exec.BenchmarkGame.meteor: [66, 65, 66, 67, 65, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3389, 3381, 3390, 3444, 3391, 3409, 3405]
+  Exec.Examples.LoopTesterApp: [1204, 1404, 1228, 1621, 1245, 1227, 1232]
+  Exec.Examples.FibRange: [954, 957, 958, 965, 961, 954, 965]
+  Exec.Examples.Collatz: [1415, 1415, 1411, 1420, 1412, 1409, 1420]
