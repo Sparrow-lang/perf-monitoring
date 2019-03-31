@@ -1,0 +1,34 @@
+info:
+  name: "438"
+  date: Sun, 31 Mar 2019 10:10:21 +0000
+  branch: "parallel_fix"
+  parents: ['9fc7e4a']
+  sha: d75e045
+  sha-long: d75e045ef22882962df990cc4234df152d6a38bf
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 31 Mar 2019 13:01:38 +0300
+  commit-message: "Don't run test that prints the number of available cores."
+
+measurements:
+  Comp.Ranges.TotalTime: [1363, 1394, 1378, 1357, 1377, 1372, 1371]
+  Comp.Ranges.CtEvalsTime: [150, 155, 151, 150, 150, 150, 150]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [505, 509, 516, 507, 517, 507, 516]
+  Comp.Ranges.ImplicitLibTime: [119, 118, 118, 117, 117, 118, 119]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 16, 15]
+  Comp.Ranges.LlcTime: [217, 213, 218, 212, 214, 220, 211]
+  Comp.LoopTesterApp.TotalTime: [1656, 1634, 1634, 1636, 1658, 1641, 1637]
+  Comp.LoopTesterApp.CtEvalsTime: [191, 187, 187, 189, 193, 187, 196]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [500, 488, 500, 488, 491, 490, 483]
+  Comp.LoopTesterApp.ImplicitLibTime: [122, 119, 120, 119, 122, 118, 117]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 16, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [198, 199, 199, 203, 199, 199, 197]
+  Exec.BenchmarkGame.nbody: [574, 548, 554, 579, 569, 573, 553]
+  Exec.BenchmarkGame.fasta: [558, 563, 563, 561, 566, 558, 561]
+  Exec.BenchmarkGame.fastaredux: [354, 358, 357, 353, 347, 357, 353]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3376, 3374, 3402, 3373, 3386, 3386, 3393]
+  Exec.Examples.LoopTesterApp: [1167, 1173, 1183, 1507, 1342, 1187, 1192]
+  Exec.Examples.FibRange: [949, 950, 949, 952, 949, 950, 948]
+  Exec.Examples.Collatz: [1399, 1401, 1407, 1406, 1411, 1406, 1403]
