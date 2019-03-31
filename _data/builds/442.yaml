@@ -1,0 +1,34 @@
+info:
+  name: "442"
+  date: Sun, 31 Mar 2019 14:56:10 +0000
+  branch: "types_work"
+  parents: ['f92f7fd']
+  sha: 95b46aa
+  sha-long: 95b46aafcd3b7de8d5b2767469d7e02e5f2e537b
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 31 Mar 2019 17:37:23 +0300
+  commit-message: "Forbid the implicit 'mut' -> 'tmp' conversion"
+
+measurements:
+  Comp.Ranges.TotalTime: [2174, 2168, 2159, 2181, 2173, 2202, 2198]
+  Comp.Ranges.CtEvalsTime: [173, 177, 170, 172, 171, 178, 175]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [545, 547, 541, 553, 545, 553, 550]
+  Comp.Ranges.ImplicitLibTime: [241, 247, 246, 255, 255, 247, 248]
+  Comp.Ranges.FinalLinkTime: [16, 16, 16, 15, 17, 16, 16]
+  Comp.Ranges.LlcTime: [222, 226, 230, 222, 227, 228, 227]
+  Comp.LoopTesterApp.TotalTime: [2948, 2940, 2992, 2982, 3411, 3265, 2988]
+  Comp.LoopTesterApp.CtEvalsTime: [228, 223, 223, 232, 296, 255, 224]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [511, 516, 529, 513, 580, 538, 534]
+  Comp.LoopTesterApp.ImplicitLibTime: [253, 252, 246, 258, 283, 278, 246]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 17, 16, 17, 16, 17]
+  Comp.LoopTesterApp.LlcTime: [205, 208, 213, 208, 224, 212, 211]
+  Exec.BenchmarkGame.nbody: [583, 586, 585, 589, 601, 600, 579]
+  Exec.BenchmarkGame.fasta: [565, 564, 568, 564, 569, 570, 568]
+  Exec.BenchmarkGame.fastaredux: [362, 350, 366, 374, 358, 370, 375]
+  Exec.BenchmarkGame.meteor: [66, 65, 65, 66, 66, 67, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3408, 3389, 3393, 3401, 3502, 3515, 3546]
+  Exec.Examples.LoopTesterApp: [1561, 1261, 1254, 1269, 1272, 1236, 1248]
+  Exec.Examples.FibRange: [947, 957, 956, 954, 951, 957, 952]
+  Exec.Examples.Collatz: [1407, 1416, 1418, 1402, 1411, 1414, 1403]
