@@ -1,0 +1,34 @@
+info:
+  name: "437"
+  date: Sun, 31 Mar 2019 09:42:52 +0000
+  branch: "parallel_fix"
+  parents: ['cacdfe4']
+  sha: 9fc7e4a
+  sha-long: 9fc7e4a87bbffb5c8d110e09c8700a3419d339c7
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 31 Mar 2019 12:33:49 +0300
+  commit-message: "Don't update boost for osx Travis build"
+
+measurements:
+  Comp.Ranges.TotalTime: [1454, 1468, 1471, 1458, 1458, 1461, 1517]
+  Comp.Ranges.CtEvalsTime: [160, 160, 159, 158, 159, 159, 166]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [543, 545, 544, 539, 540, 541, 564]
+  Comp.Ranges.ImplicitLibTime: [119, 121, 124, 122, 121, 122, 124]
+  Comp.Ranges.FinalLinkTime: [16, 16, 16, 16, 16, 16, 17]
+  Comp.Ranges.LlcTime: [222, 228, 224, 227, 224, 226, 224]
+  Comp.LoopTesterApp.TotalTime: [1753, 1751, 1734, 1746, 1730, 1732, 1757]
+  Comp.LoopTesterApp.CtEvalsTime: [207, 207, 205, 206, 202, 200, 204]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [512, 519, 517, 514, 509, 516, 526]
+  Comp.LoopTesterApp.ImplicitLibTime: [125, 125, 121, 121, 120, 124, 127]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 16, 16, 16, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [209, 208, 207, 208, 213, 206, 207]
+  Exec.BenchmarkGame.nbody: [575, 588, 600, 593, 580, 591, 597]
+  Exec.BenchmarkGame.fasta: [565, 564, 560, 565, 563, 564, 562]
+  Exec.BenchmarkGame.fastaredux: [359, 357, 362, 358, 362, 357, 364]
+  Exec.BenchmarkGame.meteor: [66, 66, 66, 70, 67, 66, 67]
+  Exec.BenchmarkGame.fannkuchredux: [3385, 3398, 3402, 3406, 3414, 3438, 3413]
+  Exec.Examples.LoopTesterApp: [1215, 1208, 1216, 1206, 1227, 1221, 1218]
+  Exec.Examples.FibRange: [960, 951, 959, 950, 957, 952, 947]
+  Exec.Examples.Collatz: [1414, 1407, 1408, 1410, 1403, 1404, 1407]
