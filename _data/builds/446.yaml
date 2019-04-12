@@ -1,0 +1,34 @@
+info:
+  name: "446"
+  date: Fri, 12 Apr 2019 23:06:11 +0000
+  branch: "types_work"
+  parents: ['1be1767']
+  sha: b6e026b
+  sha-long: b6e026b2b06c2edd9a194011fc359cd06dff885e
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 13 Apr 2019 01:57:34 +0300
+  commit-message: "Fix problem with translation of vars with cat types."
+
+measurements:
+  Comp.Ranges.TotalTime: [1448, 1458, 1444, 1453, 1452, 1464, 1459]
+  Comp.Ranges.CtEvalsTime: [156, 160, 156, 157, 157, 160, 159]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [540, 538, 536, 543, 537, 544, 540]
+  Comp.Ranges.ImplicitLibTime: [120, 127, 124, 120, 124, 121, 126]
+  Comp.Ranges.FinalLinkTime: [17, 15, 16, 16, 15, 16, 16]
+  Comp.Ranges.LlcTime: [227, 219, 223, 223, 221, 223, 221]
+  Comp.LoopTesterApp.TotalTime: [1764, 1738, 1740, 1734, 1722, 1730, 1691]
+  Comp.LoopTesterApp.CtEvalsTime: [209, 205, 205, 202, 200, 202, 200]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [520, 517, 509, 514, 516, 514, 499]
+  Comp.LoopTesterApp.ImplicitLibTime: [127, 128, 127, 128, 127, 124, 123]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 16, 16, 16, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [208, 207, 208, 204, 203, 205, 202]
+  Exec.BenchmarkGame.nbody: [599, 572, 597, 601, 572, 581, 561]
+  Exec.BenchmarkGame.fasta: [568, 564, 570, 568, 564, 559, 563]
+  Exec.BenchmarkGame.fastaredux: [367, 358, 365, 361, 369, 360, 362]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 65, 66, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3409, 3415, 3411, 3399, 3400, 3385, 3377]
+  Exec.Examples.LoopTesterApp: [1240, 1244, 1239, 1248, 1266, 1240, 1232]
+  Exec.Examples.FibRange: [950, 948, 945, 945, 947, 948, 986]
+  Exec.Examples.Collatz: [1407, 1403, 1406, 1403, 1406, 1407, 1412]
