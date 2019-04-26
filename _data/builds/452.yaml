@@ -1,0 +1,34 @@
+info:
+  name: "452"
+  date: Fri, 26 Apr 2019 13:20:24 +0000
+  branch: "bitcopiable"
+  parents: ['2088839']
+  sha: 4696c19
+  sha-long: 4696c197c5d50d4b52f36dac513920b246d17e23
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Fri, 26 Apr 2019 16:11:39 +0300
+  commit-message: "Add documentation for modifiers"
+
+measurements:
+  Comp.Ranges.TotalTime: [1435, 1418, 1408, 1442, 1438, 1422, 1396]
+  Comp.Ranges.CtEvalsTime: [130, 128, 127, 132, 131, 131, 128]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [551, 538, 537, 533, 549, 532, 521]
+  Comp.Ranges.ImplicitLibTime: [122, 119, 122, 124, 122, 123, 121]
+  Comp.Ranges.FinalLinkTime: [15, 15, 16, 15, 15, 16, 15]
+  Comp.Ranges.LlcTime: [220, 225, 221, 226, 222, 221, 221]
+  Comp.LoopTesterApp.TotalTime: [1682, 1673, 1684, 1663, 1687, 1673, 1652]
+  Comp.LoopTesterApp.CtEvalsTime: [158, 157, 160, 158, 162, 169, 155]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [502, 517, 504, 498, 503, 499, 508]
+  Comp.LoopTesterApp.ImplicitLibTime: [127, 126, 127, 125, 127, 127, 119]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 15, 16, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [202, 206, 211, 202, 203, 200, 202]
+  Exec.BenchmarkGame.nbody: [575, 576, 576, 579, 581, 575, 577]
+  Exec.BenchmarkGame.fasta: [559, 560, 567, 571, 560, 563, 585]
+  Exec.BenchmarkGame.fastaredux: [368, 372, 379, 375, 370, 374, 371]
+  Exec.BenchmarkGame.meteor: [68, 69, 68, 67, 68, 69, 68]
+  Exec.BenchmarkGame.fannkuchredux: [3463, 3410, 3395, 3386, 3399, 3395, 3400]
+  Exec.Examples.LoopTesterApp: [1286, 1287, 1273, 1274, 1546, 1273, 1500]
+  Exec.Examples.FibRange: [957, 950, 961, 948, 956, 947, 954]
+  Exec.Examples.Collatz: [1409, 1404, 1417, 1416, 1406, 1408, 1410]
