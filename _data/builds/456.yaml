@@ -1,0 +1,34 @@
+info:
+  name: "456"
+  date: Fri, 26 Apr 2019 21:10:35 +0000
+  branch: "types_work"
+  parents: ['ec01816']
+  sha: 7ee2a5d
+  sha-long: 7ee2a5d683a8ae9a7fc9a793b22bea654615582c
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Fri, 26 Apr 2019 23:55:35 +0300
+  commit-message: "Ensure field ref respects const"
+
+measurements:
+  Comp.Ranges.TotalTime: [1387, 1389, 1404, 1400, 1388, 1420, 1402]
+  Comp.Ranges.CtEvalsTime: [152, 154, 152, 153, 153, 154, 154]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [516, 512, 518, 513, 510, 526, 508]
+  Comp.Ranges.ImplicitLibTime: [119, 121, 126, 123, 123, 122, 125]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 16, 15]
+  Comp.Ranges.LlcTime: [214, 213, 216, 216, 218, 218, 218]
+  Comp.LoopTesterApp.TotalTime: [1661, 1660, 1691, 1664, 1641, 1673, 1674]
+  Comp.LoopTesterApp.CtEvalsTime: [192, 193, 195, 190, 189, 192, 194]
+  Comp.LoopTesterApp.NumCtEvals: [213, 213, 213, 213, 213, 213, 213]
+  Comp.LoopTesterApp.OptTime: [486, 495, 491, 495, 487, 492, 495]
+  Comp.LoopTesterApp.ImplicitLibTime: [127, 121, 125, 125, 122, 126, 121]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [199, 198, 202, 201, 200, 203, 203]
+  Exec.BenchmarkGame.nbody: [612, 580, 594, 569, 566, 559, 563]
+  Exec.BenchmarkGame.fasta: [558, 561, 564, 557, 562, 561, 558]
+  Exec.BenchmarkGame.fastaredux: [358, 355, 352, 348, 347, 355, 348]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 67, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3388, 3389, 3480, 3372, 3377, 3378, 3380]
+  Exec.Examples.LoopTesterApp: [1220, 1232, 1242, 1234, 1220, 1231, 1417]
+  Exec.Examples.FibRange: [943, 948, 951, 945, 946, 947, 952]
+  Exec.Examples.Collatz: [1404, 1405, 1399, 1400, 1402, 1397, 1399]
