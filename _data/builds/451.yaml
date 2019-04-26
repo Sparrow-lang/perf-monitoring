@@ -1,0 +1,34 @@
+info:
+  name: "451"
+  date: Fri, 26 Apr 2019 10:01:30 +0000
+  branch: "bitcopiable"
+  parents: ['8647cd8']
+  sha: 2088839
+  sha-long: 2088839fc1aee40c7827dcc68028743f4630302c
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Fri, 26 Apr 2019 12:52:51 +0300
+  commit-message: "Add support for 'autoBitcopiable'"
+
+measurements:
+  Comp.Ranges.TotalTime: [1324, 1298, 1313, 1306, 1288, 1298, 1313]
+  Comp.Ranges.CtEvalsTime: [122, 121, 123, 121, 120, 122, 123]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [504, 489, 499, 490, 486, 488, 495]
+  Comp.Ranges.ImplicitLibTime: [116, 115, 115, 118, 115, 120, 118]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [213, 211, 211, 216, 211, 209, 210]
+  Comp.LoopTesterApp.TotalTime: [1563, 1560, 1566, 1554, 1548, 1557, 1551]
+  Comp.LoopTesterApp.CtEvalsTime: [145, 146, 146, 145, 144, 145, 144]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [475, 475, 477, 478, 475, 477, 474]
+  Comp.LoopTesterApp.ImplicitLibTime: [122, 120, 119, 117, 115, 117, 120]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 14, 15]
+  Comp.LoopTesterApp.LlcTime: [196, 194, 195, 196, 198, 196, 193]
+  Exec.BenchmarkGame.nbody: [576, 572, 558, 565, 569, 572, 573]
+  Exec.BenchmarkGame.fasta: [559, 557, 560, 558, 559, 560, 559]
+  Exec.BenchmarkGame.fastaredux: [358, 343, 343, 345, 342, 340, 343]
+  Exec.BenchmarkGame.meteor: [67, 65, 65, 65, 64, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3382, 3370, 3373, 3374, 3371, 3372, 3380]
+  Exec.Examples.LoopTesterApp: [1152, 1156, 1165, 1159, 1166, 1156, 1155]
+  Exec.Examples.FibRange: [947, 946, 947, 944, 947, 945, 946]
+  Exec.Examples.Collatz: [1400, 1400, 1400, 1399, 1398, 1399, 1399]
