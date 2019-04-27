@@ -1,0 +1,34 @@
+info:
+  name: "457"
+  date: Sat, 27 Apr 2019 11:59:44 +0000
+  branch: "types_work"
+  parents: ['7ee2a5d']
+  sha: 7d5a736
+  sha-long: 7d5a7369175cdb71acc59c56d40ab0e194656d96
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 27 Apr 2019 14:50:38 +0300
+  commit-message: "Basic tests stlib uses now mutable params instead of references"
+
+measurements:
+  Comp.Ranges.TotalTime: [1577, 1391, 1428, 1397, 1373, 1384, 1387]
+  Comp.Ranges.CtEvalsTime: [188, 151, 155, 152, 151, 154, 152]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [550, 516, 519, 513, 504, 514, 510]
+  Comp.Ranges.ImplicitLibTime: [146, 120, 126, 118, 124, 124, 126]
+  Comp.Ranges.FinalLinkTime: [15, 16, 17, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [217, 218, 215, 223, 216, 214, 214]
+  Comp.LoopTesterApp.TotalTime: [1643, 1648, 1648, 1650, 1649, 1644, 1661]
+  Comp.LoopTesterApp.CtEvalsTime: [189, 189, 190, 190, 192, 188, 188]
+  Comp.LoopTesterApp.NumCtEvals: [213, 213, 213, 213, 213, 213, 213]
+  Comp.LoopTesterApp.OptTime: [491, 489, 495, 495, 484, 485, 501]
+  Comp.LoopTesterApp.ImplicitLibTime: [120, 121, 122, 120, 122, 125, 127]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [199, 203, 199, 200, 199, 201, 200]
+  Exec.BenchmarkGame.nbody: [577, 578, 589, 589, 587, 575, 575]
+  Exec.BenchmarkGame.fasta: [563, 562, 559, 564, 561, 556, 562]
+  Exec.BenchmarkGame.fastaredux: [351, 357, 350, 355, 359, 351, 354]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3457, 3391, 3382, 3381, 3387, 3372, 3380]
+  Exec.Examples.LoopTesterApp: [1306, 1230, 1534, 1210, 1472, 1178, 1462]
+  Exec.Examples.FibRange: [947, 951, 945, 953, 947, 952, 944]
+  Exec.Examples.Collatz: [1405, 1405, 1398, 1405, 1405, 1401, 1401]
