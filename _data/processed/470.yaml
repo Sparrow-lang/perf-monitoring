@@ -1,0 +1,175 @@
+show-history: ['460', '463', '465', '466', '468', '470']
+
+statuses:
+  Comp: good
+  Comp.LoopTesterApp: good
+  Comp.LoopTesterApp.CtEvalsTime: good
+  Comp.LoopTesterApp.FinalLinkTime: same
+  Comp.LoopTesterApp.ImplicitLibTime: same
+  Comp.LoopTesterApp.LlcTime: same
+  Comp.LoopTesterApp.NumCtEvals: same
+  Comp.LoopTesterApp.OptTime: same
+  Comp.LoopTesterApp.TotalTime: good2
+  Comp.Ranges: same
+  Comp.Ranges.CtEvalsTime: same
+  Comp.Ranges.FinalLinkTime: same
+  Comp.Ranges.ImplicitLibTime: same
+  Comp.Ranges.LlcTime: good
+  Comp.Ranges.NumCtEvals: same
+  Comp.Ranges.OptTime: good2
+  Comp.Ranges.TotalTime: good
+  Exec: same
+  Exec.BenchmarkGame: same
+  Exec.BenchmarkGame.fannkuchredux: same
+  Exec.BenchmarkGame.fasta: good
+  Exec.BenchmarkGame.fastaredux: same
+  Exec.BenchmarkGame.meteor: same
+  Exec.BenchmarkGame.nbody: same
+  Exec.Examples: good
+  Exec.Examples.Collatz: good2
+  Exec.Examples.FibRange: good
+  Exec.Examples.LoopTesterApp: same
+  overall: good
+
+trends:
+  Comp.LoopTesterApp.CtEvalsTime:
+    relPerf: -3.866413395172958
+    relPerfTrend: 6.559297999321455
+    stddevs: [1.8294640678379568, 2.0603150145508513, 4.462999814803802, 2.657296462534039,
+      1.5518257844571737, 2.2314999074019015]
+    values: [149.0, 157.0, 173.0, 156.0, 167.0, 161.0]
+  Comp.LoopTesterApp.FinalLinkTime:
+    relPerf: 0.0
+    relPerfTrend: 2.0207259421636903
+    stddevs: [0.0, 0.4948716593053935, 0.6388765649999398, 0.34992710611188255, 0.5345224838248488,
+      0.45175395145262565]
+    values: [15.0, 15.0, 16.0, 15.0, 16.0, 16.0]
+  Comp.LoopTesterApp.ImplicitLibTime:
+    relPerf: -1.3728129459672882
+    relPerfTrend: -0.7570332986102253
+    stddevs: [2.6418917155581325, 1.4568627181693672, 2.6108095546424375, 3.3380918415851206,
+      2.1852940772540506, 1.0690449676496976]
+    values: [123.0, 123.0, 130.0, 123.0, 124.0, 121.0]
+  Comp.LoopTesterApp.LlcTime:
+    relPerf: -1.1067971810589328
+    relPerfTrend: 2.5947686655039046
+    stddevs: [2.3123448651769496, 1.049781318335648, 6.458659745975609, 1.9897697538834458,
+      2.710523708715754, 1.8405855323893037]
+    values: [200.0, 203.0, 218.0, 203.0, 209.0, 206.0]
+  Comp.LoopTesterApp.NumCtEvals:
+    relPerf: 0.0
+    relPerfTrend: 0.0
+    stddevs: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    values: [212.0, 212.0, 212.0, 212.0, 210.0, 210.0]
+  Comp.LoopTesterApp.OptTime:
+    relPerf: -1.7251813021914115
+    relPerfTrend: 5.832996136689603
+    stddevs: [5.314592925068078, 3.8491981672307087, 11.535216707535056, 5.598833697790121,
+      9.854036777703161, 3.4166459266003995]
+    values: [486.0, 505.0, 534.0, 498.0, 534.0, 517.0]
+  Comp.LoopTesterApp.TotalTime:
+    relPerf: -6.323104707968512
+    relPerfTrend: 6.3080731954863625
+    stddevs: [12.999215046945515, 8.891637896911677, 24.553149347021513, 10.042765697612529,
+      10.279760181432012, 11.135528725660043]
+    values: [1611.0, 1666.0, 1800.0, 1654.0, 1758.0, 1693.0]
+  Comp.Ranges.CtEvalsTime:
+    relPerf: -1.6631683715902201
+    relPerfTrend: 5.400617248673217
+    stddevs: [0.9258200997725514, 1.4142135623730951, 4.981598792617913, 3.3380918415851206,
+      4.20883424647321, 1.6413036132965795]
+    values: [124.0, 129.0, 133.0, 128.0, 136.0, 129.0]
+  Comp.Ranges.FinalLinkTime:
+    relPerf: 0.0
+    relPerfTrend: 2.2135943621178655
+    stddevs: [0.45175395145262565, 0.45175395145262565, 0.5345224838248488, 0.4948716593053935,
+      0.4948716593053935, 0.3499271061118825]
+    values: [15.0, 15.0, 16.0, 15.0, 16.0, 16.0]
+  Comp.Ranges.ImplicitLibTime:
+    relPerf: -1.2640514574005768
+    relPerfTrend: 0.0
+    stddevs: [2.060315014550851, 2.5555062599997593, 4.772369453854304, 1.6781914463529615,
+      2.3733211036908783, 1.6781914463529615]
+    values: [120.0, 123.0, 129.0, 123.0, 123.0, 120.0]
+  Comp.Ranges.LlcTime:
+    relPerf: -2.4378411160144737
+    relPerfTrend: 0.9943788200017946
+    stddevs: [3.0169588688489823, 3.9641248358604595, 8.497298490264601, 4.203982562732046,
+      2.871393034605968, 2.1189138534559038]
+    values: [218.0, 222.0, 235.0, 219.0, 228.0, 221.0]
+  Comp.Ranges.NumCtEvals:
+    relPerf: 0.0
+    relPerfTrend: 0.0
+    stddevs: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    values: [210.0, 210.0, 210.0, 210.0, 208.0, 208.0]
+  Comp.Ranges.OptTime:
+    relPerf: -4.014775342734831
+    relPerfTrend: 3.1374750995027836
+    stddevs: [9.561828874675149, 4.266624149448022, 19.077714319945915, 12.699027762882046,
+      3.7361990944634345, 3.927922024247863]
+    values: [508.0, 537.0, 546.0, 519.0, 553.0, 538.0]
+  Comp.Ranges.TotalTime:
+    relPerf: -3.245195369291243
+    relPerfTrend: 10.448171976899255
+    stddevs: [6.986868148935705, 10.64645193364955, 47.36312179451909, 33.064562693652086,
+      15.407392871671728, 10.474458731327633]
+    values: [1352.0, 1422.0, 1471.0, 1395.0, 1475.0, 1425.0]
+  Exec.BenchmarkGame.fannkuchredux:
+    relPerf: -0.28182348679185026
+    relPerfTrend: 0.17006749265944132
+    stddevs: [47.04014785482803, 8.630747123996123, 76.90970056381916, 25.079465541289643,
+      31.934882725538195, 43.20714226672649]
+    values: [3402.0, 3394.0, 3483.0, 3397.0, 3419.0, 3410.0]
+  Exec.BenchmarkGame.fasta:
+    relPerf: -2.546624062881496
+    relPerfTrend: -1.037167703834889
+    stddevs: [6.7491496062958385, 2.4907993963089563, 9.341590128155323, 5.174505793221382,
+      2.356060357495806, 1.9897697538834456]
+    values: [566.0, 566.0, 562.0, 563.0, 565.0, 559.0]
+  Exec.BenchmarkGame.fastaredux:
+    relPerf: -1.4478455319860537
+    relPerfTrend: -4.301334086798384
+    stddevs: [3.719776161797582, 2.8499910490371434, 5.221619109284876, 10.507528884819024,
+      2.762725657973388, 1.8070158058105024]
+    values: [364.0, 360.0, 381.0, 355.0, 352.0, 348.0]
+  Exec.BenchmarkGame.meteor:
+    relPerf: -0.7378647873726218
+    relPerfTrend: -2.0207259421636903
+    stddevs: [0.4948716593053935, 0.34992710611188255, 1.9587584572574412, 0.6998542122237652,
+      1.355261854357877, 0.4948716593053935]
+    values: [66.0, 65.0, 70.0, 65.0, 66.0, 65.0]
+  Exec.BenchmarkGame.nbody:
+    relPerf: -0.1941450686788302
+    relPerfTrend: -0.7775858049801411
+    stddevs: [12.860317068487884, 12.822174669895357, 10.404080832018927, 8.176621726430962,
+      5.150787536377128, 5.341405455954262]
+    values: [581.0, 588.0, 609.0, 568.0, 572.0, 571.0]
+  Exec.Examples.Collatz:
+    relPerf: -7.560864148142504
+    relPerfTrend: -1.9894313536852029
+    stddevs: [14.57702973579897, 2.5634797778466227, 36.158381758985996, 6.363159271805739,
+      0.9258200997725514, 2.864276807966203]
+    values: [1435.0, 1410.0, 1487.0, 1412.0, 1413.0, 1406.0]
+  Exec.Examples.FibRange:
+    relPerf: -2.786104132587969
+    relPerfTrend: -2.496916587579175
+    stddevs: [6.4079032834302305, 2.1285234893930487, 9.627765968853854, 6.839262402049043,
+      2.871393034605969, 2.531435020952764]
+    values: [964.0, 951.0, 952.0, 952.0, 956.0, 948.0]
+  Exec.Examples.LoopTesterApp:
+    relPerf: -1.1808657570906576
+    relPerfTrend: -0.9700799524574528
+    stddevs: [131.94788705378798, 6.670067159959287, 79.43884825603212, 11.618071777912835,
+      99.07984823631197, 5.627918743883488]
+    values: [1360.0, 1225.0, 1375.0, 1241.0, 1349.0, 1232.0]
+
+summary:
+  curFixes: [Comp.Ranges.OptTime, Exec.Examples.Collatz, Exec.BenchmarkGame.fasta,
+    Comp.LoopTesterApp.TotalTime, Exec.Examples.FibRange, Comp.Ranges.TotalTime, Comp.Ranges.LlcTime,
+    Comp.LoopTesterApp.CtEvalsTime]
+  curProblems: []
+  trendFixes: [Exec.BenchmarkGame.meteor, Exec.BenchmarkGame.fastaredux, Exec.Examples.FibRange]
+  trendProblems: [Comp.Ranges.OptTime, Comp.Ranges.FinalLinkTime, Comp.LoopTesterApp.OptTime,
+    Comp.LoopTesterApp.TotalTime, Comp.Ranges.CtEvalsTime, Comp.LoopTesterApp.LlcTime,
+    Comp.Ranges.TotalTime, Comp.LoopTesterApp.FinalLinkTime, Comp.LoopTesterApp.CtEvalsTime]
+
