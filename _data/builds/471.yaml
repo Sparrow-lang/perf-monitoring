@@ -1,0 +1,34 @@
+info:
+  name: "471"
+  date: Sun, 05 May 2019 18:02:54 +0000
+  branch: "tools_support"
+  parents: ['ef929b6']
+  sha: d3601de
+  sha-long: d3601de0cf2ed651fc29f52526e52532b0fc1a1d
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 5 May 2019 20:53:44 +0300
+  commit-message: "Basic formatting transformations"
+
+measurements:
+  Comp.Ranges.TotalTime: [1441, 1430, 1412, 1452, 1454, 1458, 1451]
+  Comp.Ranges.CtEvalsTime: [131, 130, 126, 132, 131, 131, 132]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [546, 544, 543, 544, 551, 546, 552]
+  Comp.Ranges.ImplicitLibTime: [118, 119, 119, 120, 119, 122, 119]
+  Comp.Ranges.FinalLinkTime: [16, 16, 16, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [223, 223, 221, 222, 232, 229, 223]
+  Comp.LoopTesterApp.TotalTime: [1701, 1701, 1676, 1691, 1690, 1667, 1653]
+  Comp.LoopTesterApp.CtEvalsTime: [160, 158, 157, 158, 158, 157, 160]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [528, 522, 516, 523, 512, 505, 507]
+  Comp.LoopTesterApp.ImplicitLibTime: [119, 124, 121, 120, 119, 122, 121]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 16, 16, 16, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [202, 205, 204, 203, 210, 203, 200]
+  Exec.BenchmarkGame.nbody: [553, 572, 570, 575, 577, 567, 569]
+  Exec.BenchmarkGame.fasta: [562, 561, 562, 560, 560, 563, 560]
+  Exec.BenchmarkGame.fastaredux: [358, 346, 342, 342, 342, 352, 352]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 64, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3376, 3376, 3382, 3377, 3394, 3399, 3401]
+  Exec.Examples.LoopTesterApp: [1287, 1245, 1318, 1224, 1643, 1414, 1658]
+  Exec.Examples.FibRange: [949, 958, 951, 957, 952, 956, 948]
+  Exec.Examples.Collatz: [1410, 1407, 1412, 1403, 1406, 1401, 1404]
