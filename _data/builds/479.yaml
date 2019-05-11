@@ -1,0 +1,34 @@
+info:
+  name: "479"
+  date: Sat, 11 May 2019 20:58:51 +0000
+  branch: "master"
+  parents: ['c97d621']
+  sha: 9cedda1
+  sha-long: 9cedda15f0fc7644cf7d4add0fdd9c1f0e62ddad
+  commit-author: Petre-Gabriel Niculae
+  commit-date: Sat, 11 May 2019 23:50:00 +0300
+  commit-message: "Added Union support to Sparrow (#84)"
+
+measurements:
+  Comp.Ranges.TotalTime: [1382, 1374, 1364, 1384, 1366, 1373, 1401]
+  Comp.Ranges.CtEvalsTime: [124, 126, 128, 125, 124, 124, 125]
+  Comp.Ranges.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.Ranges.OptTime: [533, 519, 514, 526, 518, 524, 539]
+  Comp.Ranges.ImplicitLibTime: [121, 122, 125, 124, 123, 122, 119]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [216, 219, 217, 218, 218, 218, 221]
+  Comp.LoopTesterApp.TotalTime: [1663, 1636, 1667, 1640, 1653, 1643, 1643]
+  Comp.LoopTesterApp.CtEvalsTime: [159, 152, 155, 158, 156, 153, 156]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [503, 503, 509, 497, 506, 505, 505]
+  Comp.LoopTesterApp.ImplicitLibTime: [126, 120, 131, 123, 125, 120, 119]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [200, 208, 202, 206, 201, 204, 203]
+  Exec.BenchmarkGame.nbody: [594, 598, 595, 584, 609, 593, 605]
+  Exec.BenchmarkGame.fasta: [569, 559, 559, 565, 561, 559, 560]
+  Exec.BenchmarkGame.fastaredux: [361, 359, 358, 364, 361, 360, 357]
+  Exec.BenchmarkGame.meteor: [65, 66, 66, 66, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3401, 3390, 3397, 3393, 3411, 3402, 3409]
+  Exec.Examples.LoopTesterApp: [1190, 1556, 1193, 1194, 1212, 1209, 1208]
+  Exec.Examples.FibRange: [955, 953, 949, 955, 952, 949, 956]
+  Exec.Examples.Collatz: [1444, 1416, 1409, 1407, 1406, 1414, 1419]
