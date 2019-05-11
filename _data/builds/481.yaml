@@ -1,0 +1,34 @@
+info:
+  name: "481"
+  date: Sat, 11 May 2019 21:16:17 +0000
+  branch: "tools_support"
+  parents: ['204825a']
+  sha: a6b71c9
+  sha-long: a6b71c96b7ad56301a735ddcec74c7189b158303
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 11 May 2019 23:34:48 +0300
+  commit-message: "Fix bug with layout formatting for some edge cases"
+
+measurements:
+  Comp.Ranges.TotalTime: [1503, 1495, 1561, 1606, 1572, 1468, 1482]
+  Comp.Ranges.CtEvalsTime: [137, 138, 141, 143, 146, 132, 130]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [568, 559, 575, 595, 566, 553, 554]
+  Comp.Ranges.ImplicitLibTime: [124, 126, 126, 135, 137, 128, 128]
+  Comp.Ranges.FinalLinkTime: [17, 16, 18, 19, 17, 16, 17]
+  Comp.Ranges.LlcTime: [240, 234, 244, 240, 232, 222, 229]
+  Comp.LoopTesterApp.TotalTime: [1662, 1670, 1671, 1702, 1664, 1676, 1662]
+  Comp.LoopTesterApp.CtEvalsTime: [159, 156, 158, 160, 157, 157, 160]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [500, 506, 508, 527, 503, 502, 503]
+  Comp.LoopTesterApp.ImplicitLibTime: [135, 118, 119, 120, 118, 127, 120]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 16, 15, 16, 16, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [204, 206, 204, 204, 208, 204, 202]
+  Exec.BenchmarkGame.nbody: [583, 560, 578, 562, 566, 571, 607]
+  Exec.BenchmarkGame.fasta: [562, 559, 563, 562, 557, 564, 574]
+  Exec.BenchmarkGame.fastaredux: [348, 362, 349, 352, 352, 349, 346]
+  Exec.BenchmarkGame.meteor: [66, 66, 66, 66, 66, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3385, 3397, 3385, 3379, 3406, 3397, 3397]
+  Exec.Examples.LoopTesterApp: [1241, 1214, 1302, 1231, 1323, 1300, 1614]
+  Exec.Examples.FibRange: [952, 950, 950, 951, 953, 947, 954]
+  Exec.Examples.Collatz: [1402, 1406, 1412, 1411, 1402, 1411, 1410]
