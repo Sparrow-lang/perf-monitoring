@@ -1,0 +1,34 @@
+info:
+  name: "482"
+  date: Sun, 12 May 2019 09:05:45 +0000
+  branch: "tools_support"
+  parents: ['a6b71c9']
+  sha: 98db2ee
+  sha-long: 98db2eeabb979a49b220d9bad17e4b6599bf20e0
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 12 May 2019 11:56:08 +0300
+  commit-message: "Reformat the files in standard library"
+
+measurements:
+  Comp.Ranges.TotalTime: [1477, 1491, 1485, 1481, 1451, 1450, 1514]
+  Comp.Ranges.CtEvalsTime: [135, 135, 131, 135, 133, 135, 135]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [558, 557, 578, 546, 545, 531, 576]
+  Comp.Ranges.ImplicitLibTime: [123, 125, 124, 129, 126, 124, 125]
+  Comp.Ranges.FinalLinkTime: [17, 16, 16, 16, 16, 15, 16]
+  Comp.Ranges.LlcTime: [233, 234, 225, 225, 222, 226, 240]
+  Comp.LoopTesterApp.TotalTime: [1785, 1741, 1749, 1822, 1718, 1750, 1790]
+  Comp.LoopTesterApp.CtEvalsTime: [178, 168, 165, 176, 166, 170, 168]
+  Comp.LoopTesterApp.NumCtEvals: [210, 210, 210, 210, 210, 210, 210]
+  Comp.LoopTesterApp.OptTime: [531, 527, 513, 546, 510, 525, 534]
+  Comp.LoopTesterApp.ImplicitLibTime: [130, 127, 123, 132, 126, 125, 129]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 17, 16, 15, 15, 17]
+  Comp.LoopTesterApp.LlcTime: [211, 208, 224, 205, 206, 206, 212]
+  Exec.BenchmarkGame.nbody: [571, 584, 589, 595, 574, 585, 579]
+  Exec.BenchmarkGame.fasta: [563, 571, 568, 564, 569, 563, 567]
+  Exec.BenchmarkGame.fastaredux: [356, 356, 358, 351, 357, 358, 364]
+  Exec.BenchmarkGame.meteor: [67, 65, 66, 67, 66, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3410, 3406, 3400, 3395, 3385, 3393, 3405]
+  Exec.Examples.LoopTesterApp: [1365, 1480, 1344, 1503, 1444, 1452, 1482]
+  Exec.Examples.FibRange: [962, 963, 954, 964, 953, 956, 979]
+  Exec.Examples.Collatz: [1422, 1440, 1415, 1407, 1407, 1418, 1408]
