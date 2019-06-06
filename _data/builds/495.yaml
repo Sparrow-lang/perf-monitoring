@@ -1,0 +1,34 @@
+info:
+  name: "495"
+  date: Thu, 06 Jun 2019 17:03:25 +0000
+  branch: "types_work"
+  parents: ['73fa0a4']
+  sha: e6e47f2
+  sha-long: e6e47f27fa71cc015b53f52a9739ff479679d89b
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 6 Jun 2019 19:52:50 +0300
+  commit-message: "Fix problem with mutable this in destructors."
+
+measurements:
+  Comp.Ranges.TotalTime: [1392, 1386, 1393, 1382, 1361, 1341, 1355]
+  Comp.Ranges.CtEvalsTime: [127, 125, 127, 128, 125, 122, 123]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [522, 530, 523, 520, 518, 504, 520]
+  Comp.Ranges.ImplicitLibTime: [119, 119, 122, 118, 118, 118, 117]
+  Comp.Ranges.FinalLinkTime: [15, 16, 16, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [220, 221, 219, 221, 215, 215, 216]
+  Comp.LoopTesterApp.TotalTime: [1618, 1631, 1578, 1586, 1610, 1640, 1617]
+  Comp.LoopTesterApp.CtEvalsTime: [152, 154, 147, 148, 153, 155, 152]
+  Comp.LoopTesterApp.NumCtEvals: [211, 211, 211, 211, 211, 211, 211]
+  Comp.LoopTesterApp.OptTime: [496, 497, 483, 482, 487, 494, 493]
+  Comp.LoopTesterApp.ImplicitLibTime: [116, 118, 116, 115, 119, 119, 117]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 16, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [197, 197, 197, 197, 200, 200, 202]
+  Exec.BenchmarkGame.nbody: [572, 575, 573, 572, 562, 571, 558]
+  Exec.BenchmarkGame.fasta: [562, 555, 556, 557, 562, 555, 556]
+  Exec.BenchmarkGame.fastaredux: [354, 347, 345, 346, 351, 347, 356]
+  Exec.BenchmarkGame.meteor: [65, 65, 64, 65, 64, 65, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3362, 3358, 3364, 3358, 3353, 3358, 3360]
+  Exec.Examples.LoopTesterApp: [1205, 1207, 1199, 1197, 1206, 1201, 1205]
+  Exec.Examples.FibRange: [944, 942, 944, 943, 942, 946, 942]
+  Exec.Examples.Collatz: [1394, 1398, 1398, 1394, 1397, 1395, 1396]
