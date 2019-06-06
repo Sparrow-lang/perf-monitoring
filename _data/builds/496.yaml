@@ -1,0 +1,34 @@
+info:
+  name: "496"
+  date: Thu, 06 Jun 2019 20:19:36 +0000
+  branch: "types_work"
+  parents: ['e6e47f2']
+  sha: 101f2bf
+  sha-long: 101f2bf5e91d9928908ff02db5e321ac93c7a322
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 6 Jun 2019 23:08:28 +0300
+  commit-message: "Fix problem with mutable this in ctor"
+
+measurements:
+  Comp.Ranges.TotalTime: [1424, 1449, 1421, 1453, 1443, 1449, 1433]
+  Comp.Ranges.CtEvalsTime: [131, 133, 131, 133, 133, 134, 130]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [539, 551, 539, 545, 545, 548, 545]
+  Comp.Ranges.ImplicitLibTime: [118, 120, 121, 123, 123, 120, 120]
+  Comp.Ranges.FinalLinkTime: [17, 16, 16, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [226, 223, 221, 229, 226, 225, 227]
+  Comp.LoopTesterApp.TotalTime: [1717, 1698, 1695, 1696, 1687, 1710, 1706]
+  Comp.LoopTesterApp.CtEvalsTime: [161, 162, 163, 163, 161, 161, 164]
+  Comp.LoopTesterApp.NumCtEvals: [211, 211, 211, 211, 211, 211, 211]
+  Comp.LoopTesterApp.OptTime: [523, 520, 516, 513, 515, 520, 522]
+  Comp.LoopTesterApp.ImplicitLibTime: [124, 122, 123, 124, 120, 128, 120]
+  Comp.LoopTesterApp.FinalLinkTime: [17, 16, 16, 15, 16, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [207, 206, 206, 203, 206, 206, 206]
+  Exec.BenchmarkGame.nbody: [574, 594, 595, 583, 576, 574, 602]
+  Exec.BenchmarkGame.fasta: [565, 568, 561, 568, 562, 562, 562]
+  Exec.BenchmarkGame.fastaredux: [355, 362, 353, 358, 361, 357, 361]
+  Exec.BenchmarkGame.meteor: [66, 65, 65, 66, 66, 69, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3383, 3389, 3379, 3392, 3385, 3372, 3382]
+  Exec.Examples.LoopTesterApp: [1288, 1233, 1560, 1313, 1649, 1227, 1231]
+  Exec.Examples.FibRange: [951, 958, 953, 960, 950, 950, 947]
+  Exec.Examples.Collatz: [1403, 1406, 1412, 1408, 1411, 1404, 1403]
