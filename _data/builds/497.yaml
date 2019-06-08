@@ -1,0 +1,34 @@
+info:
+  name: "497"
+  date: Sat, 08 Jun 2019 09:33:50 +0000
+  branch: "types_work"
+  parents: ['101f2bf']
+  sha: fb62d37
+  sha-long: fb62d37f05485b26c703242ba8ad427efb2b88e0
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 8 Jun 2019 12:23:53 +0300
+  commit-message: "Make references convert to mutables"
+
+measurements:
+  Comp.Ranges.TotalTime: [1294, 1296, 1304, 1299, 1305, 1329, 1304]
+  Comp.Ranges.CtEvalsTime: [120, 120, 120, 119, 121, 125, 121]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [492, 487, 489, 501, 494, 497, 495]
+  Comp.Ranges.ImplicitLibTime: [115, 115, 117, 114, 115, 119, 115]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [209, 208, 218, 210, 212, 212, 210]
+  Comp.LoopTesterApp.TotalTime: [1548, 1559, 1541, 1548, 1542, 1530, 1540]
+  Comp.LoopTesterApp.CtEvalsTime: [146, 144, 142, 143, 143, 143, 143]
+  Comp.LoopTesterApp.NumCtEvals: [211, 211, 211, 211, 211, 211, 211]
+  Comp.LoopTesterApp.OptTime: [469, 476, 468, 473, 468, 465, 472]
+  Comp.LoopTesterApp.ImplicitLibTime: [115, 119, 114, 117, 114, 114, 113]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [194, 195, 199, 196, 196, 194, 193]
+  Exec.BenchmarkGame.nbody: [579, 585, 585, 573, 567, 563, 565]
+  Exec.BenchmarkGame.fasta: [558, 554, 558, 557, 558, 558, 559]
+  Exec.BenchmarkGame.fastaredux: [353, 352, 350, 352, 353, 354, 351]
+  Exec.BenchmarkGame.meteor: [66, 65, 65, 65, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3367, 3352, 3357, 3361, 3360, 3361, 3360]
+  Exec.Examples.LoopTesterApp: [1144, 1138, 1140, 1146, 1137, 1146, 1149]
+  Exec.Examples.FibRange: [943, 946, 948, 945, 944, 947, 942]
+  Exec.Examples.Collatz: [1402, 1398, 1394, 1397, 1394, 1395, 1393]
