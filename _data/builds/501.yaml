@@ -1,0 +1,34 @@
+info:
+  name: "501"
+  date: Sat, 08 Jun 2019 20:52:38 +0000
+  branch: "types_work"
+  parents: ['96254e4']
+  sha: 462d8d9
+  sha-long: 462d8d98bea4b102de56ce79d45338df86f61e8c
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 8 Jun 2019 23:44:04 +0300
+  commit-message: "Fix TODOs from transition to mutable parameters in test/"
+
+measurements:
+  Comp.Ranges.TotalTime: [1324, 1346, 1357, 1357, 1325, 1320, 1341]
+  Comp.Ranges.CtEvalsTime: [124, 123, 124, 122, 122, 123, 123]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [501, 510, 509, 516, 501, 502, 505]
+  Comp.Ranges.ImplicitLibTime: [115, 120, 117, 120, 118, 114, 120]
+  Comp.Ranges.FinalLinkTime: [15, 15, 16, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [212, 216, 215, 214, 208, 212, 214]
+  Comp.LoopTesterApp.TotalTime: [1593, 1577, 1577, 1571, 1573, 1563, 1587]
+  Comp.LoopTesterApp.CtEvalsTime: [152, 149, 151, 149, 150, 147, 149]
+  Comp.LoopTesterApp.NumCtEvals: [211, 211, 211, 211, 211, 211, 211]
+  Comp.LoopTesterApp.OptTime: [479, 477, 478, 476, 471, 472, 481]
+  Comp.LoopTesterApp.ImplicitLibTime: [118, 121, 114, 116, 115, 114, 116]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [200, 198, 199, 197, 196, 203, 199]
+  Exec.BenchmarkGame.nbody: [591, 593, 586, 588, 586, 576, 597]
+  Exec.BenchmarkGame.fasta: [561, 558, 557, 556, 561, 584, 560]
+  Exec.BenchmarkGame.fastaredux: [353, 352, 350, 355, 353, 356, 358]
+  Exec.BenchmarkGame.meteor: [65, 65, 65, 65, 64, 67, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3364, 3371, 3374, 3369, 3360, 3362, 3352]
+  Exec.Examples.LoopTesterApp: [1193, 1186, 1183, 1175, 1177, 1176, 1165]
+  Exec.Examples.FibRange: [942, 942, 940, 942, 942, 941, 943]
+  Exec.Examples.Collatz: [1393, 1393, 1392, 1391, 1394, 1394, 1394]
