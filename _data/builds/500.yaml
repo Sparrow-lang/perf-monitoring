@@ -1,0 +1,34 @@
+info:
+  name: "500"
+  date: Sat, 08 Jun 2019 15:47:11 +0000
+  branch: "types_work"
+  parents: ['474af4b']
+  sha: 96254e4
+  sha-long: 96254e45f22e5ad950db42f69f73442082f171bf
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 8 Jun 2019 18:38:20 +0300
+  commit-message: "Convert ref to mut for parameters in test/"
+
+measurements:
+  Comp.Ranges.TotalTime: [1395, 1359, 1383, 1397, 1375, 1396, 1385]
+  Comp.Ranges.CtEvalsTime: [126, 125, 124, 123, 125, 125, 127]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [530, 515, 519, 536, 522, 522, 522]
+  Comp.Ranges.ImplicitLibTime: [118, 118, 127, 119, 118, 129, 118]
+  Comp.Ranges.FinalLinkTime: [16, 15, 15, 15, 15, 16, 16]
+  Comp.Ranges.LlcTime: [218, 218, 225, 226, 223, 224, 220]
+  Comp.LoopTesterApp.TotalTime: [1669, 1658, 1646, 1683, 1695, 1679, 1683]
+  Comp.LoopTesterApp.CtEvalsTime: [162, 158, 156, 162, 169, 160, 157]
+  Comp.LoopTesterApp.NumCtEvals: [212, 212, 212, 212, 212, 212, 212]
+  Comp.LoopTesterApp.OptTime: [497, 498, 502, 517, 507, 512, 514]
+  Comp.LoopTesterApp.ImplicitLibTime: [121, 120, 116, 126, 122, 119, 124]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 16, 15, 16, 16, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [202, 210, 205, 208, 208, 203, 211]
+  Exec.BenchmarkGame.nbody: [590, 595, 582, 589, 598, 588, 584]
+  Exec.BenchmarkGame.fasta: [571, 566, 565, 576, 565, 568, 570]
+  Exec.BenchmarkGame.fastaredux: [360, 352, 366, 372, 353, 353, 356]
+  Exec.BenchmarkGame.meteor: [66, 66, 65, 65, 65, 65, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3390, 3423, 3392, 3416, 3423, 3397, 3424]
+  Exec.Examples.LoopTesterApp: [1223, 1224, 1222, 1542, 1597, 1227, 1231]
+  Exec.Examples.FibRange: [957, 958, 952, 955, 950, 953, 953]
+  Exec.Examples.Collatz: [1409, 1414, 1412, 1410, 1415, 1405, 1412]
