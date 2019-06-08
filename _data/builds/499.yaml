@@ -1,0 +1,34 @@
+info:
+  name: "499"
+  date: Sat, 08 Jun 2019 12:49:19 +0000
+  branch: "types_work"
+  parents: ['d14708a']
+  sha: 474af4b
+  sha-long: 474af4b6baaf8b0ebd8d898dadb369a715ee63ad
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 8 Jun 2019 15:40:47 +0300
+  commit-message: "Fix mutable concept parameters"
+
+measurements:
+  Comp.Ranges.TotalTime: [1322, 1324, 1338, 1330, 1327, 1338, 1330]
+  Comp.Ranges.CtEvalsTime: [123, 121, 122, 122, 122, 122, 121]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [501, 500, 510, 505, 501, 504, 506]
+  Comp.Ranges.ImplicitLibTime: [115, 115, 116, 117, 118, 119, 119]
+  Comp.Ranges.FinalLinkTime: [15, 15, 17, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [212, 216, 214, 215, 214, 214, 216]
+  Comp.LoopTesterApp.TotalTime: [1622, 1598, 1623, 1623, 1622, 1617, 1606]
+  Comp.LoopTesterApp.CtEvalsTime: [153, 151, 153, 154, 153, 151, 151]
+  Comp.LoopTesterApp.NumCtEvals: [211, 211, 211, 211, 211, 211, 211]
+  Comp.LoopTesterApp.OptTime: [503, 485, 491, 494, 487, 493, 486]
+  Comp.LoopTesterApp.ImplicitLibTime: [117, 115, 123, 119, 125, 121, 122]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 15, 15, 16, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [203, 202, 199, 202, 202, 200, 202]
+  Exec.BenchmarkGame.nbody: [582, 561, 565, 573, 581, 581, 580]
+  Exec.BenchmarkGame.fasta: [561, 561, 559, 559, 560, 554, 557]
+  Exec.BenchmarkGame.fastaredux: [351, 351, 354, 351, 354, 351, 359]
+  Exec.BenchmarkGame.meteor: [64, 66, 66, 65, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3357, 3435, 3367, 3365, 3364, 3363, 3355]
+  Exec.Examples.LoopTesterApp: [1181, 1175, 1185, 1186, 1178, 1187, 1181]
+  Exec.Examples.FibRange: [945, 944, 943, 944, 943, 944, 945]
+  Exec.Examples.Collatz: [1396, 1399, 1398, 1401, 1395, 1397, 1400]
