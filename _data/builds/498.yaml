@@ -1,0 +1,34 @@
+info:
+  name: "498"
+  date: Sat, 08 Jun 2019 10:34:59 +0000
+  branch: "types_work"
+  parents: ['fb62d37']
+  sha: d14708a
+  sha-long: d14708a8fe9023008072df6e399eb87d64e15b39
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 8 Jun 2019 13:26:23 +0300
+  commit-message: "Generated associated functions for datatypes take this as mutable"
+
+measurements:
+  Comp.Ranges.TotalTime: [1334, 1348, 1342, 1329, 1343, 1358, 1354]
+  Comp.Ranges.CtEvalsTime: [123, 121, 122, 121, 121, 124, 125]
+  Comp.Ranges.NumCtEvals: [208, 208, 208, 208, 208, 208, 208]
+  Comp.Ranges.OptTime: [511, 523, 514, 510, 517, 514, 516]
+  Comp.Ranges.ImplicitLibTime: [115, 118, 115, 116, 115, 118, 119]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [213, 216, 213, 211, 212, 211, 215]
+  Comp.LoopTesterApp.TotalTime: [1614, 1564, 1602, 1588, 1588, 1579, 1580]
+  Comp.LoopTesterApp.CtEvalsTime: [153, 147, 157, 149, 151, 149, 149]
+  Comp.LoopTesterApp.NumCtEvals: [211, 211, 211, 211, 211, 211, 211]
+  Comp.LoopTesterApp.OptTime: [488, 484, 483, 484, 490, 480, 483]
+  Comp.LoopTesterApp.ImplicitLibTime: [121, 117, 119, 118, 115, 114, 120]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [198, 198, 197, 196, 195, 196, 197]
+  Exec.BenchmarkGame.nbody: [551, 573, 561, 564, 572, 587, 563]
+  Exec.BenchmarkGame.fasta: [564, 555, 561, 559, 560, 557, 561]
+  Exec.BenchmarkGame.fastaredux: [345, 356, 351, 346, 350, 350, 348]
+  Exec.BenchmarkGame.meteor: [68, 66, 65, 65, 65, 65, 65]
+  Exec.BenchmarkGame.fannkuchredux: [3491, 3356, 3358, 3357, 3354, 3358, 3357]
+  Exec.Examples.LoopTesterApp: [1185, 1180, 1201, 1187, 1185, 1185, 1190]
+  Exec.Examples.FibRange: [940, 942, 939, 942, 943, 942, 941]
+  Exec.Examples.Collatz: [1391, 1394, 1396, 1392, 1393, 1393, 1393]
