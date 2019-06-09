@@ -1,0 +1,34 @@
+info:
+  name: "503"
+  date: Sun, 09 Jun 2019 14:33:51 +0000
+  branch: "types_work"
+  parents: ['3561fb9']
+  sha: edd1531
+  sha-long: edd15312f0f1f43cfd9fdadde2735c47b66e87bc
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 9 Jun 2019 16:56:47 +0300
+  commit-message: "More mutable parameters in the Sparrow std lib"
+
+measurements:
+  Comp.Ranges.TotalTime: [1437, 1440, 1455, 1438, 1446, 1439, 1458]
+  Comp.Ranges.CtEvalsTime: [131, 130, 132, 129, 138, 131, 129]
+  Comp.Ranges.NumCtEvals: [206, 206, 206, 206, 206, 206, 206]
+  Comp.Ranges.OptTime: [549, 546, 556, 556, 553, 555, 560]
+  Comp.Ranges.ImplicitLibTime: [111, 115, 115, 113, 110, 111, 111]
+  Comp.Ranges.FinalLinkTime: [17, 17, 16, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [224, 225, 226, 224, 225, 223, 234]
+  Comp.LoopTesterApp.TotalTime: [1728, 1712, 1706, 1710, 1706, 1704, 1720]
+  Comp.LoopTesterApp.CtEvalsTime: [165, 168, 165, 165, 163, 171, 166]
+  Comp.LoopTesterApp.NumCtEvals: [209, 209, 209, 209, 209, 209, 209]
+  Comp.LoopTesterApp.OptTime: [523, 515, 515, 514, 508, 520, 527]
+  Comp.LoopTesterApp.ImplicitLibTime: [114, 115, 113, 113, 117, 112, 115]
+  Comp.LoopTesterApp.FinalLinkTime: [17, 17, 17, 17, 16, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [208, 208, 210, 212, 207, 206, 207]
+  Exec.BenchmarkGame.nbody: [574, 587, 611, 587, 563, 585, 578]
+  Exec.BenchmarkGame.fasta: [574, 562, 559, 564, 563, 560, 568]
+  Exec.BenchmarkGame.fastaredux: [358, 351, 369, 355, 355, 358, 349]
+  Exec.BenchmarkGame.meteor: [66, 66, 65, 65, 66, 65, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3388, 3381, 3397, 3399, 3373, 3371, 3375]
+  Exec.Examples.LoopTesterApp: [1205, 1207, 1214, 1202, 1205, 1203, 1222]
+  Exec.Examples.FibRange: [950, 944, 949, 950, 951, 944, 950]
+  Exec.Examples.Collatz: [1402, 1395, 1401, 1399, 1396, 1401, 1408]
