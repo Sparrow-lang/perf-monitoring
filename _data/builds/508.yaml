@@ -1,0 +1,34 @@
+info:
+  name: "508"
+  date: Sun, 09 Jun 2019 17:53:05 +0000
+  branch: "types_work"
+  parents: ['afe2053']
+  sha: dc5c4e1
+  sha-long: dc5c4e1409f1ce58a72b44b3aebdc40537965a67
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 9 Jun 2019 20:43:04 +0300
+  commit-message: "Don't run assert test separately anymore"
+
+measurements:
+  Comp.Ranges.TotalTime: [1366, 1372, 1367, 1393, 1368, 1379, 1360]
+  Comp.Ranges.CtEvalsTime: [125, 125, 124, 127, 123, 129, 123]
+  Comp.Ranges.NumCtEvals: [206, 206, 206, 206, 206, 206, 206]
+  Comp.Ranges.OptTime: [520, 524, 530, 528, 526, 531, 521]
+  Comp.Ranges.ImplicitLibTime: [109, 117, 107, 113, 115, 110, 111]
+  Comp.Ranges.FinalLinkTime: [16, 15, 15, 22, 15, 15, 15]
+  Comp.Ranges.LlcTime: [221, 215, 217, 218, 215, 219, 220]
+  Comp.LoopTesterApp.TotalTime: [1603, 1614, 1627, 1604, 1627, 1602, 1608]
+  Comp.LoopTesterApp.CtEvalsTime: [153, 154, 155, 152, 154, 153, 154]
+  Comp.LoopTesterApp.NumCtEvals: [209, 209, 209, 209, 209, 209, 209]
+  Comp.LoopTesterApp.OptTime: [490, 494, 495, 496, 500, 495, 494]
+  Comp.LoopTesterApp.ImplicitLibTime: [107, 112, 113, 108, 109, 107, 107]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [200, 200, 201, 200, 201, 199, 199]
+  Exec.BenchmarkGame.nbody: [580, 606, 598, 596, 586, 568, 595]
+  Exec.BenchmarkGame.fasta: [599, 564, 562, 555, 575, 561, 556]
+  Exec.BenchmarkGame.fastaredux: [361, 352, 360, 358, 339, 361, 362]
+  Exec.BenchmarkGame.meteor: [64, 65, 64, 64, 65, 65, 64]
+  Exec.BenchmarkGame.fannkuchredux: [3465, 3379, 3380, 3367, 3368, 3366, 3378]
+  Exec.Examples.LoopTesterApp: [1195, 1202, 1191, 1197, 1187, 1196, 1200]
+  Exec.Examples.FibRange: [946, 947, 941, 951, 944, 952, 941]
+  Exec.Examples.Collatz: [1400, 1400, 1394, 1401, 1401, 1403, 1398]
