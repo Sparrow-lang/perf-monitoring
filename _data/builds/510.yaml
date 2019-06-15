@@ -1,0 +1,34 @@
+info:
+  name: "510"
+  date: Sat, 15 Jun 2019 21:11:08 +0000
+  branch: "types_work"
+  parents: ['06d6723']
+  sha: 805c0b3
+  sha-long: 805c0b3152daefae1fe80edcd6eac1788679c8f9
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 16 Jun 2019 00:02:26 +0300
+  commit-message: "Fix remaining parameters in basicDecls"
+
+measurements:
+  Comp.Ranges.TotalTime: [1260, 1261, 1263, 1255, 1254, 1256, 1256]
+  Comp.Ranges.CtEvalsTime: [103, 104, 103, 102, 104, 104, 104]
+  Comp.Ranges.NumCtEvals: [179, 179, 179, 179, 179, 179, 179]
+  Comp.Ranges.OptTime: [497, 495, 495, 489, 490, 491, 489]
+  Comp.Ranges.ImplicitLibTime: [102, 104, 107, 106, 102, 105, 102]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [216, 213, 213, 212, 212, 213, 211]
+  Comp.LoopTesterApp.TotalTime: [1464, 1473, 1472, 1464, 1475, 1462, 1460]
+  Comp.LoopTesterApp.CtEvalsTime: [113, 115, 114, 114, 115, 114, 113]
+  Comp.LoopTesterApp.NumCtEvals: [179, 179, 179, 179, 179, 179, 179]
+  Comp.LoopTesterApp.OptTime: [452, 448, 446, 449, 453, 449, 449]
+  Comp.LoopTesterApp.ImplicitLibTime: [102, 107, 111, 105, 107, 103, 101]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 16, 14, 15]
+  Comp.LoopTesterApp.LlcTime: [194, 194, 193, 193, 195, 192, 195]
+  Exec.BenchmarkGame.nbody: [556, 558, 590, 566, 576, 582, 586]
+  Exec.BenchmarkGame.fasta: [557, 562, 557, 557, 562, 559, 559]
+  Exec.BenchmarkGame.fastaredux: [354, 356, 350, 351, 352, 346, 344]
+  Exec.BenchmarkGame.meteor: [64, 65, 64, 65, 65, 66, 66]
+  Exec.BenchmarkGame.fannkuchredux: [3362, 3361, 3360, 3363, 3368, 3446, 3361]
+  Exec.Examples.LoopTesterApp: [1130, 1135, 1143, 1137, 1143, 1135, 1137]
+  Exec.Examples.FibRange: [945, 943, 944, 945, 943, 944, 943]
+  Exec.Examples.Collatz: [1396, 1396, 1398, 1398, 1397, 1397, 1397]
