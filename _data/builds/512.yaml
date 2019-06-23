@@ -1,0 +1,34 @@
+info:
+  name: "512"
+  date: Sun, 23 Jun 2019 07:34:51 +0000
+  branch: "types_work"
+  parents: ['a3652d1']
+  sha: 1138469
+  sha-long: 113846981566bf4f86c32a726f874c105771dd6f
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 23 Jun 2019 10:25:49 +0300
+  commit-message: "Fix LoopTesterApp crash"
+
+measurements:
+  Comp.Ranges.TotalTime: [1379, 1380, 1380, 1386, 1384, 1367, 1386]
+  Comp.Ranges.CtEvalsTime: [105, 105, 108, 105, 105, 105, 107]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [537, 529, 534, 536, 533, 525, 535]
+  Comp.Ranges.ImplicitLibTime: [112, 114, 113, 112, 115, 115, 112]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [246, 250, 247, 252, 251, 244, 254]
+  Comp.LoopTesterApp.TotalTime: [1701, 1689, 1691, 1683, 1703, 1694, 1715]
+  Comp.LoopTesterApp.CtEvalsTime: [118, 112, 113, 113, 114, 112, 114]
+  Comp.LoopTesterApp.NumCtEvals: [162, 162, 162, 162, 162, 162, 162]
+  Comp.LoopTesterApp.OptTime: [544, 535, 538, 539, 547, 541, 549]
+  Comp.LoopTesterApp.ImplicitLibTime: [116, 114, 116, 112, 114, 115, 114]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [227, 236, 229, 226, 226, 235, 234]
+  Exec.BenchmarkGame.nbody: [1170, 1135, 1133, 1168, 1143, 1143, 1135]
+  Exec.BenchmarkGame.fasta: [910, 911, 907, 913, 911, 910, 911]
+  Exec.BenchmarkGame.fastaredux: [457, 461, 458, 460, 457, 459, 458]
+  Exec.BenchmarkGame.meteor: [97, 95, 96, 96, 95, 96, 95]
+  Exec.BenchmarkGame.fannkuchredux: [7125, 7121, 7125, 7128, 7132, 7131, 7120]
+  Exec.Examples.LoopTesterApp: [1243, 1249, 1249, 1249, 1243, 1247, 1232]
+  Exec.Examples.FibRange: [942, 942, 943, 943, 943, 944, 945]
+  Exec.Examples.Collatz: [1402, 1398, 1400, 1400, 1397, 1398, 1419]
