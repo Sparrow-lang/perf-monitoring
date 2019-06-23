@@ -1,0 +1,34 @@
+info:
+  name: "513"
+  date: Sun, 23 Jun 2019 11:59:05 +0000
+  branch: "types_work"
+  parents: ['1138469']
+  sha: 5bec585
+  sha-long: 5bec585d227ee2e62220ae74f83d5505d4d0a3c5
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 23 Jun 2019 14:50:09 +0300
+  commit-message: "Allow "Concept1 const" to "Concept2 const" conversion"
+
+measurements:
+  Comp.Ranges.TotalTime: [1395, 1448, 1421, 1402, 1428, 1391, 1397]
+  Comp.Ranges.CtEvalsTime: [105, 109, 108, 105, 106, 106, 104]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [531, 554, 541, 533, 534, 521, 534]
+  Comp.Ranges.ImplicitLibTime: [114, 120, 122, 121, 117, 116, 115]
+  Comp.Ranges.FinalLinkTime: [15, 18, 17, 17, 17, 16, 18]
+  Comp.Ranges.LlcTime: [252, 262, 255, 252, 261, 247, 252]
+  Comp.LoopTesterApp.TotalTime: [1726, 1704, 1719, 1742, 1728, 1727, 1743]
+  Comp.LoopTesterApp.CtEvalsTime: [112, 111, 111, 111, 111, 112, 113]
+  Comp.LoopTesterApp.NumCtEvals: [162, 162, 162, 162, 162, 162, 162]
+  Comp.LoopTesterApp.OptTime: [540, 538, 533, 554, 548, 546, 543]
+  Comp.LoopTesterApp.ImplicitLibTime: [120, 113, 118, 125, 117, 119, 118]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 16, 16, 17, 16, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [229, 226, 230, 231, 231, 226, 231]
+  Exec.BenchmarkGame.nbody: [1131, 1147, 1163, 1150, 1165, 1157, 1140]
+  Exec.BenchmarkGame.fasta: [912, 913, 912, 916, 914, 908, 911]
+  Exec.BenchmarkGame.fastaredux: [463, 460, 461, 460, 459, 460, 461]
+  Exec.BenchmarkGame.meteor: [96, 96, 96, 96, 96, 96, 98]
+  Exec.BenchmarkGame.fannkuchredux: [7131, 7140, 7138, 7126, 7126, 7129, 7122]
+  Exec.Examples.LoopTesterApp: [1457, 1457, 1456, 1439, 1448, 1437, 1449]
+  Exec.Examples.FibRange: [945, 945, 944, 943, 943, 943, 943]
+  Exec.Examples.Collatz: [1400, 1399, 1401, 1403, 1399, 1401, 1399]
