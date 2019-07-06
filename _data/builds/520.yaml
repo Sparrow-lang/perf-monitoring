@@ -1,0 +1,34 @@
+info:
+  name: "520"
+  date: Sat, 06 Jul 2019 17:03:45 +0000
+  branch: "types_work"
+  parents: ['6e9bb19']
+  sha: 2531335
+  sha-long: 2531335aa4750e32244f84e4c29ac507c1644c08
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 6 Jul 2019 19:55:16 +0300
+  commit-message: "Reverted memcpy/memmove/memset intrinsics to prev form."
+
+measurements:
+  Comp.Ranges.TotalTime: [1370, 1364, 1374, 1373, 1391, 1377, 1390]
+  Comp.Ranges.CtEvalsTime: [102, 103, 103, 102, 104, 102, 106]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [526, 514, 521, 518, 533, 523, 523]
+  Comp.Ranges.ImplicitLibTime: [118, 119, 119, 119, 116, 118, 120]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 16, 15, 15, 15]
+  Comp.Ranges.LlcTime: [244, 246, 246, 246, 248, 247, 244]
+  Comp.LoopTesterApp.TotalTime: [1645, 1639, 1624, 1662, 1640, 1653, 1629]
+  Comp.LoopTesterApp.CtEvalsTime: [110, 109, 108, 108, 109, 112, 107]
+  Comp.LoopTesterApp.NumCtEvals: [162, 162, 162, 162, 162, 162, 162]
+  Comp.LoopTesterApp.OptTime: [513, 505, 500, 517, 508, 510, 506]
+  Comp.LoopTesterApp.ImplicitLibTime: [117, 117, 120, 124, 119, 118, 121]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 16, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [221, 219, 220, 220, 221, 220, 217]
+  Exec.BenchmarkGame.nbody: [1136, 1131, 1115, 1135, 1134, 1119, 1143]
+  Exec.BenchmarkGame.fasta: [909, 907, 913, 910, 909, 909, 913]
+  Exec.BenchmarkGame.fastaredux: [457, 457, 460, 456, 457, 456, 458]
+  Exec.BenchmarkGame.meteor: [98, 99, 98, 99, 101, 99, 100]
+  Exec.BenchmarkGame.fannkuchredux: [7116, 7115, 7115, 7199, 7131, 7138, 7151]
+  Exec.Examples.LoopTesterApp: [1224, 1232, 1224, 1225, 1231, 1248, 1248]
+  Exec.Examples.FibRange: [946, 944, 951, 943, 943, 948, 946]
+  Exec.Examples.Collatz: [1400, 1400, 1401, 1402, 1399, 1402, 1400]
