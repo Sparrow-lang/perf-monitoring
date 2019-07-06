@@ -7,7 +7,7 @@ info:
   sha-long: 5bec585d227ee2e62220ae74f83d5505d4d0a3c5
   commit-author: Lucian Radu Teodorescu
   commit-date: Sun, 23 Jun 2019 14:50:09 +0300
-  commit-message: "Allow "Concept1 const" to "Concept2 const" conversion"
+  commit-message: "Allow \"Concept1 const\" to \"Concept2 const\" conversion"
 
 measurements:
   Comp.Ranges.TotalTime: [1395, 1448, 1421, 1402, 1428, 1391, 1397]
