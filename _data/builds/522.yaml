@@ -1,0 +1,34 @@
+info:
+  name: "522"
+  date: Sun, 07 Jul 2019 19:16:25 +0000
+  branch: "types_work"
+  parents: ['6b8db4b']
+  sha: bbcc915
+  sha-long: bbcc915316efa71c27abb841bcc4290cdd06bfd4
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 7 Jul 2019 22:07:35 +0300
+  commit-message: "Apply clang-tidy to the project"
+
+measurements:
+  Comp.Ranges.TotalTime: [1462, 1470, 1477, 1485, 1479, 1480, 1484]
+  Comp.Ranges.CtEvalsTime: [108, 109, 110, 116, 107, 110, 110]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [562, 562, 563, 560, 576, 568, 562]
+  Comp.Ranges.ImplicitLibTime: [120, 122, 120, 124, 124, 125, 125]
+  Comp.Ranges.FinalLinkTime: [16, 16, 15, 16, 16, 16, 16]
+  Comp.Ranges.LlcTime: [256, 259, 254, 257, 256, 256, 253]
+  Comp.LoopTesterApp.TotalTime: [1730, 1733, 1716, 1713, 1730, 1729, 1706]
+  Comp.LoopTesterApp.CtEvalsTime: [116, 119, 112, 115, 115, 116, 114]
+  Comp.LoopTesterApp.NumCtEvals: [162, 162, 162, 162, 162, 162, 162]
+  Comp.LoopTesterApp.OptTime: [535, 535, 537, 535, 542, 535, 534]
+  Comp.LoopTesterApp.ImplicitLibTime: [126, 127, 124, 122, 128, 121, 123]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 15, 15, 15, 16, 16]
+  Comp.LoopTesterApp.LlcTime: [225, 224, 227, 227, 227, 229, 226]
+  Exec.BenchmarkGame.nbody: [1132, 1138, 1119, 1138, 1120, 1117, 1123]
+  Exec.BenchmarkGame.fasta: [908, 916, 912, 916, 913, 916, 912]
+  Exec.BenchmarkGame.fastaredux: [458, 458, 457, 461, 461, 458, 457]
+  Exec.BenchmarkGame.meteor: [99, 98, 99, 99, 99, 99, 99]
+  Exec.BenchmarkGame.fannkuchredux: [7151, 7142, 7145, 7124, 7130, 7138, 7154]
+  Exec.Examples.LoopTesterApp: [1256, 1248, 1249, 1257, 1240, 1257, 1251]
+  Exec.Examples.FibRange: [946, 947, 948, 947, 945, 946, 947]
+  Exec.Examples.Collatz: [1407, 1403, 1404, 1403, 1399, 1405, 1399]
