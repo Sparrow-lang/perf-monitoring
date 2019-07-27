@@ -1,0 +1,34 @@
+info:
+  name: "527"
+  date: Sat, 27 Jul 2019 21:25:54 +0000
+  branch: "types_work"
+  parents: ['fe14d7c']
+  sha: 9407f16
+  sha-long: 9407f166f441a45cd168b53218057be576b2415c
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 28 Jul 2019 00:16:33 +0300
+  commit-message: "Fix dtor problem."
+
+measurements:
+  Comp.Ranges.TotalTime: [1443, 1458, 1436, 1424, 1416, 1423, 1422]
+  Comp.Ranges.CtEvalsTime: [107, 107, 107, 105, 105, 105, 106]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [553, 561, 549, 539, 542, 547, 538]
+  Comp.Ranges.ImplicitLibTime: [122, 125, 124, 127, 118, 120, 120]
+  Comp.Ranges.FinalLinkTime: [16, 16, 16, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [253, 255, 250, 248, 251, 251, 257]
+  Comp.LoopTesterApp.TotalTime: [1711, 1729, 1725, 1707, 1729, 1712, 1695]
+  Comp.LoopTesterApp.CtEvalsTime: [111, 114, 115, 112, 112, 113, 113]
+  Comp.LoopTesterApp.NumCtEvals: [162, 162, 162, 162, 162, 162, 162]
+  Comp.LoopTesterApp.OptTime: [537, 539, 529, 522, 544, 540, 521]
+  Comp.LoopTesterApp.ImplicitLibTime: [123, 122, 123, 122, 126, 123, 121]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 15, 16, 16, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [222, 225, 228, 229, 226, 225, 230]
+  Exec.BenchmarkGame.nbody: [1142, 1118, 1136, 1119, 1149, 1118, 1141]
+  Exec.BenchmarkGame.fasta: [918, 910, 911, 913, 910, 914, 912]
+  Exec.BenchmarkGame.fastaredux: [458, 458, 459, 459, 458, 458, 458]
+  Exec.BenchmarkGame.meteor: [99, 100, 100, 100, 100, 99, 99]
+  Exec.BenchmarkGame.fannkuchredux: [7152, 7137, 7126, 7126, 7131, 7177, 7167]
+  Exec.Examples.LoopTesterApp: [1319, 1415, 1327, 1333, 1304, 1314, 1309]
+  Exec.Examples.FibRange: [942, 943, 942, 942, 940, 943, 943]
+  Exec.Examples.Collatz: [1396, 1394, 1395, 1394, 1394, 1400, 1404]
