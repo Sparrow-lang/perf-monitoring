@@ -1,0 +1,34 @@
+info:
+  name: "529"
+  date: Thu, 05 Sep 2019 16:30:40 +0000
+  branch: "types_work"
+  parents: ['567c374']
+  sha: 7bad876
+  sha-long: 7bad8765cd6770acb578c0e0054a2f0073393f1a
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 5 Sep 2019 19:22:00 +0300
+  commit-message: "Fix problem with MinPerfHash test"
+
+measurements:
+  Comp.Ranges.TotalTime: [1264, 1300, 1340, 1333, 1283, 1330, 1342]
+  Comp.Ranges.CtEvalsTime: [135, 132, 131, 137, 131, 136, 134]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [521, 547, 576, 562, 538, 561, 572]
+  Comp.Ranges.ImplicitLibTime: [90, 94, 95, 95, 95, 95, 91]
+  Comp.Ranges.FinalLinkTime: [15, 15, 16, 15, 16, 15, 16]
+  Comp.Ranges.LlcTime: [246, 248, 257, 246, 249, 248, 253]
+  Comp.LoopTesterApp.TotalTime: [1407, 1364, 1414, 1398, 1380, 1368, 1389]
+  Comp.LoopTesterApp.CtEvalsTime: [142, 134, 142, 139, 138, 141, 141]
+  Comp.LoopTesterApp.NumCtEvals: [157, 157, 157, 157, 157, 157, 157]
+  Comp.LoopTesterApp.OptTime: [534, 520, 525, 528, 524, 505, 522]
+  Comp.LoopTesterApp.ImplicitLibTime: [99, 92, 100, 92, 91, 89, 95]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 16, 16, 15, 15, 16, 15]
+  Comp.LoopTesterApp.LlcTime: [223, 229, 231, 225, 221, 228, 224]
+  Exec.BenchmarkGame.nbody: [1157, 1125, 1116, 1119, 1135, 1131, 1118]
+  Exec.BenchmarkGame.fasta: [913, 934, 912, 914, 922, 912, 925]
+  Exec.BenchmarkGame.fastaredux: [452, 445, 444, 456, 449, 458, 455]
+  Exec.BenchmarkGame.meteor: [100, 101, 100, 105, 105, 102, 100]
+  Exec.BenchmarkGame.fannkuchredux: [7683, 7679, 7673, 7670, 7685, 7665, 7666]
+  Exec.Examples.LoopTesterApp: [1188, 1200, 1154, 1180, 1195, 1190, 1177]
+  Exec.Examples.FibRange: [940, 943, 940, 941, 941, 941, 940]
+  Exec.Examples.Collatz: [1399, 1399, 1400, 1403, 1399, 1400, 1397]
