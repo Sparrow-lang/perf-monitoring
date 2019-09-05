@@ -1,0 +1,34 @@
+info:
+  name: "530"
+  date: Thu, 05 Sep 2019 19:26:20 +0000
+  branch: "types_work"
+  parents: ['7bad876']
+  sha: 0e33e12
+  sha-long: 0e33e1282c571798ae57c4caca0cbf60a284bf40
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 5 Sep 2019 22:17:26 +0300
+  commit-message: "Update documentation"
+
+measurements:
+  Comp.Ranges.TotalTime: [1354, 1356, 1366, 1361, 1357, 1397, 1369]
+  Comp.Ranges.CtEvalsTime: [140, 138, 138, 137, 137, 143, 139]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [552, 562, 563, 565, 569, 581, 576]
+  Comp.Ranges.ImplicitLibTime: [97, 95, 97, 101, 95, 99, 97]
+  Comp.Ranges.FinalLinkTime: [16, 15, 16, 15, 16, 17, 17]
+  Comp.Ranges.LlcTime: [250, 250, 259, 250, 250, 254, 251]
+  Comp.LoopTesterApp.TotalTime: [1445, 1450, 1454, 1469, 1491, 1454, 1432]
+  Comp.LoopTesterApp.CtEvalsTime: [145, 145, 146, 146, 148, 146, 145]
+  Comp.LoopTesterApp.NumCtEvals: [157, 157, 157, 157, 157, 157, 157]
+  Comp.LoopTesterApp.OptTime: [527, 547, 534, 550, 551, 537, 524]
+  Comp.LoopTesterApp.ImplicitLibTime: [99, 95, 95, 97, 99, 97, 97]
+  Comp.LoopTesterApp.FinalLinkTime: [16, 15, 17, 15, 16, 15, 16]
+  Comp.LoopTesterApp.LlcTime: [226, 224, 232, 228, 236, 227, 228]
+  Exec.BenchmarkGame.nbody: [1124, 1127, 1115, 1127, 1136, 1124, 1126]
+  Exec.BenchmarkGame.fasta: [915, 916, 963, 916, 917, 915, 915]
+  Exec.BenchmarkGame.fastaredux: [444, 443, 447, 443, 443, 443, 444]
+  Exec.BenchmarkGame.meteor: [99, 100, 99, 99, 100, 99, 100]
+  Exec.BenchmarkGame.fannkuchredux: [7688, 7688, 7680, 7670, 7680, 7680, 7674]
+  Exec.Examples.LoopTesterApp: [1442, 1444, 1426, 1459, 1445, 1433, 1519]
+  Exec.Examples.FibRange: [944, 942, 945, 939, 940, 941, 940]
+  Exec.Examples.Collatz: [1405, 1400, 1403, 1403, 1400, 1403, 1399]
