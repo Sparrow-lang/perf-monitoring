@@ -1,0 +1,34 @@
+info:
+  name: "536"
+  date: Sat, 14 Sep 2019 14:31:41 +0000
+  branch: "types_work"
+  parents: ['237a9a1']
+  sha: d9ab74c
+  sha-long: d9ab74cb23a2a09b13eb4e2cdc2909dfd722b2fd
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 14 Sep 2019 17:23:07 +0300
+  commit-message: "Adding PtrType"
+
+measurements:
+  Comp.Ranges.TotalTime: [1231, 1231, 1214, 1232, 1249, 1247, 1247]
+  Comp.Ranges.CtEvalsTime: [131, 129, 127, 128, 130, 129, 128]
+  Comp.Ranges.NumCtEvals: [176, 176, 176, 176, 176, 176, 176]
+  Comp.Ranges.OptTime: [507, 517, 508, 515, 518, 516, 520]
+  Comp.Ranges.ImplicitLibTime: [88, 94, 87, 90, 96, 96, 97]
+  Comp.Ranges.FinalLinkTime: [15, 14, 14, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [239, 236, 237, 241, 245, 241, 240]
+  Comp.LoopTesterApp.TotalTime: [1350, 1320, 1318, 1314, 1302, 1302, 1305]
+  Comp.LoopTesterApp.CtEvalsTime: [134, 132, 131, 132, 129, 130, 129]
+  Comp.LoopTesterApp.NumCtEvals: [157, 157, 157, 157, 157, 157, 157]
+  Comp.LoopTesterApp.OptTime: [508, 498, 502, 498, 497, 496, 501]
+  Comp.LoopTesterApp.ImplicitLibTime: [96, 91, 90, 89, 88, 89, 88]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 14, 14, 14, 14]
+  Comp.LoopTesterApp.LlcTime: [223, 222, 221, 216, 219, 218, 218]
+  Exec.BenchmarkGame.nbody: [1115, 1134, 1115, 1123, 1115, 1134, 1115]
+  Exec.BenchmarkGame.fasta: [917, 912, 911, 913, 913, 910, 912]
+  Exec.BenchmarkGame.fastaredux: [442, 443, 442, 444, 441, 443, 442]
+  Exec.BenchmarkGame.meteor: [99, 99, 99, 99, 101, 99, 100]
+  Exec.BenchmarkGame.fannkuchredux: [7662, 7655, 7659, 7666, 7670, 7649, 7655]
+  Exec.Examples.LoopTesterApp: [1175, 1181, 1184, 1189, 1183, 1181, 1175]
+  Exec.Examples.FibRange: [938, 939, 940, 941, 942, 939, 940]
+  Exec.Examples.Collatz: [1399, 1399, 1399, 1400, 1399, 1398, 1394]
