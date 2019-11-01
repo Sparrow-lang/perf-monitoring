@@ -1,0 +1,34 @@
+info:
+  name: "543"
+  date: Fri, 01 Nov 2019 18:56:16 +0000
+  branch: "types_work"
+  parents: ['9bfa9de']
+  sha: 932af8c
+  sha-long: 932af8c390abf7fbd8e62c1f4a4107fc8014b5f6
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 31 Oct 2019 23:58:00 +0200
+  commit-message: "Conversions between cats should be indirect."
+
+measurements:
+  Comp.Ranges.TotalTime: [1223, 1241, 1252, 1240, 1244, 1237, 1239]
+  Comp.Ranges.CtEvalsTime: [110, 111, 111, 110, 109, 110, 110]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [508, 522, 533, 520, 530, 512, 526]
+  Comp.Ranges.ImplicitLibTime: [89, 90, 90, 90, 90, 93, 90]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 16, 16, 15, 15]
+  Comp.Ranges.LlcTime: [248, 250, 246, 248, 248, 252, 247]
+  Comp.LoopTesterApp.TotalTime: [1305, 1314, 1310, 1299, 1305, 1303, 1314]
+  Comp.LoopTesterApp.CtEvalsTime: [95, 93, 93, 93, 95, 93, 94]
+  Comp.LoopTesterApp.NumCtEvals: [117, 117, 117, 117, 117, 117, 117]
+  Comp.LoopTesterApp.OptTime: [503, 506, 515, 504, 501, 504, 512]
+  Comp.LoopTesterApp.ImplicitLibTime: [95, 97, 92, 90, 97, 99, 91]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [225, 227, 225, 228, 226, 229, 228]
+  Exec.BenchmarkGame.nbody: [1928, 1930, 1899, 1930, 1927, 1895, 1934]
+  Exec.BenchmarkGame.fasta: [890, 890, 896, 888, 891, 895, 890]
+  Exec.BenchmarkGame.fastaredux: [435, 435, 435, 435, 436, 442, 473]
+  Exec.BenchmarkGame.meteor: [132, 133, 135, 165, 176, 171, 156]
+  Exec.BenchmarkGame.fannkuchredux: [7256, 7172, 7170, 7175, 7171, 7174, 7169]
+  Exec.Examples.LoopTesterApp: [1215, 1224, 1197, 1232, 1225, 1217, 1218]
+  Exec.Examples.FibRange: [941, 939, 941, 943, 941, 940, 943]
+  Exec.Examples.Collatz: [1393, 1394, 1395, 1393, 1394, 1395, 1393]
