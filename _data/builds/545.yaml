@@ -1,0 +1,34 @@
+info:
+  name: "545"
+  date: Mon, 04 Nov 2019 21:06:16 +0000
+  branch: "types_work"
+  parents: ['44bdb9f']
+  sha: c8fd885
+  sha-long: c8fd885d822fd84f39e29ab3f3c5262a0073f6ca
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Mon, 4 Nov 2019 22:56:57 +0200
+  commit-message: "One step closer of getting rid of references."
+
+measurements:
+  Comp.Ranges.TotalTime: [1179, 1182, 1185, 1211, 1203, 1208, 1217]
+  Comp.Ranges.CtEvalsTime: [106, 107, 106, 110, 108, 109, 110]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [494, 495, 497, 502, 502, 508, 505]
+  Comp.Ranges.ImplicitLibTime: [91, 88, 87, 97, 89, 90, 95]
+  Comp.Ranges.FinalLinkTime: [15, 14, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [241, 240, 245, 246, 243, 244, 246]
+  Comp.LoopTesterApp.TotalTime: [1299, 1289, 1297, 1284, 1259, 1262, 1263]
+  Comp.LoopTesterApp.CtEvalsTime: [94, 92, 96, 90, 91, 89, 90]
+  Comp.LoopTesterApp.NumCtEvals: [117, 117, 117, 117, 117, 117, 117]
+  Comp.LoopTesterApp.OptTime: [504, 503, 502, 509, 489, 492, 498]
+  Comp.LoopTesterApp.ImplicitLibTime: [94, 95, 97, 89, 90, 95, 89]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 14, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [224, 228, 222, 225, 220, 223, 221]
+  Exec.BenchmarkGame.nbody: [1892, 1894, 1890, 1892, 1925, 1893, 1932]
+  Exec.BenchmarkGame.fasta: [890, 892, 887, 889, 890, 890, 888]
+  Exec.BenchmarkGame.fastaredux: [433, 433, 434, 434, 434, 435, 435]
+  Exec.BenchmarkGame.meteor: [129, 128, 129, 128, 130, 129, 129]
+  Exec.BenchmarkGame.fannkuchredux: [7164, 7168, 7169, 7169, 7215, 7163, 7161]
+  Exec.Examples.LoopTesterApp: [1524, 1172, 1379, 1216, 1447, 1166, 1172]
+  Exec.Examples.FibRange: [942, 941, 945, 939, 941, 940, 940]
+  Exec.Examples.Collatz: [1393, 1391, 1395, 1389, 1392, 1393, 1395]
