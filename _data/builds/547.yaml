@@ -1,0 +1,34 @@
+info:
+  name: "547"
+  date: Sat, 23 Nov 2019 09:43:01 +0000
+  branch: "types_work"
+  parents: ['bf58a33']
+  sha: f9f3a82
+  sha-long: f9f3a8296963fb7c4502307808f9d3296eaef46a
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 23 Nov 2019 11:34:18 +0200
+  commit-message: "Fix TravisCI error"
+
+measurements:
+  Comp.Ranges.TotalTime: [1236, 1214, 1208, 1208, 1218, 1211, 1202]
+  Comp.Ranges.CtEvalsTime: [108, 108, 108, 109, 110, 108, 109]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [533, 515, 506, 504, 513, 515, 498]
+  Comp.Ranges.ImplicitLibTime: [90, 88, 92, 91, 94, 89, 96]
+  Comp.Ranges.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.Ranges.LlcTime: [246, 241, 244, 246, 246, 245, 243]
+  Comp.LoopTesterApp.TotalTime: [1277, 1273, 1276, 1282, 1345, 1296, 1284]
+  Comp.LoopTesterApp.CtEvalsTime: [92, 90, 90, 92, 98, 91, 92]
+  Comp.LoopTesterApp.NumCtEvals: [117, 117, 117, 117, 117, 117, 117]
+  Comp.LoopTesterApp.OptTime: [490, 502, 499, 495, 529, 507, 504]
+  Comp.LoopTesterApp.ImplicitLibTime: [97, 91, 96, 96, 98, 98, 89]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 15, 15, 15, 15, 15]
+  Comp.LoopTesterApp.LlcTime: [224, 225, 226, 224, 231, 225, 223]
+  Exec.BenchmarkGame.nbody: [1901, 1899, 1910, 1946, 1957, 1908, 1905]
+  Exec.BenchmarkGame.fasta: [891, 890, 892, 893, 892, 891, 892]
+  Exec.BenchmarkGame.fastaredux: [438, 435, 438, 437, 443, 436, 437]
+  Exec.BenchmarkGame.meteor: [130, 131, 130, 130, 130, 129, 129]
+  Exec.BenchmarkGame.fannkuchredux: [7196, 7183, 7191, 7179, 7204, 7184, 7211]
+  Exec.Examples.LoopTesterApp: [1184, 1180, 1176, 1165, 1173, 1168, 1175]
+  Exec.Examples.FibRange: [945, 944, 944, 948, 942, 946, 942]
+  Exec.Examples.Collatz: [1397, 1394, 1396, 1398, 1397, 1397, 1397]
