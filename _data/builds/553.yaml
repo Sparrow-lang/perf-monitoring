@@ -1,0 +1,34 @@
+info:
+  name: "553"
+  date: Sat, 23 Nov 2019 20:26:58 +0000
+  branch: "types_work"
+  parents: ['d2687fb']
+  sha: 1ccb0bf
+  sha-long: 1ccb0bfdc2d4f03b206ab07375299f5944c776bd
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 23 Nov 2019 22:16:46 +0200
+  commit-message: "Remove some auto conversions through Ptr."
+
+measurements:
+  Comp.Ranges.TotalTime: [1471, 1439, 1362, 1382, 1497, 1471, 1418]
+  Comp.Ranges.CtEvalsTime: [127, 124, 129, 112, 130, 125, 129]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [616, 602, 532, 620, 626, 609, 586]
+  Comp.Ranges.ImplicitLibTime: [106, 100, 103, 97, 105, 102, 114]
+  Comp.Ranges.FinalLinkTime: [18, 18, 15, 18, 18, 19, 15]
+  Comp.Ranges.LlcTime: [274, 276, 245, 274, 278, 286, 244]
+  Comp.LoopTesterApp.TotalTime: [1385, 1330, 1561, 1517, 1488, 1491, 1360]
+  Comp.LoopTesterApp.CtEvalsTime: [86, 90, 102, 100, 99, 98, 86]
+  Comp.LoopTesterApp.NumCtEvals: [107, 107, 107, 107, 107, 107, 107]
+  Comp.LoopTesterApp.OptTime: [581, 506, 596, 580, 569, 587, 549]
+  Comp.LoopTesterApp.ImplicitLibTime: [98, 103, 114, 112, 104, 107, 89]
+  Comp.LoopTesterApp.FinalLinkTime: [18, 18, 18, 18, 17, 15, 19]
+  Comp.LoopTesterApp.LlcTime: [241, 249, 244, 243, 239, 227, 252]
+  Exec.BenchmarkGame.nbody: [1946, 1907, 1952, 1897, 1916, 1899, 1897]
+  Exec.BenchmarkGame.fasta: [904, 900, 889, 891, 910, 896, 896]
+  Exec.BenchmarkGame.fastaredux: [439, 439, 445, 445, 448, 436, 436]
+  Exec.BenchmarkGame.meteor: [129, 128, 130, 130, 132, 129, 130]
+  Exec.BenchmarkGame.fannkuchredux: [7254, 7258, 7245, 7249, 7254, 7304, 7334]
+  Exec.Examples.LoopTesterApp: [1312, 1241, 1641, 1645, 1372, 1594, 1633]
+  Exec.Examples.FibRange: [951, 957, 955, 948, 960, 951, 949]
+  Exec.Examples.Collatz: [1407, 1417, 1408, 1410, 1416, 1402, 1405]
