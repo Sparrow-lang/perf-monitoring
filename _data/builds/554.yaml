@@ -1,0 +1,34 @@
+info:
+  name: "554"
+  date: Sat, 23 Nov 2019 21:26:52 +0000
+  branch: "types_work"
+  parents: ['1ccb0bf']
+  sha: 00f5458
+  sha-long: 00f5458b97dd4742c16f0d65324784956d266b63
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sat, 23 Nov 2019 23:16:45 +0200
+  commit-message: "Remove implicit mut->ptr conversions from most of the tests"
+
+measurements:
+  Comp.Ranges.TotalTime: [1380, 1281, 1318, 1284, 1333, 1426, 1490]
+  Comp.Ranges.CtEvalsTime: [128, 114, 115, 113, 113, 126, 129]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [547, 523, 562, 537, 547, 584, 623]
+  Comp.Ranges.ImplicitLibTime: [108, 104, 99, 94, 103, 105, 115]
+  Comp.Ranges.FinalLinkTime: [16, 16, 16, 16, 19, 19, 17]
+  Comp.Ranges.LlcTime: [256, 251, 254, 250, 268, 281, 266]
+  Comp.LoopTesterApp.TotalTime: [1522, 1486, 1534, 1383, 1505, 1521, 1456]
+  Comp.LoopTesterApp.CtEvalsTime: [102, 95, 96, 98, 101, 101, 99]
+  Comp.LoopTesterApp.NumCtEvals: [107, 107, 107, 107, 107, 107, 107]
+  Comp.LoopTesterApp.OptTime: [592, 571, 598, 514, 572, 596, 559]
+  Comp.LoopTesterApp.ImplicitLibTime: [107, 99, 107, 111, 119, 105, 112]
+  Comp.LoopTesterApp.FinalLinkTime: [18, 16, 17, 18, 19, 17, 15]
+  Comp.LoopTesterApp.LlcTime: [260, 250, 260, 227, 253, 248, 228]
+  Exec.BenchmarkGame.nbody: [1907, 1907, 1947, 1942, 1936, 1975, 1918]
+  Exec.BenchmarkGame.fasta: [896, 900, 894, 899, 899, 914, 918]
+  Exec.BenchmarkGame.fastaredux: [438, 438, 437, 436, 436, 436, 436]
+  Exec.BenchmarkGame.meteor: [130, 130, 131, 130, 130, 129, 129]
+  Exec.BenchmarkGame.fannkuchredux: [7355, 7293, 7317, 7232, 7244, 7291, 7259]
+  Exec.Examples.LoopTesterApp: [1465, 1420, 1408, 1402, 1501, 1512, 1461]
+  Exec.Examples.FibRange: [945, 946, 941, 945, 942, 953, 945]
+  Exec.Examples.Collatz: [1420, 1409, 1423, 1414, 1395, 1408, 1397]
