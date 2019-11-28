@@ -1,0 +1,34 @@
+info:
+  name: "560"
+  date: Thu, 28 Nov 2019 21:10:27 +0000
+  branch: "v0.10.51"
+  parents: ['bfe8421', '157d946']
+  sha: db7d639
+  sha-long: db7d639546b196961c4dbaf4f5ecce68790ed651
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Thu, 28 Nov 2019 22:51:40 +0200
+  commit-message: "Merge pull request #87 from Sparrow-lang/types_work"
+
+measurements:
+  Comp.Ranges.TotalTime: [1346, 1390, 1399, 1439, 1432, 1411, 1382]
+  Comp.Ranges.CtEvalsTime: [120, 122, 120, 124, 126, 121, 118]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [541, 592, 588, 613, 571, 582, 571]
+  Comp.Ranges.ImplicitLibTime: [100, 104, 96, 93, 110, 110, 101]
+  Comp.Ranges.FinalLinkTime: [19, 17, 16, 19, 18, 18, 17]
+  Comp.Ranges.LlcTime: [270, 274, 271, 292, 282, 279, 271]
+  Comp.LoopTesterApp.TotalTime: [1441, 1425, 1418, 1373, 1433, 1344, 1363]
+  Comp.LoopTesterApp.CtEvalsTime: [99, 95, 94, 90, 97, 90, 92]
+  Comp.LoopTesterApp.NumCtEvals: [107, 107, 107, 107, 107, 107, 107]
+  Comp.LoopTesterApp.OptTime: [541, 543, 541, 551, 544, 531, 535]
+  Comp.LoopTesterApp.ImplicitLibTime: [103, 99, 97, 91, 100, 104, 92]
+  Comp.LoopTesterApp.FinalLinkTime: [17, 17, 15, 17, 17, 15, 18]
+  Comp.LoopTesterApp.LlcTime: [240, 239, 228, 243, 237, 234, 235]
+  Exec.BenchmarkGame.nbody: [1946, 1909, 1936, 1920, 1946, 1917, 1910]
+  Exec.BenchmarkGame.fasta: [915, 905, 901, 917, 906, 897, 912]
+  Exec.BenchmarkGame.fastaredux: [448, 444, 443, 446, 443, 442, 440]
+  Exec.BenchmarkGame.meteor: [129, 131, 130, 129, 131, 131, 130]
+  Exec.BenchmarkGame.fannkuchredux: [7281, 7235, 7280, 7228, 7257, 7253, 7266]
+  Exec.Examples.LoopTesterApp: [1526, 1194, 1214, 1222, 1218, 1194, 1194]
+  Exec.Examples.FibRange: [947, 952, 958, 943, 965, 968, 963]
+  Exec.Examples.Collatz: [1400, 1397, 1398, 1400, 1409, 1408, 1422]
