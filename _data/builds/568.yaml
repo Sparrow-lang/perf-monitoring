@@ -1,0 +1,34 @@
+info:
+  name: "568"
+  date: Sun, 15 Dec 2019 16:49:46 +0000
+  branch: "types_work"
+  parents: ['525ab41']
+  sha: 62ba683
+  sha-long: 62ba683768996ef49ca8665a3ad8b3108ce81634
+  commit-author: Lucian Radu Teodorescu
+  commit-date: Sun, 15 Dec 2019 18:40:36 +0200
+  commit-message: "Remove confusing addRef function"
+
+measurements:
+  Comp.Ranges.TotalTime: [1289, 1366, 1256, 1254, 1347, 1249, 1241]
+  Comp.Ranges.CtEvalsTime: [120, 123, 112, 112, 116, 109, 108]
+  Comp.Ranges.NumCtEvals: [151, 151, 151, 151, 151, 151, 151]
+  Comp.Ranges.OptTime: [523, 567, 525, 524, 573, 524, 523]
+  Comp.Ranges.ImplicitLibTime: [108, 105, 100, 96, 94, 100, 90]
+  Comp.Ranges.FinalLinkTime: [16, 15, 15, 16, 15, 15, 16]
+  Comp.Ranges.LlcTime: [255, 249, 245, 254, 252, 248, 252]
+  Comp.LoopTesterApp.TotalTime: [1441, 1302, 1430, 1322, 1399, 1494, 1391]
+  Comp.LoopTesterApp.CtEvalsTime: [96, 86, 90, 87, 89, 97, 95]
+  Comp.LoopTesterApp.NumCtEvals: [107, 107, 107, 107, 107, 107, 107]
+  Comp.LoopTesterApp.OptTime: [566, 519, 576, 524, 578, 579, 525]
+  Comp.LoopTesterApp.ImplicitLibTime: [97, 93, 98, 100, 90, 103, 100]
+  Comp.LoopTesterApp.FinalLinkTime: [15, 15, 17, 15, 17, 18, 15]
+  Comp.LoopTesterApp.LlcTime: [232, 227, 254, 230, 240, 243, 224]
+  Exec.BenchmarkGame.nbody: [1943, 1902, 1940, 1916, 1912, 1951, 1953]
+  Exec.BenchmarkGame.fasta: [904, 901, 906, 894, 893, 894, 901]
+  Exec.BenchmarkGame.fastaredux: [435, 438, 438, 436, 442, 441, 441]
+  Exec.BenchmarkGame.meteor: [130, 130, 131, 129, 130, 131, 133]
+  Exec.BenchmarkGame.fannkuchredux: [7211, 7208, 7208, 7206, 7227, 7220, 7213]
+  Exec.Examples.LoopTesterApp: [1215, 1216, 1209, 1214, 1281, 1441, 1526]
+  Exec.Examples.FibRange: [955, 946, 952, 946, 946, 947, 946]
+  Exec.Examples.Collatz: [1400, 1403, 1402, 1401, 1403, 1401, 1403]
